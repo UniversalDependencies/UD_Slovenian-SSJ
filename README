@@ -1,18 +1,44 @@
-The Slovenian UD Treebank is based on the ssj500k treebank (Krek and Erjavec 2014), a representative and balanced collection of sampled texts from the reference FidaPLUS corpus of written Slovenian (Arhar and Gorjanc 2007) that have been manually segmented, tokenized, lemmatized and morphosyntactically tagged in accordance with the JOS annotation scheme (Erjavec et al. 2010). Approximately one half of the ssj500k corpus also includes manually annotated dependency relations which is the what has been used as the basis for the Slovene UD Treebank.
+http://universaldependencies.github.io/docs/cs/overview/introduction.html
 
-The Slovenian UD Treebank thus includes 11.411 sentences with 235.864 tokens taken from a variety of text genres, such as fiction, non-fiction and periodicals, dating from 1990-2000. The first version of the Slovene UD Treebank (not yet officially released) conforms to the general tokenization and formatting principles and currently includes automatic conversions of part-of-speech categories and features that have been described in the corresponding Slovenian UD Guidelines. Further revisions of this work and syntactic mapping remains a work in progress.
+The Slovenian UD "Treebank" is based on the ssj500k treebank (Krek and
+Erjavec 2014), a reference balanced collection of sampled texts from
+the reference corpus of written Slovene FidaPLUS (Arhar and Gorjanc
+2007). The ssj500k corpus has been manually segmented, tokenized,
+lemmatized and morphosyntactically tagged starting in the JOS project,
+where the annotation guidelines had been also developed (Erjavec et
+al. 2010). Approximately one half of ssj500k also has manual
+annotations for dependency relations, accordng to the JOS scheme. The
+treebanked part of the corpus, called ssj200k is currently the basis
+for the Slovene UD Treebank.
 
-Acknowledgments
-We wish to thank all of the contributors to the original ssj500k training corpus: Kristina Bizjak, Živa Blaževič, Klara Canzutti, Lea Cibrič, Kaja Dobrovoljc, Tadeja Dušej, Tomaž Erjavec, Ivana Fekeža, Nanika Holz, Urška Kamenšek, Simon Krek, Andreja Košir, Robert Kuret, Nina Ledinek, Andrej Lovšin, Boštjan Marhold, Nina Mikulin, Barbara Modrijan, Sara Može, Tanja Novak, Lea Peršič, Tanja Radovič, Simona Šinkovec, Urška Vranjek, Jerneja Umer, Petra Žalodec.
+The Slovenian UD Treebank contains 11,411 sentences with 235,864
+tokens, taken from various text types, e.g. fiction, non-fiction and
+periodicals, dating from 1990-2000.
+
+This draft version of the Slovene UD "Treebank" does not yet contain
+UD dependencies (although the JOS dependencies are preserved in the
+MISC column), but it should conform to the UD formatting,
+part-of-speech categories and their features, as described in the
+corresponding Slovenian UD Guidelines. The conversion from ssj200k was
+completely automatic, but with a large set of rules, which include
+lexical, morphological and dependency features. The guidelines and
+conversion have been contributed by: Kaja Dobrovoljc, Tomaž Erjavec
+and Simon Krek.
+
+
+URLs (which have to be fixed!):
+The Slovenian UD Treebank: #insert  -> CLARIN.SI or LINDAT/CLARIN or GitHub?
+The ssj500k treebank: http://hdl.handle.net/11356/4 #revise
 
 License and download
-Both the original ssj500k and the Slovenian UD Treebank are distributed under Creative Commons and licensed under CC BY-NC-SA 3.0. The treebanks can be downloaded from:
-
-The ssj500k treebank: http://hdl.handle.net/11356/4 #revise
-The Slovenian UD Treebank: #insert
+The Slovenian UD Treebank are distributed under CC BY-NC-SA 4.0.
 
 References
 Simon Krek and Tomaž Erjavec. 2014. Training corpus ssj500kv1.2. Jožef Stefan Institute, Slovenia. http://hdl.handle.net/11356/4
 Špela Arhar and Vojko Gorjanc. 2007. Korpus FidaPLUS: nova generacija slovenskega referenčnega korpusa (The FidaPLUS corpus: a new generation of the Slovene reference corpus). Jezik in slovstvo, 52(2). 
 Tomaž Erjavec, Darja Fišer, Simon Krek and Nina Ledinek. 2010. The JOS Linguistically Tagged Corpus of Slovene. In: Proceedings of the Seventh International Conference on Language Resources and Evaluation (LREC'10), Malta, 2010.
+
+
+Acknowledgments
+We wish to thank all of the contributors to the original ssj500k training corpus: Kristina Bizjak, Živa Blaževič, Klara Canzutti, Lea Cibrič, Kaja Dobrovoljc, Tadeja Dušej, Tomaž Erjavec, Ivana Fekeža, Nanika Holz, Urška Kamenšek, Simon Krek, Andreja Košir, Robert Kuret, Nina Ledinek, Andrej Lovšin, Boštjan Marhold, Nina Mikulin, Barbara Modrijan, Sara Može, Tanja Novak, Lea Peršič, Tanja Radovič, Simona Šinkovec, Urška Vranjek, Jerneja Umer, Petra Žalodec.
 
