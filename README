@@ -24,11 +24,11 @@ completely automatic, but with a large set of rules, which include
 lexical, morphological and dependency features. The source corpus and
 conversion scripts are available from http://nl.ijs.si/ssj/ssj500k/UD/
 
+The corpus is split into training (80%), development (10%) and test
+(10%) data.
+
 The guidelines and conversion have been contributed by:
 Kaja Dobrovoljc, Tomaž Erjavec and Simon Krek.
-
-License:
-The Slovenian UD Treebank are distributed under CC BY-NC-SA 4.0.
 
 References:
 Simon Krek and Tomaž Erjavec. 2014. Training corpus ssj500kv 1.3.
@@ -42,7 +42,6 @@ Tomaž Erjavec, Darja Fišer, Simon Krek and Nina Ledinek. 2010. The JOS
 Linguistically Tagged Corpus of Slovene. In: Proceedings of the
 Seventh International Conference on Language Resources and Evaluation
 (LREC'10), Malta, 2010.
-
 
 Acknowledgments:
 We wish to thank all of the contributors to the original ssj500k
