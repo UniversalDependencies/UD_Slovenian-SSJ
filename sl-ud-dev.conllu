@@ -50,8 +50,8 @@
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=1|Rel=PPart
 4	z	z	ADP	Si	Case=Ins	0	root	_	Dep=5|Rel=Atr
 5	madame	madame	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	0	root	_	Dep=1|Rel=Obj
-6	de	de	X	Xf	Foreign=Foreign	0	root	_	Dep=8|Rel=Atr
-7	La	la	X	Xf	Foreign=Foreign	0	root	_	Dep=8|Rel=Atr
+6	de	de	X	Xf	Foreign=Yes	0	root	_	Dep=8|Rel=Atr
+7	La	la	X	Xf	Foreign=Yes	0	root	_	Dep=8|Rel=Atr
 8	Motte	Motte	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|Dep=5|Rel=Atr
 9	,	,	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 10	ki	ki	SCONJ	Cs	_	0	root	_	Dep=12|Rel=Conj
@@ -95,8 +95,8 @@
 # text_id F0003901
 # text_title Radar [revija za ljubitelje dobrega branja]
 1	Madame	madame	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Dep=8|Rel=Sb
-2	de	de	X	Xf	Foreign=Foreign	0	root	_	Dep=4|Rel=Atr
-3	La	la	X	Xf	Foreign=Foreign	0	root	_	Dep=4|Rel=Atr
+2	de	de	X	Xf	Foreign=Yes	0	root	_	Dep=4|Rel=Atr
+3	La	la	X	Xf	Foreign=Yes	0	root	_	Dep=4|Rel=Atr
 4	Motte	Motte	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Dep=1|Rel=Atr
 5	je	on	PRON	Pp3fsg--y	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	0	root	_	Dep=8|Rel=PPart
 6	brez	brez	ADP	Sg	Case=Gen	0	root	_	Dep=7|Rel=Atr
@@ -214,7 +214,7 @@
 6	je	biti	AUX	Va-r3s-n	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=7|Rel=PPart
 7	bil	biti	VERB	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 8	Leonardo	Leonardo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Dep=7|Rel=Sb
-9	da	da	X	Xf	Foreign=Foreign	0	root	_	Dep=10|Rel=Atr
+9	da	da	X	Xf	Foreign=Yes	0	root	_	Dep=10|Rel=Atr
 10	Vinci	Vinci	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=8|Rel=Atr
 11	-	-	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 12	čigar	čigar	DET	Pr----sm	Gender[psor]=Masc|Number[psor]=Sing|PronType=Rel	0	root	_	Dep=14|Rel=Atr
@@ -725,7 +725,7 @@
 4	v	v	ADP	Sa	Case=Acc	0	root	_	Dep=12|Rel=Atr
 5	novo	nov	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|Dep=12|Rel=Atr
 6	/	/	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-7	etc	etc	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+7	etc	etc	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 8	/	/	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 9	X11	x11	X	X	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 10	/	/	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
@@ -743,7 +743,7 @@
 5	dobite	dobiti	VERB	Vmer2p	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 6	z	z	ADP	Si	Case=Ins	0	root	_	Dep=7|Rel=Atr
 7	ukazom	ukaz	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	0	root	_	Dep=5|Rel=AdvM
-8	builtins	builtins	X	Xf	Foreign=Foreign	0	root	_	Dep=7|Rel=Atr
+8	builtins	builtins	X	Xf	Foreign=Yes	0	root	_	Dep=7|Rel=Atr
 9	(	(	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 10	ta	ta	PRON	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	Dep=11|Rel=Atr
 11	lupina	lupina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Dep=13|Rel=Sb
@@ -752,7 +752,7 @@
 14	pomoči	pomoč	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|Dep=13|Rel=Obj
 15	,	,	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 16	kot	kot	SCONJ	Cs	_	0	root	_	Dep=0|Rel=Root
-17	bash	bash	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+17	bash	bash	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 18	)	)	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 19	.	.	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 
@@ -955,10 +955,10 @@
 8	-	-	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 9	-	-	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 10	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	0	root	_	Dep=0|Rel=Root
-11	root	root	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
-12	root	root	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+11	root	root	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
+12	root	root	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 13	3315	3315	NUM	Mdc	NumForm=Digit|NumType=Card	0	root	_	Dep=0|Rel=Root
-14	Jun	jun	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+14	Jun	jun	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 15	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	0	root	_	Dep=0|Rel=Root
 16	1997	1997	NUM	Mdc	NumForm=Digit|NumType=Card	0	root	_	Dep=0|Rel=Root
 17	CHARSETS	CHARSETS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
@@ -1161,7 +1161,7 @@
 20	kombinaciji	kombinacija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	0	root	_	Dep=0|Rel=Root
 21	z	z	ADP	Si	Case=Ins	0	root	_	SpaceAfter=No|Dep=24|Rel=Atr
 22	–	–	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-23	i	i	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+23	i	i	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 24	opcijo	opcija	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 25	.	.	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 
@@ -1506,19 +1506,19 @@
 # sent_id ssj484.2606.9276
 # text_id F0003986
 # text_title Samopodoba šolskega otroka
-1	Social	social	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
-2	development	development	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+1	Social	social	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
+2	development	development	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 3	.	.	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 
 # sent_id ssj484.2606.9277
 # text_id F0003986
 # text_title Samopodoba šolskega otroka
-1	Englewood	englewood	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
-2	Cliffs	cliffs	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+1	Englewood	englewood	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
+2	Cliffs	cliffs	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 3	:	:	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-4	Prentice	prentice	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+4	Prentice	prentice	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 5	-	-	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-6	Hall	hall	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+6	Hall	hall	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 7	.	.	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id ssj485.2607.9278
@@ -2842,10 +2842,10 @@
 5	1996	1996	NUM	Mdc	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 6	)	)	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 7	:	:	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-8	Post	post	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+8	Post	post	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 9	-	-	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-10	Mortem	mortem	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
-11	on	on	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+10	Mortem	mortem	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
+11	on	on	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 12	UNPROFOR	Unprofor	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 13	.	.	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 
@@ -2853,8 +2853,8 @@
 # text_id F0004079
 # text_title Acta Histriae ...
 1	London	London	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Dep=0|Rel=Root
-2	Defence	defence	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
-3	Studies	studies	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+2	Defence	defence	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
+3	Studies	studies	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 4	33	33	NUM	Mdc	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 5	.	.	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 
@@ -3722,7 +3722,7 @@
 50	"	"	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 51	(	(	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 52	Balkovec	Balkovec	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Dep=0|Rel=Root
-53	et	et	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+53	et	et	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 54	al.	al.	X	Y	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 55	,	,	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 56	1996	1996	NUM	Mdc	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
@@ -6411,7 +6411,7 @@
 35	klancu	klanec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	Dep=30|Rel=Atr
 36	na	na	ADP	Sl	Case=Loc	0	root	_	Dep=37|Rel=Atr
 37	Mur	Mur	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Dep=35|Rel=Atr
-38	de	de	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+38	de	de	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 39	Huy	Huy	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=37|Rel=Atr
 40	.	.	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 
@@ -7526,7 +7526,7 @@
 27	njenemu	njen	DET	Ps3msdsf	Case=Dat|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes	0	root	_	Dep=28|Rel=Atr
 28	vodji	vodja	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	0	root	_	Dep=23|Rel=Coord
 29	Osami	Osama	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	0	root	_	Dep=28|Rel=Atr
-30	bin	bin	X	Xf	Foreign=Foreign	0	root	_	Dep=31|Rel=Atr
+30	bin	bin	X	Xf	Foreign=Yes	0	root	_	Dep=31|Rel=Atr
 31	Ladnu	Laden	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=29|Rel=Atr
 32	.	.	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 
@@ -7547,7 +7547,7 @@
 12	na	na	ADP	Sa	Case=Acc	0	root	_	Dep=13|Rel=Atr
 13	lov	lov	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	Dep=11|Rel=AdvO
 14	za	za	ADP	Si	Case=Ins	0	root	_	Dep=16|Rel=Atr
-15	bin	bin	X	Xf	Foreign=Foreign	0	root	_	Dep=16|Rel=Atr
+15	bin	bin	X	Xf	Foreign=Yes	0	root	_	Dep=16|Rel=Atr
 16	Ladnom	Laden	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=13|Rel=Atr
 17	.	.	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 
@@ -12090,17 +12090,17 @@
 # sent_id ssj513.2715.9686
 # text_id F0004582
 # text_title Barva sladke čokolade
-1	Transglobal	transglobal	X	Xf	Foreign=Foreign	0	root	_	Dep=18|Rel=Sb
-2	Underground	underground	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=1|Rel=Atr
+1	Transglobal	transglobal	X	Xf	Foreign=Yes	0	root	_	Dep=18|Rel=Sb
+2	Underground	underground	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=1|Rel=Atr
 3	,	,	PUNCT	Z	_	0	root	_	Dep=4|Rel=Conj
-4	Astralasia	astralasia	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=1|Rel=Coord
+4	Astralasia	astralasia	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=1|Rel=Coord
 5	,	,	PUNCT	Z	_	0	root	_	Dep=6|Rel=Conj
-6	Monkey	monkey	X	Xf	Foreign=Foreign	0	root	_	Dep=1|Rel=Coord
-7	Pilot	pilot	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=6|Rel=Atr
+6	Monkey	monkey	X	Xf	Foreign=Yes	0	root	_	Dep=1|Rel=Coord
+7	Pilot	pilot	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=6|Rel=Atr
 8	,	,	PUNCT	Z	_	0	root	_	Dep=9|Rel=Conj
-9	Suns	suns	X	Xf	Foreign=Foreign	0	root	_	Dep=1|Rel=Coord
-10	of	of	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
-11	Arqa	arqa	X	Xf	Foreign=Foreign	0	root	_	Dep=9|Rel=Atr
+9	Suns	suns	X	Xf	Foreign=Yes	0	root	_	Dep=1|Rel=Coord
+10	of	of	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
+11	Arqa	arqa	X	Xf	Foreign=Yes	0	root	_	Dep=9|Rel=Atr
 12	ter	ter	CONJ	Cc	_	0	root	_	Dep=14|Rel=Conj
 13	njim	on	PRON	Pp3fpd	Case=Dat|Gender=Fem|Number=Plur|Person=3|PronType=Prs	0	root	_	Dep=14|Rel=Atr
 14	podobni	podoben	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	Dep=1|Rel=Coord
@@ -12388,7 +12388,7 @@
 23	poje	peti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=19|Rel=Atr
 24	Nusrat	Nusrat	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Dep=23|Rel=Sb
 25	Fateh	Fateh	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Dep=24|Rel=Atr
-26	Ali	ali	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+26	Ali	ali	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 27	Khan	Khan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=25|Rel=Atr
 28	,	,	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 29	če	če	SCONJ	Cs	_	0	root	_	Dep=35|Rel=Conj
@@ -15712,7 +15712,7 @@
 10	domovanju	domovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	0	root	_	Dep=0|Rel=Root
 11	rojakinje	rojakinja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	Dep=10|Rel=Atr
 12	Jelene	Jelena	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	Dep=11|Rel=Atr
-13	de	de	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+13	de	de	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 14	Belder	Belder	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|Dep=12|Rel=Atr
 15	-	-	PUNCT	Z	_	0	root	_	Dep=16|Rel=Conj
 16	Kovačič	Kovačič	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|Dep=14|Rel=Coord
@@ -15901,7 +15901,7 @@
 5	plodove	plod	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	0	root	_	Dep=3|Rel=Obj
 6	(	(	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 7	C.	C.	X	Y	_	0	root	_	Dep=0|Rel=Root
-8	pepo	pepo	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+8	pepo	pepo	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 9	)	)	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 10	-	-	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 11	poletne	poleten	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	Dep=12|Rel=Atr
@@ -19951,7 +19951,7 @@
 # sent_id ssj533.2805.9989
 # text_id F0005002
 # text_title Dnevnik
-1	LA	la	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+1	LA	la	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 2	MACARENA	Macarena	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Dep=0|Rel=Root
 3	Marksistični	marksističen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	Dep=5|Rel=Atr
 4	kolumbijski	kolumbijski	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	Dep=5|Rel=Atr
@@ -21386,7 +21386,7 @@
 6	soočenje	soočenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Dep=5|Rel=Sb
 7	režiserja	režiser	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	0	root	_	Dep=6|Rel=Atr
 8	Diega	Diego	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	0	root	_	Dep=7|Rel=Atr
-9	de	de	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+9	de	de	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 10	Bree	Brea	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	0	root	_	Dep=8|Rel=Atr
 11	s	z	ADP	Si	Case=Ins	0	root	_	Dep=13|Rel=Atr
 12	Cankarjevim	Cankarjev	ADJ	Aspnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Poss=Yes	0	root	_	Dep=13|Rel=Atr
@@ -22196,8 +22196,8 @@
 5	:	:	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 6	Rodgersija	Rodgersija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Dep=11|Rel=Sb
 7	(	(	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-8	Rodgersia	rodgersia	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
-9	pinnata	pinnata	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+8	Rodgersia	rodgersia	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
+9	pinnata	pinnata	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 10	)	)	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 11	je	biti	VERB	Va-r3s-n	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 12	prava	pravi	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	Dep=14|Rel=Atr
@@ -22558,8 +22558,8 @@
 # sent_id ssj537.2836.10087
 # text_id F0005056
 # text_title Trpežne rastline [neuničljivo zelenje za vsakršne razmere]
-1	Erica	erica	X	Xf	Foreign=Foreign	0	root	_	Dep=3|Rel=Sb
-2	cinerea	cinerea	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+1	Erica	erica	X	Xf	Foreign=Yes	0	root	_	Dep=3|Rel=Sb
+2	cinerea	cinerea	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 3	je	biti	VERB	Va-r3s-n	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 4	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	0	root	_	Dep=6|Rel=Atr
 5	izmed	izmed	ADP	Sg	Case=Gen	0	root	_	Dep=6|Rel=Atr
@@ -22736,8 +22736,8 @@
 4	Veliki	velik	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	Dep=5|Rel=Atr
 5	zimzelen	zimzelen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Dep=11|Rel=Sb
 6	(	(	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-7	Vinca	vinca	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
-8	major	major	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+7	Vinca	vinca	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
+8	major	major	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 9	)	)	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 10	bujneje	bujno	ADV	Rgc	Degree=Cmp	0	root	_	Dep=11|Rel=AdvM
 11	cveti	cveteti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
@@ -23551,7 +23551,7 @@
 # text_id F0005098
 # text_title Delo [samostojen časnik za samostojno Slovenijo]
 1	»	»	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-2	Voila	voila	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+2	Voila	voila	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 3	!	!	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 4	«	«	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 5	je	biti	AUX	Va-r3s-n	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=6|Rel=PPart
@@ -25287,7 +25287,7 @@
 20	Euronexta	Euronext	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	0	root	_	Dep=19|Rel=Atr
 21	in	in	CONJ	Cc	_	0	root	_	Dep=22|Rel=Conj
 22	Deutsche	Deutsche	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	Dep=20|Rel=Coord
-23	boerse	boerse	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=22|Rel=Atr
+23	boerse	boerse	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=22|Rel=Atr
 24	.	.	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 
 # sent_id ssj546.2867.10188

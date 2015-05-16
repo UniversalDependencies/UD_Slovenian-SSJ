@@ -37,35 +37,35 @@
 1	(	(	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 2	NEMšKO	nemško	ADV	Rgp	Degree=Pos	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 3	:	:	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-4	SCHLAG	schlag	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+4	SCHLAG	schlag	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 5	;	;	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 6	FRANCOSKO	francosko	ADV	Rgp	Degree=Pos	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 7	:	:	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-8	COUP	coup	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+8	COUP	coup	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 9	;	;	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 10	čEšKO	češko	ADV	Rgp	Degree=Pos	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 11	:	:	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-12	RÁNA	rana	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+12	RÁNA	rana	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 13	;	;	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 14	SLOVAšKO	slovaško	ADV	Rgp	Degree=Pos	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 15	:	:	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-16	RANA	rana	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+16	RANA	rana	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 17	;	;	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 18	HRVAšKO	hrvaško	ADV	Rgp	Degree=Pos	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 19	:	:	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-20	UDARAC	udarac	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+20	UDARAC	udarac	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 21	;	;	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 22	šPANSKO	špansko	ADV	Rgp	Degree=Pos	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 23	:	:	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-24	GOLPE	golpe	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+24	GOLPE	golpe	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 25	;	;	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 26	DANSKO	dansko	ADV	Rgp	Degree=Pos	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 27	:	:	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-28	SLAG	slag	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+28	SLAG	slag	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 29	;	;	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 30	šVEDSKO	švedsko	ADV	Rgp	Degree=Pos	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 31	:	:	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-32	SLAG	slag	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+32	SLAG	slag	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 33	)	)	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 34	"	"	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 35	Udarec	udarec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=37|Rel=Sb
@@ -5127,7 +5127,7 @@
 # sent_id ssj570.2945.10468
 # text_id F0005651
 # text_title Resnica ali laž? [kako prepoznati laž in se zavarovati pred prevaro]
-1	Psychology	psychology	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+1	Psychology	psychology	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 2	,	,	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 3	Harper	Harper	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 4	&	&	SYM	Z	_	0	root	_	Dep=5|Rel=Conj
@@ -13122,8 +13122,8 @@
 # text_id F0006168
 # text_title Digitalna trdnjava
 1	»	»	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-2	Con	con	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
-3	permiso	permiso	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+2	Con	con	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
+3	permiso	permiso	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 4	!	!	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 5	«	«	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 6	je	biti	AUX	Va-r3s-n	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=7|Rel=PPart
@@ -14203,7 +14203,7 @@
 11	od	od	ADP	Sg	Case=Gen	0	root	_	Dep=13|Rel=Atr
 12	nemške	nemški	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	Dep=13|Rel=Atr
 13	besede	beseda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	Dep=0|Rel=Root
-14	wandern	wandern	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+14	wandern	wandern	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 15	potovati	potovati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 16	)	)	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 17	.	.	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
@@ -16113,7 +16113,7 @@
 4	klanec	klanec	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	Dep=1|Rel=Atr
 5	domačina	domačin	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	0	root	_	Dep=1|Rel=Atr
 6	Danila	Danilo	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	0	root	_	Dep=5|Rel=Atr
-7	Di	di	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+7	Di	di	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 8	Luce	Luca	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=6|Rel=Atr
 9	,	,	PUNCT	Z	_	0	root	_	Dep=10|Rel=Conj
 10	Gilberta	Gilberto	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	0	root	_	Dep=6|Rel=Coord
@@ -16956,13 +16956,13 @@
 12	vrste	vrsta	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	Dep=10|Rel=Coord
 13	(	(	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 14	H.	H.	X	Y	_	0	root	_	Dep=0|Rel=Root
-15	helix	helix	X	Xf	Foreign=Foreign	0	root	_	Dep=16|Rel=Sb
+15	helix	helix	X	Xf	Foreign=Yes	0	root	_	Dep=16|Rel=Sb
 16	vsebuje	vsebovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 17	več	več	DET	Rgc	Degree=Cmp	0	root	_	Dep=18|Rel=Atr
 18	falkarinola	falkarinol	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	0	root	_	Dep=16|Rel=Obj
 19	kot	kot	SCONJ	Cs	_	0	root	_	Dep=21|Rel=Conj
 20	H.	H.	X	Y	_	0	root	_	Dep=0|Rel=Root
-21	canariensis	canariensis	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=18|Rel=AdvM
+21	canariensis	canariensis	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=18|Rel=AdvM
 22	)	)	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 23	ter	ter	CONJ	Cc	_	0	root	_	Dep=25|Rel=Conj
 24	od	od	ADP	Sg	Case=Gen	0	root	_	Dep=25|Rel=Atr
@@ -17072,8 +17072,8 @@
 3	ali	ali	CONJ	Cc	_	0	root	_	Dep=4|Rel=Conj
 4	baldrijan	baldrijan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Dep=2|Rel=Coord
 5	(	(	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-6	Valeriana	valeriana	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
-7	officinalis	officinalis	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+6	Valeriana	valeriana	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
+7	officinalis	officinalis	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 8	)	)	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 9	je	biti	VERB	Va-r3s-n	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 10	zdravilna	zdravilen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	Dep=11|Rel=Atr
@@ -17096,8 +17096,8 @@
 3	uporabljamo	uporabljati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 4	korenino	korenina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	0	root	_	Dep=3|Rel=Obj
 5	(	(	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-6	Valerianae	valerianae	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
-7	radix	radix	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+6	Valerianae	valerianae	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
+7	radix	radix	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 8	)	)	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 9	,	,	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 10	učinki	učinek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	0	root	_	Dep=12|Rel=Sb
@@ -18669,8 +18669,8 @@
 41	pri	pri	ADP	Sl	Case=Loc	0	root	_	Dep=42|Rel=Atr
 42	ocenjevanju	ocenjevanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	0	root	_	Dep=37|Rel=AdvO
 43	(	(	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-44	Computerised	computerised	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
-45	Marking	marking	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+44	Computerised	computerised	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
+45	Marking	marking	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 46	)	)	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 47	.	.	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 
@@ -22195,7 +22195,7 @@
 11	(	(	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 12	angl.	angl.	X	Y	_	0	root	_	Dep=0|Rel=Root
 13	HyperText	Hypertext	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Dep=0|Rel=Root
-14	Markup	markup	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+14	Markup	markup	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 15	Language	Language	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 16	)	)	PUNCT	Z	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 17	,	,	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
@@ -22226,9 +22226,9 @@
 5	omogočajo	omogočati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=2|Rel=Atr
 6	dostopanje	dostopanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	0	root	_	Dep=5|Rel=Obj
 7	terminalom	terminal	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	0	root	_	Dep=5|Rel=Obj
-8	i	i	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+8	i	i	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 9	-	-	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-10	mode	mode	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+10	mode	mode	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 11	,	,	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
 12	so	biti	VERB	Va-r3p-n	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 13	napisane	napisan	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	Dep=12|Rel=Atr
@@ -22339,9 +22339,9 @@
 12	s	z	ADP	Sg	Case=Gen	0	root	_	Dep=14|Rel=Atr
 13	spletnih	spleten	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	Dep=14|Rel=Atr
 14	strani	stran	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	Dep=10|Rel=Atr
-15	i	i	X	Xf	Foreign=Foreign	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
+15	i	i	X	Xf	Foreign=Yes	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 16	-	-	PUNCT	Z	_	0	root	_	Dep=0|Rel=Root
-17	mode	mode	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+17	mode	mode	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 18	tudi	tudi	PART	Q	_	0	root	_	Dep=0|Rel=Root
 19	na	na	ADP	Sa	Case=Acc	0	root	_	Dep=21|Rel=Atr
 20	mobilne	mobilen	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	Dep=21|Rel=Atr
@@ -25402,7 +25402,7 @@
 16	,	,	PUNCT	Z	_	0	root	_	Dep=18|Rel=Conj
 17	uniseks	uniseks	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	Dep=18|Rel=Atr
 18	Agua	Agua	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Dep=12|Rel=Coord
-19	de	de	X	Xf	Foreign=Foreign	0	root	_	Dep=0|Rel=Root
+19	de	de	X	Xf	Foreign=Yes	0	root	_	Dep=0|Rel=Root
 20	Loewe	Loewe	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Dep=18|Rel=Atr
 21	in	in	CONJ	Cc	_	0	root	_	Dep=24|Rel=Conj
 22	najnovejšo	nov	ADJ	Agsfsa	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	0	root	_	Dep=24|Rel=Atr
