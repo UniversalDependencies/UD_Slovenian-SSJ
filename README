@@ -1,7 +1,6 @@
 http://universaldependencies.github.io/docs/sl/overview/introduction.html
 
-The Slovenian UD "Treebank" is based on the ssj500k treebank (Krek and
-Erjavec 2014), a reference balanced collection of sampled texts from
+The Slovenian UD "Treebank" is based on the ssj500k treebank (Krek et al. 2013), a reference balanced collection of sampled texts from
 the reference corpus of written Slovene FidaPLUS (Arhar and Gorjanc
 2007). The ssj500k corpus has been manually segmented, tokenized,
 lemmatized and morphosyntactically tagged starting in the JOS project,
@@ -31,8 +30,8 @@ The guidelines and conversion have been contributed by:
 Kaja Dobrovoljc, Tomaž Erjavec and Simon Krek.
 
 References:
-Simon Krek and Tomaž Erjavec. 2014. Training corpus ssj500kv 1.3.
-Jožef Stefan Institute, Slovenia. 
+Simon Krek, Tomaž Erjavec, Kaja Dobrovoljc, Sara Može, Nina Ledinek and Nanika Holz. 2013. 
+Training corpus ssj500k 1.3. http://hdl.handle.net/11356/1029.
 
 Špela Arhar and Vojko Gorjanc. 2007. Korpus FidaPLUS: nova generacija
 slovenskega referenčnega korpusa (The FidaPLUS corpus: a new
