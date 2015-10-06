@@ -51,3 +51,9 @@ Nina Ledinek, Andrej Lovšin, Boštjan Marhold, Nina Mikulin, Barbara
 Modrijan, Sara Može, Tanja Novak, Lea Peršič, Tanja Radovič, Simona
 Šinkovec, Urška Vranjek, Jerneja Umer, Petra Žalodec.
 
+
+
+Documentation status: partial
+Data source: unknown
+Data available since: UD v1.2
+License: CC BY-NC-SA 4.0
