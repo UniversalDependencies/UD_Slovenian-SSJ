@@ -1,6 +1,6 @@
 http://universaldependencies.github.io/docs/sl/overview/introduction.html
 
-Original Trebank
+Original Treebank
 The Slovenian UD Treebank is based on the ssj500k treebank (Krek et al. 2013),
 a balanced collection of sampled texts from the FidaPLUS reference corpus of
 written Slovene (Arhar and Gorjanc 2007). The original ssj500k corpus has been 
@@ -10,32 +10,34 @@ al. 2010). Additionally, approximately one half of the ssj500k treebank
 has been manually annotated for dependency relations, according to the JOS syntactic
 annotation scheme. The syntactically annotated part of the ssj500k corpus 
 (known as ssj200k), consisting of 11,411 annotated sentences and 235,864 tokens,
-has been used as the basis for conversion to the Slovenian UD Trebank.
+has been used as the basis for conversion to the Slovenian UD Treebank.
 
-Conversion and Description
-The conversion from the ssj200k treebank to the Slovenian UD Treebank was completely
-automatic, based on a large set of rules for both morphosyntactic and syntactic layer,
-which include different lexical, morphological and dependency features. Due to the specific
-of the original JOS syntactic annotation scheme, not all dependency relations from the 
-original ssj200k treebank could be converted automatically, resulting in a smaller 
-UD treebank size. The current verison of the Slovenian UD Treebank thus contains
+Conversion and Size
+The conversion from ssj200k to the Slovenian UD Treebank was completely automatic, 
+based on a large set of rules for both morphosyntactic and syntactic layer,
+which include different lexical, morphological and dependency features. Due to the
+specifics of the original JOS syntactic annotation scheme, not all dependency relations
+from the original ssj200k treebank could be converted automatically, resulting in a
+smaller UD treebank size. The current version of the Slovenian UD Treebank thus contains
 7,996 sentences with 140,418 tokens taken from various text types, e.g. fiction,
-non-fiction and periodicals, dating from 1990-2000. The original JOS annotations are included
-as part of the POSTAG (JOS morphosyntactic tags) and MISC (JOS dependency heads and labels)
-columns.
+non-fiction and periodicals, dating from 1990-2000. The original JOS annotations are
+included as part of the POSTAG (JOS morphosyntactic tags) and MISC (JOS dependency
+heads and labels) columns in the CONLLU format.
 
-The source corpus and conversion scripts are available from http://nl.ijs.si/ssj/ssj500k/UD/
+The source corpus and conversion scripts are available from
+http://nl.ijs.si/ssj/ssj500k/UD/
 
 Data Split
 The corpus is linearly split into training (80%), development (10%) and test
 (10%) data.
 
 Contributors
-The guidelines and conversion have been contributed by Kaja Dobrovoljc, Tomaž Erjavec and Simon Krek.
+The guidelines and conversions have been contributed by Kaja Dobrovoljc, Tomaž Erjavec
+and Simon Krek.
 
 References:
-Simon Krek, Tomaž Erjavec, Kaja Dobrovoljc, Sara Može, Nina Ledinek and Nanika Holz. 2013. 
-Training corpus ssj500k 1.3. http://hdl.handle.net/11356/1029.
+Simon Krek, Tomaž Erjavec, Kaja Dobrovoljc, Sara Može, Nina Ledinek and Nanika Holz.
+2013. Training corpus ssj500k 1.3. http://hdl.handle.net/11356/1029.
 
 Špela Arhar and Vojko Gorjanc. 2007. Korpus FidaPLUS: nova generacija
 slovenskega referenčnega korpusa (The FidaPLUS corpus: a new
