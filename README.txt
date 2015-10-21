@@ -59,6 +59,6 @@ Modrijan, Sara Može, Tanja Novak, Lea Peršič, Tanja Radovič, Simona
 
 
 Documentation status: partial
-Data source: automatic conversion
+Data source: automatic
 Data available since: UD v1.2
 License: CC BY-NC-SA 4.0
