@@ -24,8 +24,6 @@ non-fiction and periodicals, dating from 1990-2000. The original JOS annotations
 included as part of the POSTAG (JOS morphosyntactic tags) and MISC (JOS dependency
 heads and labels) columns in the CONLLU format.
 
-The source corpus and conversion scripts are available from
-http://nl.ijs.si/ssj/ssj500k/UD/
 
 Data Split
 The corpus is linearly split into training (80%), development (10%) and test
@@ -62,3 +60,4 @@ Documentation status: partial
 Data source: automatic
 Data available since: UD v1.2
 License: CC BY-NC-SA 4.0
+Genre: news non-fiction fiction
