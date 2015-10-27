@@ -29,10 +29,6 @@ Data Split
 The corpus is linearly split into training (80%), development (10%) and test
 (10%) data.
 
-Contributors
-The guidelines and conversions have been contributed by Kaja Dobrovoljc, Tomaž Erjavec
-and Simon Krek.
-
 References:
 Simon Krek, Tomaž Erjavec, Kaja Dobrovoljc, Sara Može, Nina Ledinek and Nanika Holz.
 2013. Training corpus ssj500k 1.3. http://hdl.handle.net/11356/1029.
@@ -61,3 +57,4 @@ Data source: automatic
 Data available since: UD v1.2
 License: CC BY-NC-SA 4.0
 Genre: news nonfiction fiction
+Contributors: Dobrovoljc, Kaja; Erjavec, Tomaž; Krek, Simon
