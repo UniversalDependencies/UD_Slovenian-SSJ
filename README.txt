@@ -29,6 +29,14 @@ Data Split
 The corpus is linearly split into training (80%), development (10%) and test
 (10%) data.
 
+Changelog
+2016-05-15 v1.3
+-- Added PronType to possessive pronouns
+-- Added PronType to some determiners
+-- Fixed a few minor issues in the conversion script based on content validation
+-- Fixed a few errors in the original ssj500k treebank 
+-- Fixed the SpaceAfter=No bug
+
 References:
 Simon Krek, Tomaž Erjavec, Kaja Dobrovoljc, Sara Može, Nina Ledinek and Nanika Holz.
 2013. Training corpus ssj500k 1.3. http://hdl.handle.net/11356/1029.
