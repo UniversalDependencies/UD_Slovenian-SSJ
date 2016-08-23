@@ -3,17 +3,17 @@ http://universaldependencies.github.io/docs/sl/overview/introduction.html
 Original Treebank
 The Slovenian UD Treebank is based on the ssj500k treebank (Krek et al. 2013),
 a balanced collection of sampled texts from the FidaPLUS reference corpus of
-written Slovene (Arhar and Gorjanc 2007). The original ssj500k corpus has been 
+written Slovene (Arhar and Gorjanc 2007). The original ssj500k corpus has been
 manually segmented, tokenized, lemmatized and morphosyntactically tagged within
 JOS project, in which the annotation guidelines have also been developed (Erjavec et
 al. 2010). Additionally, approximately one half of the ssj500k treebank
 has been manually annotated for dependency relations, according to the JOS syntactic
-annotation scheme. The syntactically annotated part of the ssj500k corpus 
+annotation scheme. The syntactically annotated part of the ssj500k corpus
 (known as ssj200k), consisting of 11,411 annotated sentences and 235,864 tokens,
 has been used as the basis for conversion to the Slovenian UD Treebank.
 
 Conversion and Size
-The conversion from ssj200k to the Slovenian UD Treebank was completely automatic, 
+The conversion from ssj200k to the Slovenian UD Treebank was completely automatic,
 based on a large set of rules for both morphosyntactic and syntactic layer,
 which include different lexical, morphological and dependency features. Due to the
 specifics of the original JOS syntactic annotation scheme, not all dependency relations
@@ -34,7 +34,7 @@ Changelog
 -- Added PronType to possessive pronouns
 -- Added PronType to some determiners
 -- Fixed a few minor issues in the conversion script based on content validation
--- Fixed a few errors in the original ssj500k treebank 
+-- Fixed a few errors in the original ssj500k treebank
 -- Fixed the SpaceAfter=No bug
 
 References:
@@ -66,3 +66,4 @@ Data available since: UD v1.2
 License: CC BY-NC-SA 4.0
 Genre: news nonfiction fiction
 Contributors: Dobrovoljc, Kaja; Erjavec, Tomaž; Krek, Simon
+Contact:
