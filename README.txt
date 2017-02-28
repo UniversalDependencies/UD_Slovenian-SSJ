@@ -1,16 +1,16 @@
 http://universaldependencies.github.io/docs/sl/overview/introduction.html
 
 Original Treebank
-The Slovenian UD Treebank is based on the ssj500k treebank (Krek et al. 2015),
-a balanced collection of sampled texts from the FidaPLUS reference corpus of
-written Slovene (Arhar and Gorjanc 2007). The original ssj500k corpus has been
-manually segmented, tokenized, lemmatized and morphosyntactically tagged within
+The Slovenian UD Treebank (Dobrovoljc et al. 2017) is based on the ssj500k treebank
+(Krek et al. 2015), a balanced collection of sampled texts from the FidaPLUS reference
+corpus of written Slovene (Arhar and Gorjanc 2007). The original ssj500k corpus has
+been manually segmented, tokenized, lemmatized and morphosyntactically tagged within
 JOS project, in which the annotation guidelines have also been developed (Erjavec et
-al. 2010). Additionally, approximately one half of the ssj500k treebank
-has been manually annotated for dependency relations, according to the JOS syntactic
-annotation scheme. The syntactically annotated part of the ssj500k corpus
-(known as ssj200k), consisting of 11,411 annotated sentences and 235,864 tokens,
-has been used as the basis for conversion to the Slovenian UD Treebank.
+al. 2010). Additionally, approximately one half of the ssj500k treebank has been
+manually annotated for dependency relations, according to the JOS syntactic annotation
+scheme. The syntactically annotated part of the ssj500k corpus (known as ssj200k),
+consisting of 11,411 annotated sentences and 235,864 tokens, has been used as the
+basis for conversion to the Slovenian UD Treebank.
 
 Conversion and Size
 The conversion from ssj200k to the Slovenian UD Treebank was completely automatic,
@@ -42,6 +42,10 @@ Changelog
 -- Fixed the SpaceAfter=No bug
 
 References:
+Kaja Dobrovoljc, Tomaž Erjavec, Simon Krek. 2017. The Universal Dependencies
+Treebank for Slovenian. In: Proceeding of the 6th Workshop on Balto-Slavic Natural
+Language Processing (BSNLP 2017), Valencia, 2017.
+
 Simon Krek, Tomaž Erjavec, Kaja Dobrovoljc, Sara Može, Nina Ledinek and Nanika Holz.
 2015. Training corpus ssj500k 1.4. http://hdl.handle.net/11356/1052.
 
