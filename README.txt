@@ -65,8 +65,10 @@ Seventh International Conference on Language Resources and Evaluation
 
 # Changelog
 
+
 2018-04-15 v2.2
 -- Repository renamed from UD_Slovenian to UD_Slovenian-SSJ.
+-- Changed two flat:name errors.
 
 2017-01-31 v2.0
 -- New rules for conversion from UDv1 to UDv2
