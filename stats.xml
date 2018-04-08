@@ -105,8 +105,8 @@
     <dep name="case">13495</dep>
     <dep name="cc">4668</dep>
     <dep name="cc:preconj">62</dep>
-    <dep name="ccomp">1215</dep>
-    <dep name="conj">5298</dep>
+    <dep name="ccomp">1216</dep>
+    <dep name="conj">5297</dep>
     <dep name="cop">2826</dep>
     <dep name="csubj">558</dep>
     <dep name="dep">8</dep>

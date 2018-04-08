@@ -7,7 +7,7 @@ The Slovenian UD Treebank is a rule-based conversion of the ssj500k treebank, th
 
 # Introduction
 
-The Slovenian UD Treebank (Dobrovoljc et al. 2017) is based on the ssj500k treebank
+The Slovenian SSJ UD Treebank (Dobrovoljc et al. 2017) is based on the ssj500k treebank
 (Krek et al. 2015), a balanced collection of sampled texts from the FidaPLUS reference
 corpus of written Slovene (Arhar and Gorjanc 2007). The original ssj500k corpus has
 been manually segmented, tokenized, lemmatized and morphosyntactically tagged within
@@ -18,7 +18,7 @@ scheme. The syntactically annotated part of the ssj500k corpus (known as ssj200k
 consisting of 11,411 annotated sentences and 235,864 tokens, has been used as the
 basis for conversion to the Slovenian UD Treebank.
 
-The conversion from ssj200k to the Slovenian UD Treebank was completely automatic,
+The conversion from ssj200k to the Slovenian SSJ UD Treebank was completely automatic,
 based on a large set of rules for both morphosyntactic and syntactic layer,
 which include different lexical, morphological and dependency features. Due to the
 specifics of the original JOS syntactic annotation scheme, not all dependency relations
@@ -64,6 +64,11 @@ Seventh International Conference on Language Resources and Evaluation
 
 
 # Changelog
+
+
+2018-04-15 v2.2
+-- Repository renamed from UD_Slovenian to UD_Slovenian-SSJ.
+-- Changed two flat:name errors.
 
 2017-01-31 v2.0
 -- New rules for conversion from UDv1 to UDv2
