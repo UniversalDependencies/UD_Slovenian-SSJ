@@ -77,7 +77,12 @@ Seventh International Conference on Language Resources and Evaluation
 # Changelog
 
 2019-01-23 v2.5
--- Performed new conversion from ssj500k 2.1, changed a number of rules of conversion
+-- Performed new conversion from ssj500k 2.1
+-- Changed a few conversion rules, i.e.
+-- Attributed Polarity=Neg to all 'ne' particles
+-- Moved 'obilo' from ADV to DET
+-- Removed bugs related # text and SpaceAfter=No
+
 
 2018-04-15 v2.2
 -- Repository renamed from UD_Slovenian to UD_Slovenian-SSJ.
@@ -107,5 +112,5 @@ Features: converted from manual
 Relations: converted from manual
 Contributors: Dobrovoljc, Kaja; Erjavec, Tomaž; Krek, Simon
 Contributing: elsewhere
-Contact: kaja.dobrovoljc@gmail.com; tomaz.erjavec@ijs.si; simon.krek@ijs.si
+Contact: kaja.dobrovoljc@ijs.si; tomaz.erjavec@ijs.si; simon.krek@ijs.si
 ===============================================================================
