@@ -406,7 +406,7 @@
 16	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj563.2928.10375
-# text = V ideološki interpelaciji namreč ne smemo videti nekakšne zle usode, ki bi» viktimizirala« individue.
+# text = V ideološki interpelaciji namreč ne smemo videti nekakšne zle usode, ki bi »viktimizirala« individue.
 1	V	v	ADP	Sl	Case=Loc	3	case	_	Dep=3|Rel=Atr
 2	ideološki	ideološki	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	Dep=3|Rel=Atr
 3	interpelaciji	interpelacija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	Dep=7|Rel=AdvO
@@ -419,8 +419,8 @@
 10	usode	usoda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|Dep=7|Rel=Obj
 11	,	,	PUNCT	Z	_	15	punct	_	Dep=0|Rel=Root
 12	ki	ki	SCONJ	Cs	_	15	mark	_	Dep=15|Rel=Conj
-13	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	15	aux	_	SpaceAfter=No|Dep=15|Rel=PPart
-14	»	»	PUNCT	Z	_	15	punct	_	Dep=0|Rel=Root
+13	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	15	aux	_	Dep=15|Rel=PPart
+14	»	»	PUNCT	Z	_	15	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 15	viktimizirala	viktimizirati	VERB	Vmbp-sf	Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	SpaceAfter=No|Dep=10|Rel=Atr
 16	«	«	PUNCT	Z	_	15	punct	_	Dep=0|Rel=Root
 17	individue	individuum	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No|Dep=15|Rel=Obj
@@ -546,13 +546,13 @@
 7	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj563.2931.10391
-# text = Vseeno je tudi v tej» zgodnje moderni« različici konflikt vreden antropološke pozornosti: saj gre za konflikt med» obveznimi čustvi« na vertikalni osi filiacije in» obveznimi čustvi« na horizontalni osi alianse.
+# text = Vseeno je tudi v tej »zgodnje moderni« različici konflikt vreden antropološke pozornosti: saj gre za konflikt med »obveznimi čustvi« na vertikalni osi filiacije in »obveznimi čustvi« na horizontalni osi alianse.
 1	Vseeno	vseeno	ADV	Rgp	Degree=Pos	12	advmod	_	Dep=12|Rel=AdvM
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	cop	_	Dep=0|Rel=Root
 3	tudi	tudi	PART	Q	_	12	advmod	_	Dep=0|Rel=Root
 4	v	v	ADP	Sl	Case=Loc	10	case	_	Dep=10|Rel=Atr
-5	tej	ta	DET	Pd-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	SpaceAfter=No|Dep=10|Rel=Atr
-6	»	»	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+5	tej	ta	DET	Pd-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	Dep=10|Rel=Atr
+6	»	»	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 7	zgodnje	zgodnje	ADV	Rgp	Degree=Pos	8	advmod	_	Dep=8|Rel=Atr
 8	moderni	moderen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No|Dep=10|Rel=Atr
 9	«	«	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
@@ -566,8 +566,8 @@
 17	gre	iti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	Dep=0|Rel=Root
 18	za	za	ADP	Sa	Case=Acc	19	case	_	Dep=19|Rel=Atr
 19	konflikt	konflikt	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	Dep=17|Rel=Obj
-20	med	med	ADP	Si	Case=Ins	23	case	_	SpaceAfter=No|Dep=23|Rel=Atr
-21	»	»	PUNCT	Z	_	23	punct	_	Dep=0|Rel=Root
+20	med	med	ADP	Si	Case=Ins	23	case	_	Dep=23|Rel=Atr
+21	»	»	PUNCT	Z	_	23	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 22	obveznimi	obvezen	ADJ	Agpnpi	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	23	amod	_	Dep=23|Rel=Atr
 23	čustvi	čustvo	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No|Dep=19|Rel=Atr
 24	«	«	PUNCT	Z	_	23	punct	_	Dep=0|Rel=Root
@@ -575,8 +575,8 @@
 26	vertikalni	vertikalen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	Dep=27|Rel=Atr
 27	osi	os	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	Dep=23|Rel=Atr
 28	filiacije	filiacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	Dep=27|Rel=Atr
-29	in	in	CCONJ	Cc	_	32	cc	_	SpaceAfter=No|Dep=32|Rel=Conj
-30	»	»	PUNCT	Z	_	32	punct	_	Dep=0|Rel=Root
+29	in	in	CCONJ	Cc	_	32	cc	_	Dep=32|Rel=Conj
+30	»	»	PUNCT	Z	_	32	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 31	obveznimi	obvezen	ADJ	Agpnpi	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	32	amod	_	Dep=32|Rel=Atr
 32	čustvi	čustvo	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	23	conj	_	SpaceAfter=No|Dep=23|Rel=Coord
 33	«	«	PUNCT	Z	_	32	punct	_	Dep=0|Rel=Root
@@ -587,7 +587,7 @@
 38	.	.	PUNCT	Z	_	12	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj563.2931.10393
-# text = Moderni individualisti bi bili sicer bržkone nagnjeni k anahronistični interpretaciji, ki bi konflikt razumela kot spopad med kolektivistično lojalnostjo krvnemu sorodstvu in individualistično izbiro ljubezenskega - poročnega partnerja: a aliansa ni za Himeno nič manj» kolektivna« zadeva kakor družinska lojalnost.
+# text = Moderni individualisti bi bili sicer bržkone nagnjeni k anahronistični interpretaciji, ki bi konflikt razumela kot spopad med kolektivistično lojalnostjo krvnemu sorodstvu in individualistično izbiro ljubezenskega - poročnega partnerja: a aliansa ni za Himeno nič manj »kolektivna« zadeva kakor družinska lojalnost.
 1	Moderni	moderen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	Dep=2|Rel=Atr
 2	individualisti	individualist	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	Dep=4|Rel=Sb
 3	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	7	aux	_	Dep=4|Rel=PPart
@@ -624,8 +624,8 @@
 34	za	za	ADP	Sa	Case=Acc	35	case	_	Dep=35|Rel=Atr
 35	Himeno	Himena	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	41	obl	_	Dep=33|Rel=Obj
 36	nič	nič	ADV	Rgp	Degree=Pos	37	advmod	_	Dep=37|Rel=Atr
-37	manj	manj	DET	Rgc	PronType=Ind	39	advmod	_	SpaceAfter=No|Dep=39|Rel=Atr
-38	»	»	PUNCT	Z	_	39	punct	_	Dep=0|Rel=Root
+37	manj	manj	DET	Rgc	PronType=Ind	39	advmod	_	Dep=39|Rel=Atr
+38	»	»	PUNCT	Z	_	39	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 39	kolektivna	kolektiven	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No|Dep=41|Rel=Atr
 40	«	«	PUNCT	Z	_	39	punct	_	Dep=0|Rel=Root
 41	zadeva	zadeva	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	conj	_	Dep=33|Rel=Atr
@@ -2390,7 +2390,7 @@
 39	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj578.2960.10504
-# text = In kdo bo tisti, ki se bo moral v prihodnje spopadati s» pritiski, prisiljenimi odločitvami, kadrovskimi interesi in kratkoročnimi cilji«?
+# text = In kdo bo tisti, ki se bo moral v prihodnje spopadati s »pritiski, prisiljenimi odločitvami, kadrovskimi interesi in kratkoročnimi cilji«?
 1	In	in	CCONJ	Cc	_	2	cc	_	Dep=3|Rel=Conj
 2	kdo	kdo	PRON	Pq-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	0	root	_	Dep=3|Rel=Atr
 3	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	2	cop	_	Dep=0|Rel=Root
@@ -2403,8 +2403,8 @@
 10	v	v	ADP	Sa	Case=Acc	11	case	_	Dep=11|Rel=Atr
 11	prihodnje	prihodnje	ADV	Rgp	Degree=Pos	12	advmod	_	Dep=12|Rel=AdvO
 12	spopadati	spopadati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	9	xcomp	_	Dep=9|Rel=Atr
-13	s	z	ADP	Si	Case=Ins	15	case	_	SpaceAfter=No|Dep=15|Rel=Atr
-14	»	»	PUNCT	Z	_	15	punct	_	Dep=0|Rel=Root
+13	s	z	ADP	Si	Case=Ins	15	case	_	Dep=15|Rel=Atr
+14	»	»	PUNCT	Z	_	15	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 15	pritiski	pritisk	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|Dep=12|Rel=Obj
 16	,	,	PUNCT	Z	_	18	punct	_	Dep=18|Rel=Conj
 17	prisiljenimi	prisiljen	ADJ	Appfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	18	amod	_	Dep=18|Rel=Atr
@@ -2557,8 +2557,8 @@
 15	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj578.2965.10517
-# text = » Deveto mesto mi zares veliko pomeni, saj je dokaz, da napredujem.
-1	»	»	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+# text = »Deveto mesto mi zares veliko pomeni, saj je dokaz, da napredujem.
+1	»	»	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Deveto	deveti	ADJ	Mlonsn	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	3	amod	_	Dep=3|Rel=Atr
 3	mesto	mesto	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	Dep=7|Rel=Sb
 4	mi	jaz	PRON	Pp1-sd--y	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	7	obj	_	Dep=7|Rel=Obj
@@ -4900,8 +4900,8 @@
 19	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj585.3014.10662
-# text = » Vse je bolje vedela o otroku,« pravi živčno Sabrina.
-1	»	»	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+# text = »Vse je bolje vedela o otroku,« pravi živčno Sabrina.
+1	»	»	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Vse	ves	DET	Pg-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	5	obj	_	Dep=5|Rel=Obj
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	Dep=5|Rel=PPart
 4	bolje	dobro	ADV	Rgc	Degree=Cmp	5	advmod	_	Dep=5|Rel=AdvM
@@ -7085,8 +7085,8 @@
 6	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj594.3052.10813
-# text = » Ne!« je zalajala.
-1	»	»	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+# text = »Ne!« je zalajala.
+1	»	»	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Ne	ne	PART	Q	Polarity=Neg	6	discourse	_	SpaceAfter=No|Dep=0|Rel=Root
 3	!	!	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 4	«	«	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
@@ -9125,10 +9125,10 @@
 19	.	.	PUNCT	Z	_	13	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj602.3091.10945
-# text = Ta nepričakovani» glas ljudstva« je Séguina v hipu priklical iz globoke sence, v katero se je umaknil pred slabim letom po še danes nepojasnjenem odstopu s položaja predsednika RPR (Gibanja za republiko).
+# text = Ta nepričakovani »glas ljudstva« je Séguina v hipu priklical iz globoke sence, v katero se je umaknil pred slabim letom po še danes nepojasnjenem odstopu s položaja predsednika RPR (Gibanja za republiko).
 1	Ta	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	Dep=4|Rel=Atr
-2	nepričakovani	nepričakovan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No|Dep=4|Rel=Atr
-3	»	»	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+2	nepričakovani	nepričakovan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	Dep=4|Rel=Atr
+3	»	»	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 4	glas	glas	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	Dep=11|Rel=Sb
 5	ljudstva	ljudstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|Dep=4|Rel=Atr
 6	«	«	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
@@ -9166,7 +9166,7 @@
 38	.	.	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj602.3091.10946
-# text = Raznežen nad zaupanjem in očitno priljubljenostjo med Parižani je dal javno vedeti, da je stranki pač» na voljo«, če ga želi za pariškega župana, ponujal pa da se ji sam ne bo.
+# text = Raznežen nad zaupanjem in očitno priljubljenostjo med Parižani je dal javno vedeti, da je stranki pač »na voljo«, če ga želi za pariškega župana, ponujal pa da se ji sam ne bo.
 1	Raznežen	raznežen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	10	advcl	_	Dep=10|Rel=Atr
 2	nad	nad	ADP	Si	Case=Ins	3	case	_	Dep=3|Rel=Atr
 3	zaupanjem	zaupanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	1	obl	_	Dep=1|Rel=Obj
@@ -9183,8 +9183,8 @@
 14	da	da	SCONJ	Cs	_	15	mark	_	Dep=15|Rel=Conj
 15	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	ccomp	_	Dep=12|Rel=Obj
 16	stranki	stranka	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	15	obj	_	Dep=15|Rel=Obj
-17	pač	pač	PART	Q	_	15	advmod	_	SpaceAfter=No|Dep=0|Rel=Root
-18	»	»	PUNCT	Z	_	20	punct	_	Dep=0|Rel=Root
+17	pač	pač	PART	Q	_	15	advmod	_	Dep=0|Rel=Root
+18	»	»	PUNCT	Z	_	20	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 19	na	na	ADP	Sa	Case=Acc	20	case	_	Dep=20|Rel=Atr
 20	voljo	volja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|Dep=15|Rel=AdvM
 21	«	«	PUNCT	Z	_	20	punct	_	SpaceAfter=No|Dep=0|Rel=Root
@@ -10852,8 +10852,8 @@
 21	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj606.3115.11051
-# text = » Vem.
-1	»	»	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+# text = »Vem.
+1	»	»	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 3	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
 
@@ -11024,8 +11024,8 @@
 19	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj606.3117.11066
-# text = » Zapeljite še en krog,« je naročil taksistu, ki se je spet zahahljal in kar nekoliko zgrbil za volanom.
-1	»	»	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+# text = »Zapeljite še en krog,« je naročil taksistu, ki se je spet zahahljal in kar nekoliko zgrbil za volanom.
+1	»	»	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Zapeljite	zapeljati	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 3	še	še	PART	Q	_	2	advmod	_	Dep=0|Rel=Root
 4	en	en	NUM	Mlpmsa	Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	5	nummod	_	Dep=5|Rel=Atr
@@ -11076,8 +11076,8 @@
 23	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj606.3118.11068
-# text = » Mi je čisto vseeno,« je z brezbarvnim glasom odvrnila Janet Patzig.
-1	»	»	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+# text = »Mi je čisto vseeno,« je z brezbarvnim glasom odvrnila Janet Patzig.
+1	»	»	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Mi	jaz	PRON	Pp1-sd--y	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	3	obj	_	Dep=3|Rel=Obj
 3	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 4	čisto	čisto	ADV	Rgp	Degree=Pos	5	advmod	_	Dep=5|Rel=Atr
@@ -11504,8 +11504,8 @@
 24	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj606.3122.11089
-# text = » Vsakdo, ki med v ta namen uporabi prvič, je osupel nad njegovo učinkovitostjo,« pravi Molan.
-1	»	»	PUNCT	Z	_	13	punct	_	Dep=0|Rel=Root
+# text = »Vsakdo, ki med v ta namen uporabi prvič, je osupel nad njegovo učinkovitostjo,« pravi Molan.
+1	»	»	PUNCT	Z	_	13	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Vsakdo	vsakdo	PRON	Pg-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	13	nsubj	_	SpaceAfter=No|Dep=12|Rel=Sb
 3	,	,	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
 4	ki	ki	SCONJ	Cs	_	9	mark	_	Dep=9|Rel=Conj
@@ -12073,7 +12073,7 @@
 45	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj607.3129.11120
-# text = Nepravično pa se zdi zato, ker k njenemu preporodu v 10. stoletju, kot kaže, niso omembe vredno prispevale nobene» posebne zasluge« njenih prebivalcev, temveč vrsta srečnih naključij.
+# text = Nepravično pa se zdi zato, ker k njenemu preporodu v 10. stoletju, kot kaže, niso omembe vredno prispevale nobene »posebne zasluge« njenih prebivalcev, temveč vrsta srečnih naključij.
 1	Nepravično	nepravično	ADV	Rgp	Degree=Pos	4	advmod	_	Dep=4|Rel=AdvM
 2	pa	pa	CCONJ	Cc	_	4	advmod	_	Dep=0|Rel=Root
 3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	Dep=4|Rel=PPart
@@ -12095,8 +12095,8 @@
 19	omembe	omemba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	Dep=20|Rel=Atr
 20	vredno	vredno	ADV	Rgp	Degree=Pos	21	advmod	_	Dep=21|Rel=AdvM
 21	prispevale	prispevati	VERB	Vmbp-pf	Gender=Fem|Number=Plur|VerbForm=Part	4	advcl	_	Dep=4|Rel=AdvO
-22	nobene	noben	DET	Pz-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Neg	25	det	_	SpaceAfter=No|Dep=25|Rel=Atr
-23	»	»	PUNCT	Z	_	25	punct	_	Dep=0|Rel=Root
+22	nobene	noben	DET	Pz-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Neg	25	det	_	Dep=25|Rel=Atr
+23	»	»	PUNCT	Z	_	25	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 24	posebne	poseben	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	Dep=25|Rel=Atr
 25	zasluge	zasluga	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	SpaceAfter=No|Dep=21|Rel=Sb
 26	«	«	PUNCT	Z	_	25	punct	_	Dep=0|Rel=Root
@@ -12443,8 +12443,8 @@
 13	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj607.3138.11142
-# text = » Zato, ker sem s svojim prihodom v preteklost spremenil prihodnost,« je pojasnil Jones.
-1	»	»	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
+# text = »Zato, ker sem s svojim prihodom v preteklost spremenil prihodnost,« je pojasnil Jones.
+1	»	»	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Zato	zato	ADV	Rgp	Degree=Pos	11	mark	_	SpaceAfter=No|Dep=11|Rel=Conj
 3	,	,	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
 4	ker	ker	SCONJ	Cs	_	2	fixed	_	Dep=2|Rel=MWU
@@ -12866,8 +12866,8 @@
 8	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj607.3143.11170
-# text = » Da, tukaj so,« je odvrnil Laren Dorr.
-1	»	»	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+# text = »Da, tukaj so,« je odvrnil Laren Dorr.
+1	»	»	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Da	da	PART	Q	_	5	discourse	_	SpaceAfter=No|Dep=0|Rel=Root
 3	,	,	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
 4	tukaj	tukaj	ADV	Rgp	Degree=Pos	5	advmod	_	Dep=5|Rel=AdvO
@@ -13660,12 +13660,12 @@
 31	.	.	PUNCT	Z	_	12	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj610.3157.11220
-# text = Dodal je, da» mora kdo dati zgled, saj Unija ne more napredovati s tempom najpočasnejše članice«.
+# text = Dodal je, da »mora kdo dati zgled, saj Unija ne more napredovati s tempom najpočasnejše članice«.
 1	Dodal	dodati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	SpaceAfter=No|Dep=1|Rel=PPart
 3	,	,	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
-4	da	da	SCONJ	Cs	_	6	mark	_	SpaceAfter=No|Dep=6|Rel=Conj
-5	»	»	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+4	da	da	SCONJ	Cs	_	6	mark	_	Dep=6|Rel=Conj
+5	»	»	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 6	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	Dep=1|Rel=Obj
 7	kdo	kdo	PRON	Pq-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	6	nsubj	_	Dep=8|Rel=Sb
 8	dati	dati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	6	xcomp	_	Dep=6|Rel=Atr
@@ -13684,8 +13684,8 @@
 21	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj610.3157.11221
-# text = » Če letos ne bo napredka pri kovanju ustavne pogodbe, bodo nekatere članice začele iskati druge rešitve,« je dejal italijanski politik, zadovoljen, ker se je znebil prisilnega sodelovanja s političnim tekmecem Silviom Berlusconijem.
-1	»	»	PUNCT	Z	_	15	punct	_	Dep=0|Rel=Root
+# text = »Če letos ne bo napredka pri kovanju ustavne pogodbe, bodo nekatere članice začele iskati druge rešitve,« je dejal italijanski politik, zadovoljen, ker se je znebil prisilnega sodelovanja s političnim tekmecem Silviom Berlusconijem.
+1	»	»	PUNCT	Z	_	15	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Če	če	SCONJ	Cs	_	5	mark	_	Dep=5|Rel=Conj
 3	letos	letos	ADV	Rgp	Degree=Pos	5	advmod	_	Dep=5|Rel=AdvO
 4	ne	ne	PART	Q	Polarity=Neg	5	advmod	_	Dep=5|Rel=PPart
@@ -13726,8 +13726,8 @@
 39	.	.	PUNCT	Z	_	15	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj610.3158.11222
-# text = » Ne,« je odgovoril z nasmehom.
-1	»	»	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+# text = »Ne,« je odgovoril z nasmehom.
+1	»	»	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Ne	ne	PART	Q	Polarity=Neg	6	discourse	_	SpaceAfter=No|Dep=0|Rel=Root
 3	,	,	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 4	«	«	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
@@ -13738,8 +13738,8 @@
 9	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj610.3158.11223
-# text = » Postopek se začne na konzulatu v tujini, kjer zaprosite za vizum.
-1	»	»	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+# text = »Postopek se začne na konzulatu v tujini, kjer zaprosite za vizum.
+1	»	»	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Postopek	postopek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Dep=4|Rel=Sb
 3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	Dep=4|Rel=PPart
 4	začne	začeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
@@ -13800,7 +13800,7 @@
 8	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj610.3158.11228
-# text = V pojasnilu ministrstva je pisalo, da je program namenjen varnostnim organom, ki» varujejo ZDA pred tistimi, ki jim mislijo škodovati«.
+# text = V pojasnilu ministrstva je pisalo, da je program namenjen varnostnim organom, ki »varujejo ZDA pred tistimi, ki jim mislijo škodovati«.
 1	V	v	ADP	Sl	Case=Loc	2	case	_	Dep=2|Rel=Atr
 2	pojasnilu	pojasnilo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	Dep=5|Rel=AdvO
 3	ministrstva	ministrstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	Dep=2|Rel=Atr
@@ -13814,8 +13814,8 @@
 11	varnostnim	varnosten	ADJ	Agpmpd	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	Dep=12|Rel=Atr
 12	organom	organ	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No|Dep=10|Rel=Obj
 13	,	,	PUNCT	Z	_	16	punct	_	Dep=0|Rel=Root
-14	ki	ki	SCONJ	Cs	_	16	mark	_	SpaceAfter=No|Dep=16|Rel=Conj
-15	»	»	PUNCT	Z	_	16	punct	_	Dep=0|Rel=Root
+14	ki	ki	SCONJ	Cs	_	16	mark	_	Dep=16|Rel=Conj
+15	»	»	PUNCT	Z	_	16	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 16	varujejo	varovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	Dep=12|Rel=Atr
 17	ZDA	ZDA	PROPN	Npfpa	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	Dep=16|Rel=Obj
 18	pred	pred	ADP	Si	Case=Ins	19	case	_	Dep=19|Rel=Atr
@@ -14754,8 +14754,8 @@
 21	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj614.3178.11296
-# text = » To so oprema in garderoba za snemanje.
-1	»	»	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+# text = »To so oprema in garderoba za snemanje.
+1	»	»	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	To	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	Dep=3|Rel=Sb
 3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	Dep=0|Rel=Root
 4	oprema	oprema	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Dep=3|Rel=Atr
@@ -15813,12 +15813,12 @@
 18	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj619.3193.11367
-# text = Vsaj dokler si ni» sposodil« donacij iz knjižničnega sklada.
+# text = Vsaj dokler si ni »sposodil« donacij iz knjižničnega sklada.
 1	Vsaj	vsaj	PART	Q	_	6	advmod	_	Dep=0|Rel=Root
 2	dokler	dokler	SCONJ	Cs	_	6	mark	_	Dep=6|Rel=Conj
 3	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	Dep=6|Rel=PPart
-4	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No|Dep=6|Rel=PPart
-5	»	»	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+4	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	aux	_	Dep=6|Rel=PPart
+5	»	»	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 6	sposodil	sposoditi	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
 7	«	«	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
 8	donacij	donacija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	obj	_	Dep=6|Rel=Obj
@@ -16428,8 +16428,8 @@
 38	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj619.3206.11411
-# text = » Verjamem ti,« je mehko rekla.
-1	»	»	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+# text = »Verjamem ti,« je mehko rekla.
+1	»	»	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Verjamem	verjeti	VERB	Vmbr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 3	ti	ti	PRON	Pp2-sd--y	Case=Dat|Number=Sing|Person=2|PronType=Prs|Variant=Short	2	obj	_	SpaceAfter=No|Dep=2|Rel=Obj
 4	,	,	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
