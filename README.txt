@@ -61,8 +61,9 @@ Valencia, 2017.
 Simon Krek, Kaja Dobrovoljc, Tomaž Erjavec, Sara Može, Nina Ledinek,
 Nanika Holz, Katja Zupan, Polona Gantar, Taja Kuzman, Jaka Čibej,
 Špela Arhar Holdt, Teja Kavčič, Iza Škrjanec, Dafne Marko, Lucija
-Jezeršek, and Anja Zajc. 2018. Training corpus ssj500k
-2.1. http://hdl.handle.net/11356/1181.
+Jezeršek, and Anja Zajc. 2018. Training corpus ssj500k 2.2.
+Slovenian language resource repository CLARIN.SI.
+http://hdl.handle.net/11356/1210.
 
 Špela Arhar and Vojko Gorjanc. 2007. Korpus FidaPLUS: nova generacija
 slovenskega referenčnega korpusa (The FidaPLUS corpus: a new
