@@ -10,7 +10,7 @@ data in Slovenian, originally annotated in the JOS annotation scheme.
 # Introduction
 
 The Slovenian SSJ UD Treebank (Dobrovoljc et al. 2017) is based on the ssj500k treebank
-(Krek et al. 2015), a balanced collection of sampled texts from the FidaPLUS reference
+(Krek et al. 2019), a balanced collection of sampled texts from the FidaPLUS reference
 corpus of written Slovene (Arhar and Gorjanc 2007). The original ssj500k corpus has
 been manually segmented, tokenized, lemmatized and morphosyntactically tagged within
 JOS project, in which the annotation guidelines have also been developed (Erjavec et
@@ -61,7 +61,7 @@ Valencia, 2017.
 Simon Krek, Kaja Dobrovoljc, Tomaž Erjavec, Sara Može, Nina Ledinek,
 Nanika Holz, Katja Zupan, Polona Gantar, Taja Kuzman, Jaka Čibej,
 Špela Arhar Holdt, Teja Kavčič, Iza Škrjanec, Dafne Marko, Lucija
-Jezeršek, and Anja Zajc. 2018. Training corpus ssj500k 2.2.
+Jezeršek, and Anja Zajc. 2019. Training corpus ssj500k 2.2.
 Slovenian language resource repository CLARIN.SI.
 http://hdl.handle.net/11356/1210.
 
@@ -77,13 +77,12 @@ Seventh International Conference on Language Resources and Evaluation
 
 # Changelog
 
-2019-01-24 v2.5
+2019-01-24 v2.4
 -- Performed new conversion from (draft) ssj500k 2.2
--- Removed bugs related # text and SpaceAfter=No
+-- Removed bugs related to # text and SpaceAfter=No
 -- Changed conversion rules, i.e.
---- "biti" can now be AUX or VERB
 --- Attributed Polarity=Neg to all 'ne' particles
---- Moved many words from between PRON/ADV/DET
+--- Moved 'obilo' from ADV do DET
 
 2018-04-15 v2.2
 -- Repository renamed from UD_Slovenian to UD_Slovenian-SSJ.
