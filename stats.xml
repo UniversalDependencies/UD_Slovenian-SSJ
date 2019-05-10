@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>8000</sentences><tokens>140670</tokens><words>140670</words><fused>0</fused></total>
+    <train><sentences>6478</sentences><tokens>112530</tokens><words>112530</words><fused>0</fused></train>
+    <dev><sentences>734</sentences><tokens>14063</tokens><words>14063</words><fused>0</fused></dev>
+    <test><sentences>788</sentences><tokens>14077</tokens><words>14077</words><fused>0</fused></test>
   </size>
   <lemmas unique="16867" /><!-- biti, ,, ., v, in, se, na, da, z, on, za, ki, ta, pa, tudi -->
   <forms unique="31558" /><!-- ,, ., je, v, in, se, na, da, so, za, ki, z, pa, bi, tudi -->
@@ -14,10 +17,10 @@
   <tags unique="16">
     <tag name="ADJ">15062</tag><!-- drug, velik, nov, prvi, slovenski, dober, sam, evropski, star, zadnji -->
     <tag name="ADP">13209</tag><!-- v, na, z, za, po, iz, o, pri, od, do -->
-    <tag name="ADV">6631</tag><!-- lahko, tako, zelo, kako, bolj, vedno, potem, kar, zdaj, dobro -->
+    <tag name="ADV">6629</tag><!-- lahko, tako, zelo, kako, bolj, vedno, potem, kar, zdaj, dobro -->
     <tag name="AUX">9979</tag><!-- biti -->
     <tag name="CCONJ">5716</tag><!-- in, pa, ali, ter, saj, vendar, zato, namreč, a, toda -->
-    <tag name="DET">5252</tag><!-- ta, ves, svoj, kateri, njegov, nekaj, več, naš, njen, vsak -->
+    <tag name="DET">5254</tag><!-- ta, ves, svoj, kateri, njegov, nekaj, več, naš, njen, vsak -->
     <tag name="INTJ">16</tag><!-- ah, oho, ha, haha, hm, hvalabogu, ih, jaggghh, jebemti, jezesna -->
     <tag name="NOUN">30194</tag><!-- leto, dan, čas, človek, delo, mesto, svet, otrok, življenje, del -->
     <tag name="NUM">1921</tag><!-- en, dva, trije, štirje, pet, eden, deset, tisoč, šest, sto -->
@@ -45,7 +48,7 @@
     <feat name="Definite" value="Def" upos="ADJ">1130</feat><!-- pravi, državni, novi, slovenski, drugi, veliki, glavni, največji, edini, zadnji -->
     <feat name="Definite" value="Ind" upos="ADJ">944</feat><!-- sam, velik, nov, drug, pomemben, prepričan, dober, podoben, pripravljen, sprejet -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">691</feat><!-- bolj, prej, večkrat, bolje, pozneje, boljše, raje, večji, kasneje, večje -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">19885</feat><!-- lahko, tako, zelo, kako, vedno, potem, kar, zdaj, treba, mogoče -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET">19885</feat><!-- lahko, tako, zelo, kako, vedno, potem, kar, zdaj, treba, mogoče -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">416</feat><!-- najbolj, najprej, največji, najmanj, najbolje, najboljši, najpogosteje, največja, največkrat, največjih -->
     <feat name="Foreign" value="Yes" upos="X">121</feat><!-- de, of, the, bin, El, Les, Party, TO, TRAVEL, WRITING -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">24129</feat><!-- bila, jo, jih, ji, svojo, te, strani, svoje, Slovenije, ta -->
@@ -73,7 +76,7 @@
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">2648</feat><!-- sem, smo, mi, nas, nam, bomo, me, nisem, bom, moramo -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">960</feat><!-- boste, ste, vam, vas, si, imate, ti, niste, vi, te -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">14054</feat><!-- je, so, bo, ni, ga, jih, bodo, jo, sta, mu -->
-    <feat name="Polarity" value="Neg" upos="AUX,PART,VERB">1494</feat><!-- ne, ni, niso, nisem, nima, nismo, nimajo, niste, nista, nimam -->
+    <feat name="Polarity" value="Neg" upos="AUX,PART,VERB">1564</feat><!-- ne, ni, niso, nisem, nima, nismo, nimajo, niste, nista, nimam -->
     <feat name="Polarity" value="Pos" upos="AUX,VERB">8547</feat><!-- je, so, bo, sem, bodo, sta, smo, ima, bomo, boste -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">1692</feat><!-- svoje, svojo, svoj, svojega, njegov, svoji, njegovo, svojih, njegove, naše -->
     <feat name="PronType" value="Dem" upos="DET">1694</feat><!-- to, tem, ta, tega, te, teh, temu, tej, toliko, tisti -->
