@@ -25,9 +25,9 @@
 23	in	in	CCONJ	Cc	_	24	cc	_	Dep=24|Rel=Conj
 24	povečano	povečan	ADJ	Appfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	22	conj	_	Dep=22|Rel=Coord
 25	sirarno	sirarna	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No|Dep=21|Rel=Obj
-26	,	,	PUNCT	Z	_	34	punct	_	Dep=0|Rel=Root
-27	ki	ki	SCONJ	Cs	_	34	mark	_	Dep=28|Rel=Conj
-28	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	34	cop	_	Dep=25|Rel=Atr
+26	,	,	PUNCT	Z	_	29	punct	_	Dep=0|Rel=Root
+27	ki	ki	SCONJ	Cs	_	29	mark	_	Dep=28|Rel=Conj
+28	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	cop	_	Dep=25|Rel=Atr
 29	en	en	NUM	Mlpmsn	Case=Nom|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	25	acl	_	Dep=34|Rel=Atr
 30	od	od	ADP	Sg	Case=Gen	34	case	_	Dep=34|Rel=Atr
 31	treh	trije	NUM	Mlcfpg	Case=Gen|Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	34	nummod	_	Dep=34|Rel=Atr
@@ -36,7 +36,7 @@
 34	naložb	naložba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	Dep=28|Rel=Atr
 35	te	ta	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	36	det	_	Dep=36|Rel=Atr
 36	družbe	družba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No|Dep=34|Rel=Atr
-37	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+37	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj486.2609.9285
 # text = Stala je milijardo tolarjev in dvesto petdeset milijonov.
@@ -48,7 +48,7 @@
 6	dvesto	dvesto	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	8	nummod	_	Dep=8|Rel=Atr
 7	petdeset	petdeset	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	8	nummod	_	Dep=8|Rel=Atr
 8	milijonov	milijon	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No|Dep=3|Rel=Coord
-9	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+9	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj487.2610.9286
 # text = Vlada Republike Slovenije dodeli sredstva Ministrstvu za kmetijstvo in gozdarstvo, ki jih v skladu s programom sanacije škode po suši iz leta 1993 dodeli občinam na podlagi deleža ocenjene škode v vrednosti kmetijske proizvodnje, ki jo je prizadela suša posameznim upravičencem.
@@ -95,7 +95,7 @@
 41	suša	suša	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	40	nsubj	_	Dep=40|Rel=Sb
 42	posameznim	posamezen	ADJ	Agpmpd	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	43	amod	_	Dep=43|Rel=Atr
 43	upravičencem	upravičenec	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	40	iobj	_	SpaceAfter=No|Dep=40|Rel=Obj
-44	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+44	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj487.2610.9287
 # text = Občine dodelijo sredstva upravičencem na podlagi njihovega deleža v skupno ugotovljeni škodi po suši.
@@ -113,7 +113,7 @@
 12	škodi	škoda	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	Dep=8|Rel=Atr
 13	po	po	ADP	Sl	Case=Loc	14	case	_	Dep=14|Rel=Atr
 14	suši	suša	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No|Dep=12|Rel=Atr
-15	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+15	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2611.9288
 # text = JANEZ BEŠTER: Slovenija potrebuje več urejenih informacij na internetu, kot so kvalitetni širši ali specializirani portali.
@@ -135,7 +135,7 @@
 16	ali	ali	CCONJ	Cc	_	17	cc	_	Dep=17|Rel=Conj
 17	specializirani	specializiran	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	15	conj	_	Dep=15|Rel=Coord
 18	portali	portal	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	acl	_	SpaceAfter=No|Dep=13|Rel=Atr
-19	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+19	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2611.9289
 # text = Škoda je, da slovenski uporabniki iščejo informacije na tujih straneh.
@@ -150,7 +150,7 @@
 9	na	na	ADP	Sl	Case=Loc	11	case	_	Dep=11|Rel=Atr
 10	tujih	tuj	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	Dep=11|Rel=Atr
 11	straneh	stran	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No|Dep=7|Rel=AdvO
-12	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2611.9290
 # text = Zdi se mi, da v Sloveniji ne znamo pravilno uporabiti vseh pretokov informacij, ki prihajajo iz zmogljivih omrežij.
@@ -174,14 +174,14 @@
 18	iz	iz	ADP	Sg	Case=Gen	20	case	_	Dep=20|Rel=Atr
 19	zmogljivih	zmogljiv	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	20	amod	_	Dep=20|Rel=Atr
 20	omrežij	omrežje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	17	obl	_	SpaceAfter=No|Dep=17|Rel=AdvO
-21	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2611.9291
 # text = Če uporabim prispodobo.
 1	Če	če	SCONJ	Cs	_	2	mark	_	Dep=2|Rel=Conj
 2	uporabim	uporabiti	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 3	prispodobo	prispodoba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|Dep=2|Rel=Obj
-4	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+4	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2611.9292
 # text = V Sloveniji imamo na tem področju zlate cevi in pipe, nismo pa se vprašali ali imamo kvaliteten izvir vode.
@@ -205,7 +205,7 @@
 18	kvaliteten	kvaliteten	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	Dep=19|Rel=Atr
 19	izvir	izvir	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	Dep=17|Rel=Obj
 20	vode	voda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No|Dep=19|Rel=Atr
-21	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2612.9293
 # text = Zakonodaja in trg delovne sile sta med seboj tesno povezana.
@@ -219,7 +219,7 @@
 8	seboj	se	PRON	Px---i	Case=Ins|PronType=Prs|Reflex=Yes	10	nmod	_	Dep=10|Rel=Atr
 9	tesno	tesno	ADV	Rgp	Degree=Pos	10	advmod	_	Dep=10|Rel=Atr
 10	povezana	povezan	ADJ	Appmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual|VerbForm=Part	0	root	_	SpaceAfter=No|Dep=6|Rel=Atr
-11	.	.	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	10	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2612.9294
 # text = Trenutna zakonodaja ne odraža zahtev in potreb industrijskih podjetij.
@@ -232,7 +232,7 @@
 7	potreb	potreba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	conj	_	Dep=5|Rel=Coord
 8	industrijskih	industrijski	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	Dep=9|Rel=Atr
 9	podjetij	podjetje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No|Dep=7|Rel=Atr
-10	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2612.9295
 # text = Delodajalci želimo mehanizme, s katerimi bi lahko uravnavali in sproti zadovoljevali potrebe po delovni sili in jasno opredeljene pravice ter dolžnosti delavcev in delodajalcev.
@@ -261,7 +261,7 @@
 23	delavcev	delavec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	Dep=22|Rel=Atr
 24	in	in	CCONJ	Cc	_	25	cc	_	Dep=25|Rel=Conj
 25	delodajalcev	delodajalec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No|Dep=23|Rel=Coord
-26	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+26	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2612.9296
 # text = Naša podjetja velikokrat potrebujejo delavce le za štiri ure, ki jih po veljavni zakonodaji ne moremo zaposliti.
@@ -283,7 +283,7 @@
 16	ne	ne	PART	Q	Polarity=Neg	17	advmod	_	Dep=17|Rel=PPart
 17	moremo	moči	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	acl	_	Dep=5|Rel=Atr
 18	zaposliti	zaposliti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	17	xcomp	_	SpaceAfter=No|Dep=17|Rel=Atr
-19	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+19	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2612.9297
 # text = Nova zakonodaja bi morala slediti evropskim smernicam in omogočiti to regulacijo.
@@ -298,7 +298,7 @@
 9	omogočiti	omogočiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	5	conj	_	Dep=5|Rel=Coord
 10	to	ta	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	Dep=11|Rel=Atr
 11	regulacijo	regulacija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|Dep=9|Rel=Obj
-12	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2612.9298
 # text = Pri tem moram izpostaviti odgovornost za opravljeno oziroma neopravljeno delo.
@@ -312,7 +312,7 @@
 8	oziroma	oziroma	CCONJ	Cc	_	9	cc	_	Dep=9|Rel=Conj
 9	neopravljeno	neopravljen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	conj	_	Dep=7|Rel=Coord
 10	delo	delo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|Dep=5|Rel=Atr
-11	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2612.9299
 # text = Zakonodaja mora urejati tudi izredne razmere, v nasprotju z dosedanjo prakso, ko je vlada za vsak primer sprejemala interventne zakone.
@@ -338,7 +338,7 @@
 20	sprejemala	sprejemati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	12	acl	_	Dep=12|Rel=Atr
 21	interventne	interventen	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	Dep=22|Rel=Atr
 22	zakone	zakon	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No|Dep=20|Rel=Obj
-23	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+23	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2613.9301
 # text = Iz računa, ki ga uporabniki izdajo končnim potrošnikom, je razvidna plačana kavcijska vrednost embalaže.
@@ -358,7 +358,7 @@
 14	kavcijska	kavcijski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	Dep=15|Rel=Atr
 15	vrednost	vrednost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	Dep=11|Rel=Sb
 16	embalaže	embalaža	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|Dep=15|Rel=Atr
-17	.	.	PUNCT	Z	_	12	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	12	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2613.9302
 # text = Uporabniki so dolžni od končnih potrošnikov sprejeti nepoškodovano in uporabno embalažo, pri čemer se tem povrne plačana kavcijska vrednost.
@@ -382,7 +382,7 @@
 18	plačana	plačan	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	20	amod	_	Dep=20|Rel=Atr
 19	kavcijska	kavcijski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	Dep=20|Rel=Atr
 20	vrednost	vrednost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No|Dep=17|Rel=Sb
-21	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2614.9303
 # text = Oddelek za mednarodno sodelovanje je v sodelovanju z OZ Maribor na začetku decembra pripravil posvet Kako poslovati z Albanijo.
@@ -405,7 +405,7 @@
 17	poslovati	poslovati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	15	acl	_	Dep=15|Rel=Atr
 18	z	z	ADP	Si	Case=Ins	19	case	_	Dep=19|Rel=Atr
 19	Albanijo	Albanija	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No|Dep=17|Rel=Obj
-20	.	.	PUNCT	Z	_	14	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	14	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2614.9304
 # text = Njihovo gospodarsko in politično situacijo je predstavil veleposlanik Daut Gumeni.
@@ -419,7 +419,7 @@
 8	veleposlanik	veleposlanik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Dep=7|Rel=Sb
 9	Daut	Daut	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	Dep=8|Rel=Atr
 10	Gumeni	Gumeni	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No|Dep=9|Rel=Atr
-11	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2614.9305
 # text = Poudaril je postopno izboljšanje ekonomskega položaja in umiritev notranjepolitičnih razmer, po nedavnih parlamentarnih volitvah.
@@ -438,7 +438,7 @@
 13	nedavnih	nedaven	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	Dep=15|Rel=Atr
 14	parlamentarnih	parlamentaren	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	Dep=15|Rel=Atr
 15	volitvah	volitev	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	10	appos	_	SpaceAfter=No|Dep=0|Rel=Root
-16	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+16	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2614.9306
 # text = Slovenski gospodarstveniki pravijo, da kljub nekaterim oviram vidijo možnosti sodelovanja.
@@ -453,7 +453,7 @@
 9	vidijo	videti	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	Dep=3|Rel=Obj
 10	možnosti	možnost	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	Dep=9|Rel=Obj
 11	sodelovanja	sodelovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|Dep=10|Rel=Atr
-12	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2614.9307
 # text = Med drugim pogrešajo predstavništvo, ki bi v Albaniji zastopalo njihove interese.
@@ -469,7 +469,7 @@
 10	zastopalo	zastopati	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part	4	acl	_	Dep=4|Rel=Atr
 11	njihove	njihov	DET	Ps3mpap	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	_	Dep=12|Rel=Atr
 12	interese	interes	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No|Dep=10|Rel=Obj
-13	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2615.9308
 # text = Prevozniki nižajo stroške amortizacije, zato je zaznati zastarelost voznega parka.
@@ -484,7 +484,7 @@
 9	zastarelost	zastarelost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	Dep=8|Rel=Obj
 10	voznega	vozen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	Dep=11|Rel=Atr
 11	parka	park	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|Dep=9|Rel=Atr
-12	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2615.9309
 # text = Kljub striktnemu zmanjševanju števila registriranih linij iz leta v leto narašča delež stroškov goriva in maziva, ki so lani znašala že petino vseh stroškov.
@@ -513,7 +513,7 @@
 23	petino	petina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	Dep=21|Rel=AdvM
 24	vseh	ves	DET	Pg-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	25	det	_	Dep=25|Rel=Atr
 25	stroškov	strošek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No|Dep=23|Rel=Atr
-26	.	.	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
+26	.	.	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2615.9310
 # text = Nerentabilne so linije predvsem v obrobnih občinah (nižja gostota prebivalstva), na Štajerskem, v Zasavju, Prekmurju, na Koroškem, Dolenjskem, v Litiji (primestni promet), Beli Krajini in Črnomlju (slabo razvito območje).
@@ -559,7 +559,7 @@
 40	razvito	razvit	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	41	amod	_	Dep=41|Rel=Atr
 41	območje	območje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	37	appos	_	SpaceAfter=No|Dep=0|Rel=Root
 42	)	)	PUNCT	Z	_	41	punct	_	SpaceAfter=No|Dep=0|Rel=Root
-43	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+43	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2615.9311
 # text = Linije so nerentabilne predvsem v popoldanskem in večernem času, ob sobotah in nedeljah ter izven konic.
@@ -580,7 +580,7 @@
 15	ter	ter	CCONJ	Cc	_	17	cc	_	Dep=17|Rel=Conj
 16	izven	izven	ADP	Sg	Case=Gen	17	case	_	Dep=17|Rel=Atr
 17	konic	konica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No|Dep=9|Rel=Coord
-18	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+18	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2617.9314
 # text = Vsebina poslovnega poročila, ki je namenjeno strokovnjakom, ni identična vsebini letnega poročila, ki ga pripravljamo za širšo javnost.
@@ -605,7 +605,7 @@
 19	za	za	ADP	Sa	Case=Acc	21	case	_	Dep=21|Rel=Atr
 20	širšo	širok	ADJ	Agcfsa	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	21	amod	_	Dep=21|Rel=Atr
 21	javnost	javnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No|Dep=18|Rel=Obj
-22	.	.	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2617.9315
 # text = V prvem primeru so podatki bolj podrobni, manj je splošnih pojasnil za bralce, ki Petrol poznajo le od zunaj.
@@ -630,7 +630,7 @@
 19	le	le	PART	Q	_	18	advmod	_	Dep=0|Rel=Root
 20	od	od	ADP	Sg	Case=Gen	21	case	_	Dep=21|Rel=Atr
 21	zunaj	zunaj	ADV	Rgp	Degree=Pos	18	advmod	_	SpaceAfter=No|Dep=18|Rel=AdvO
-22	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2617.9316
 # text = Zato sta struktura in slog pisanja poročila drugačna.
@@ -642,7 +642,7 @@
 6	pisanja	pisanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	Dep=5|Rel=Atr
 7	poročila	poročilo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	Dep=6|Rel=Atr
 8	drugačna	drugačen	ADJ	Agpmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual	0	root	_	SpaceAfter=No|Dep=2|Rel=Atr
-9	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+9	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2617.9318
 # text = Tako različnih zahtev v enem dokumentu ni mogoče združiti, je pojasnila Irena Čebulj, svetovalka za odnose z javnostmi v Petrolu.
@@ -668,7 +668,7 @@
 20	javnostmi	javnost	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	18	nmod	_	Dep=18|Rel=Atr
 21	v	v	ADP	Sl	Case=Loc	22	case	_	Dep=22|Rel=Atr
 22	Petrolu	Petrol	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|Dep=16|Rel=Atr
-23	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+23	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2617.9319
 # text = Poročilo za leto 1999, ki ga je oblikoval Studio Marketing JWT, so začeli pripravljati že leta 1997, ko so z zunanjo agencijo postavili vsebinski in likovni koncept letnih poročil za naslednje štiri leta.
@@ -708,7 +708,7 @@
 34	naslednje	naslednji	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	36	amod	_	Dep=36|Rel=Atr
 35	štiri	štirje	NUM	Mlcnpa	Case=Acc|Gender=Neut|Number=Plur|NumForm=Word|NumType=Card	36	nummod	_	Dep=36|Rel=Atr
 36	leta	leto	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	32	nmod	_	SpaceAfter=No|Dep=32|Rel=Atr
-37	.	.	PUNCT	Z	_	15	punct	_	Dep=0|Rel=Root
+37	.	.	PUNCT	Z	_	15	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2617.9321
 # text = Vsebina poročila za leto 1999 je začela nastajati, ko je bilo izdelano konsolidirano revizijsko poročilo, to je ob koncu aprila.
@@ -734,7 +734,7 @@
 20	ob	ob	ADP	Sl	Case=Loc	21	case	_	Dep=21|Rel=Atr
 21	koncu	konec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	19	obl	_	Dep=19|Rel=AdvO
 22	aprila	april	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No|Dep=21|Rel=Atr
-23	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+23	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2617.9322
 # text = Petrolovo poslovno poročilo, ki je osnova letnega poročila, zajema podatke iz vseh organizacijskih enot družbe, obdelala jih je analitska služba, ki je del finančno-računovodske divizije.
@@ -769,7 +769,7 @@
 29	-	-	PUNCT	Z	_	30	punct	_	SpaceAfter=No|Dep=30|Rel=Conj
 30	računovodske	računovodski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	conj	_	Dep=28|Rel=Coord
 31	divizije	divizija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No|Dep=27|Rel=Atr
-32	.	.	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
+32	.	.	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2617.9323
 # text = Šele v tej fazi je prišel na vrsto pisec oglasnih tekstov, ki celotno besedilo redakcijsko in vsebinsko predela, po dokončni verifikaciji uprave pa tekst preda zunanjemu grafičnemu oblikovalcu.
@@ -803,7 +803,7 @@
 28	zunanjemu	zunanji	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	Dep=30|Rel=Atr
 29	grafičnemu	grafičen	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	Dep=30|Rel=Atr
 30	oblikovalcu	oblikovalec	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	27	iobj	_	SpaceAfter=No|Dep=27|Rel=Obj
-31	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+31	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2617.9324
 # text = Poslovni sistem Mercator, ki je oblikovanje poročila zaupal Studiu A4 iz Ljubljane, se je prvega letnega poročila lotil leta 1995.
@@ -829,7 +829,7 @@
 20	lotil	lotiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 21	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	20	obl	_	Dep=20|Rel=AdvO
 22	1995	1995	NUM	Mdc	NumForm=Digit|NumType=Card	21	nummod	_	SpaceAfter=No|Dep=21|Rel=Atr
-23	.	.	PUNCT	Z	_	20	punct	_	Dep=0|Rel=Root
+23	.	.	PUNCT	Z	_	20	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj488.2617.9325
 # text = Sektor za finance, računovodstvo in kontroling, sektor za razvoj, posamezni člani uprave in služba za odnose z javnostmi so poročilo za poslovno leto 1999 začeli pripravljati novembra 1999.
@@ -864,7 +864,7 @@
 29	pripravljati	pripravljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	28	xcomp	_	Dep=28|Rel=Atr
 30	novembra	november	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	29	obl	_	Dep=29|Rel=AdvO
 31	1999	1999	NUM	Mdc	NumForm=Digit|NumType=Card	30	nummod	_	SpaceAfter=No|Dep=30|Rel=Atr
-32	.	.	PUNCT	Z	_	28	punct	_	Dep=0|Rel=Root
+32	.	.	PUNCT	Z	_	28	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2619.9328
 # text = Slovenska osamosvojitev se je dogajala v zelo zapletenih mednarodnih okoliščinah.
@@ -878,7 +878,7 @@
 8	zapletenih	zapleten	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	Dep=10|Rel=Atr
 9	mednarodnih	mednaroden	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	Dep=10|Rel=Atr
 10	okoliščinah	okoliščina	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No|Dep=5|Rel=AdvO
-11	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2619.9329
 # text = Velika zgodovinska priložnost oziroma splet zgodovinskih okoliščin sta privedla do samostojne slovenske države.
@@ -895,7 +895,7 @@
 11	samostojne	samostojen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	Dep=13|Rel=Atr
 12	slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	Dep=13|Rel=Atr
 13	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|Dep=9|Rel=Obj
-14	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+14	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2619.9330
 # text = S tem nikakor ni zmanjšan pomen enotne volje državljanov Slovenije.
@@ -909,7 +909,7 @@
 8	volje	volja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	Dep=6|Rel=Atr
 9	državljanov	državljan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	Dep=8|Rel=Atr
 10	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|Dep=9|Rel=Atr
-11	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2619.9331
 # text = Če te ne bi bilo, ne bi pomagal niti izredno ugoden splet okoliščin.
@@ -927,11 +927,11 @@
 12	ugoden	ugoden	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	Dep=13|Rel=Atr
 13	splet	splet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Dep=9|Rel=Sb
 14	okoliščin	okoliščina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No|Dep=13|Rel=Atr
-15	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+15	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2621.9335
 # text = 6. se dopušča stik med službujočimi otroci in njihovimi starši, prost izhod v civilnih oblekah, vsi redni, izredni študijski in nagradni dopusti.
-1	6.	6.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	advmod	_	Dep=3|Rel=AdvO
+1	6.	6.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	obl	_	Dep=3|Rel=AdvO
 2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	Dep=3|Rel=PPart
 3	dopušča	dopuščati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 4	stik	stik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Dep=3|Rel=Sb
@@ -956,7 +956,7 @@
 23	in	in	CCONJ	Cc	_	24	cc	_	Dep=24|Rel=Conj
 24	nagradni	nagraden	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	22	conj	_	Dep=22|Rel=Coord
 25	dopusti	dopust	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No|Dep=4|Rel=Coord
-26	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+26	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2621.9336
 # text = Enotam, ki so bile uporabljene na kriznih območjih, naj se dovoli počitek in rehabilitacija ter primerna prehrana in medicinska pomoč;
@@ -982,7 +982,7 @@
 20	in	in	CCONJ	Cc	_	22	cc	_	Dep=22|Rel=Conj
 21	medicinska	medicinski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	Dep=22|Rel=Atr
 22	pomoč	pomoč	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No|Dep=13|Rel=Coord
-23	;	;	PUNCT	Z	_	13	punct	_	Dep=0|Rel=Root
+23	;	;	PUNCT	Z	_	13	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2623.9338
 # text = Dne 15. julija 1991 je v prostorih Slovenske matice potekal koordinacijski sestanek Odborov staršev.
@@ -1000,7 +1000,7 @@
 12	sestanek	sestanek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	Dep=10|Rel=Sb
 13	Odborov	odbor	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	Dep=12|Rel=Atr
 14	staršev	starš	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No|Dep=13|Rel=Atr
-15	.	.	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
+15	.	.	PUNCT	Z	_	10	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2624.9343
 # text = Zdaj še posebno po nemškem nacizmu zavračajo vsako prizadevanje za nacionalno samostojnost razvijajočih se narodnostnih entitet.
@@ -1020,7 +1020,7 @@
 14	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	13	nmod	_	Dep=13|Rel=Atr
 15	narodnostnih	narodnosten	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	Dep=16|Rel=Atr
 16	entitet	entiteta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No|Dep=12|Rel=Atr
-17	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2624.9344
 # text = Toda kaj je energija "nacionalizma"?
@@ -1031,7 +1031,7 @@
 5	"	"	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 6	nacionalizma	nacionalizem	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|Dep=4|Rel=Atr
 7	"	"	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
-8	?	?	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+8	?	?	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2624.9351
 # text = Tudi molčati namreč ni mogoče brez ali onkraj besed (najbližjega, maternega jezika).
@@ -1050,7 +1050,7 @@
 13	maternega	materen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	Dep=11|Rel=Coord
 14	jezika	jezik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No|Dep=0|Rel=Root
 15	)	)	PUNCT	Z	_	14	punct	_	SpaceAfter=No|Dep=0|Rel=Root
-16	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+16	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2625.9352
 # text = Dovolite mi, da zlasti opozorim na dve, po moji sodbi bistveni značilnosti načina slovenske osamosvojitve, ki sta bili v dosedanjih podobnih osvetljevanjih premalo zaznani in ovrednoteni.
@@ -1083,7 +1083,7 @@
 27	zaznani	zaznan	ADJ	Appfdn	Case=Nom|Degree=Pos|Gender=Fem|Number=Dual|VerbForm=Part	14	acl	_	Dep=21|Rel=Atr
 28	in	in	CCONJ	Cc	_	29	cc	_	Dep=29|Rel=Conj
 29	ovrednoteni	ovrednoten	ADJ	Appfdn	Case=Nom|Degree=Pos|Gender=Fem|Number=Dual|VerbForm=Part	27	conj	_	SpaceAfter=No|Dep=27|Rel=Coord
-30	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+30	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2625.9353
 # text = Prva je dosledno vztrajanje pri načelu legalitete v vsem procesu osamosvajanja.
@@ -1098,7 +1098,7 @@
 9	vsem	ves	DET	Pg-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Tot	10	det	_	Dep=10|Rel=Atr
 10	procesu	proces	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	Dep=4|Rel=Atr
 11	osamosvajanja	osamosvajanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|Dep=10|Rel=Atr
-12	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2625.9354
 # text = Nastajanje današnje Republike Slovenije je najtesneje povezano s pravom.
@@ -1111,7 +1111,7 @@
 7	povezano	povezan	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	Dep=5|Rel=Atr
 8	s	z	ADP	Si	Case=Ins	9	case	_	Dep=9|Rel=Atr
 9	pravom	pravo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|Dep=7|Rel=Obj
-10	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2625.9355
 # text = Nastala je in se je v mednarodnem življenju uveljavila z zavestno naslonitvijo na pravo in z njegovo uporabo.
@@ -1133,7 +1133,7 @@
 16	z	z	ADP	Si	Case=Ins	18	case	_	Dep=18|Rel=Atr
 17	njegovo	njegov	DET	Ps3fsism	Case=Ins|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	Dep=18|Rel=Atr
 18	uporabo	uporaba	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No|Dep=12|Rel=Coord
-19	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+19	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2625.9356
 # text = Usmeritev na načelo legalitete je bila predvsem posledica spoznanja v takratni državnopolitični strukturi Slovenije, da v sodobnem svetu, ki sebe in svoja razmerja utemeljuje na vladavini prava in vladavini človekovih pravic, štejejo praviloma pravni argumenti, in ne politika sile in izvršenih dejstev.
@@ -1175,7 +1175,7 @@
 36	praviloma	praviloma	ADV	Rgp	Degree=Pos	35	advmod	_	Dep=35|Rel=AdvM
 37	pravni	praven	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	38	amod	_	Dep=38|Rel=Atr
 38	argumenti	argument	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	35	nsubj	_	SpaceAfter=No|Dep=35|Rel=Sb
-39	,	,	PUNCT	Z	_	35	punct	_	Dep=0|Rel=Root
+39	,	,	PUNCT	Z	_	42	punct	_	Dep=0|Rel=Root
 40	in	in	CCONJ	Cc	_	42	cc	_	Dep=42|Rel=Conj
 41	ne	ne	PART	Q	Polarity=Neg	42	advmod	_	Dep=42|Rel=PPart
 42	politika	politika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	38	conj	_	Dep=38|Rel=Coord
@@ -1183,7 +1183,7 @@
 44	in	in	CCONJ	Cc	_	46	cc	_	Dep=46|Rel=Conj
 45	izvršenih	izvršen	ADJ	Appnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	46	amod	_	Dep=46|Rel=Atr
 46	dejstev	dejstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	43	conj	_	SpaceAfter=No|Dep=43|Rel=Coord
-47	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+47	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2626.9359
 # text = V svojem prispevku avtor podaja kratko kronologijo odnosa Vatikana in Katoliške cerkve na Slovenskem do osamosvojitvenega dogajanja v Sloveniji leta 1991.
@@ -1208,7 +1208,7 @@
 19	Sloveniji	Slovenija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	Dep=17|Rel=Atr
 20	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	Dep=17|Rel=Atr
 21	1991	1991	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	SpaceAfter=No|Dep=20|Rel=Atr
-22	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2626.9360
 # text = Podaja kronološko shemo tistih elementov, s katerimi sta Vatikan in Katoliška cerkev v Sloveniji pripomogla k osamosvojitvi Republike Slovenije.
@@ -1232,7 +1232,7 @@
 18	osamosvojitvi	osamosvojitev	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	Dep=16|Rel=Obj
 19	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	Dep=18|Rel=Atr
 20	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No|Dep=19|Rel=Atr
-21	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2626.9361
 # text = Vsaj to v ničemer ne more biti sporno.
@@ -1244,7 +1244,7 @@
 6	more	moči	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 7	biti	biti	AUX	Va-n	VerbForm=Inf	8	cop	_	Dep=6|Rel=Atr
 8	sporno	sporen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	xcomp	_	SpaceAfter=No|Dep=7|Rel=Atr
-9	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+9	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj489.2626.9362
 # text = Pri tem pozornost posveča vlogi Vatikana in vlogi Cerkve na Slovenskem v času osamosvajanja Republike Slovenije.
@@ -1264,7 +1264,7 @@
 14	osamosvajanja	osamosvajanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	Dep=13|Rel=Atr
 15	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	Dep=14|Rel=Atr
 16	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|Dep=15|Rel=Atr
-17	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj491.2629.9366
 # text = Razlogi za veselje se od zgodnjega otroštva do mladostništva spreminjajo, saj se spreminjajo tudi pomeni, ki jih posamezniki pripisujejo določenemu dogajanju.
@@ -1291,7 +1291,7 @@
 21	pripisujejo	pripisovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	Dep=16|Rel=Atr
 22	določenemu	določen	ADJ	Appnsd	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	23	amod	_	Dep=23|Rel=Atr
 23	dogajanju	dogajanje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	21	iobj	_	SpaceAfter=No|Dep=21|Rel=Obj
-24	.	.	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
+24	.	.	PUNCT	Z	_	10	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj491.2629.9367
 # text = Otroci se naučijo iskati zadovoljstvo oziroma veselje tudi v socialno zaželenih dejavnostih, ki primarno niso prijetne.
@@ -1312,7 +1312,7 @@
 15	primarno	primarno	ADV	Rgp	Degree=Pos	17	advmod	_	Dep=16|Rel=AdvM
 16	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	cop	_	Dep=12|Rel=Atr
 17	prijetne	prijeten	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	acl	_	SpaceAfter=No|Dep=16|Rel=Atr
-18	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+18	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj491.2629.9368
 # text = Za zadovoljitev pomembne želje so pripravljeni vložiti več truda.
@@ -1325,7 +1325,7 @@
 7	vložiti	vložiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	6	ccomp	_	Dep=6|Rel=Obj
 8	več	več	DET	Rgc	PronType=Ind	9	det	_	Dep=9|Rel=Atr
 9	truda	trud	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|Dep=7|Rel=Obj
-10	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj491.2629.9371
 # text = Jeza je pri otrocih pogostejše čustvo kot strah, saj je dražljajev, ki jo sprožajo, več.
@@ -1347,7 +1347,7 @@
 16	sprožajo	sprožati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	SpaceAfter=No|Dep=12|Rel=Atr
 17	,	,	PUNCT	Z	_	16	punct	_	Dep=0|Rel=Root
 18	več	več	DET	Rgc	PronType=Ind	11	advmod	_	SpaceAfter=No|Dep=11|Rel=AdvM
-19	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+19	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj491.2629.9373
 # text = V srednjem otroštvu in mladostništvu se jeza pogosteje pojavlja pri omejevanju posameznikovih želja in načrtov, pri iskanju njegovih napak in pri pridiganju, pri primerjanju z drugimi, neuspehih, zasmehovanju, nepravičnosti in zanemarjanju.
@@ -1387,7 +1387,7 @@
 34	nepravičnosti	nepravičnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	conj	_	Dep=11|Rel=Coord
 35	in	in	CCONJ	Cc	_	36	cc	_	Dep=36|Rel=Conj
 36	zanemarjanju	zanemarjanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No|Dep=11|Rel=Coord
-37	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+37	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj491.2629.9374
 # text = Pri večini otrok intenzivna žalost ni pogosta.
@@ -1398,7 +1398,7 @@
 5	žalost	žalost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	Dep=6|Rel=Sb
 6	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	cop	_	Dep=0|Rel=Root
 7	pogosta	pogost	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|Dep=6|Rel=Atr
-8	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+8	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj491.2629.9375
 # text = Intenzivnost žalovanja z leti raste.
@@ -1407,7 +1407,7 @@
 3	z	z	ADP	Si	Case=Ins	4	case	_	Dep=4|Rel=Atr
 4	leti	leto	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	5	obl	_	Dep=5|Rel=AdvO
 5	raste	rasti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-6	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+6	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj491.2629.9376
 # text = Bolj ko je posameznik čustveno odvisen od izgubljene osebe ali objekta, bolj bo žaloval.
@@ -1426,7 +1426,7 @@
 13	bolj	bolj	ADV	Rgc	Degree=Cmp	15	advmod	_	Dep=15|Rel=AdvM
 14	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	15	aux	_	Dep=15|Rel=PPart
 15	žaloval	žalovati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	6	parataxis	_	SpaceAfter=No|Dep=0|Rel=Root
-16	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+16	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj492.2630.9377
 # text = V Mariboru smo že znani po tem, da začnemo tarnati in razpravljati po tem, ko je že zdavnaj prepozno.
@@ -1451,7 +1451,7 @@
 19	že	že	PART	Q	_	21	advmod	_	Dep=0|Rel=Root
 20	zdavnaj	zdavnaj	ADV	Rgp	Degree=Pos	21	advmod	_	Dep=21|Rel=Atr
 21	prepozno	prepozen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	acl	_	SpaceAfter=No|Dep=18|Rel=Atr
-22	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj492.2630.9379
 # text = Kakšno je sploh mariborsko stališče ob tem, ga sploh imamo!
@@ -1466,7 +1466,7 @@
 9	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obj	_	Dep=11|Rel=Obj
 10	sploh	sploh	PART	Q	_	11	advmod	_	Dep=0|Rel=Root
 11	imamo	imeti	VERB	Vmpr1p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No|Dep=0|Rel=Root
-12	!	!	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+12	!	!	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj492.2630.9383
 # text = Res pa je, da je težko pričakovati, da bo mesto enako pri srcu tistim, ki jim je le kratka postaja v poslovni karieri, kot tistim, ki jim je mesto edini dom.
@@ -1506,7 +1506,7 @@
 34	mesto	mesto	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	36	nsubj	_	Dep=33|Rel=Sb
 35	edini	edin	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	Dep=36|Rel=Atr
 36	dom	dom	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	29	acl	_	SpaceAfter=No|Dep=33|Rel=Atr
-37	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+37	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj492.2630.9384
 # text = In če je drugim vodilo čim večji dobiček, mora biti nam tudi čim uspešnejši razvoj mesta, in ne dovolimo več, da bi o naši usodi odločali (samo) drugi.
@@ -1543,7 +1543,7 @@
 31	samo	samo	PART	Q	_	10	discourse	_	SpaceAfter=No|Dep=0|Rel=Root
 32	)	)	PUNCT	Z	_	31	punct	_	Dep=0|Rel=Root
 33	drugi	drug	ADJ	Mlpmpn	Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	SpaceAfter=No|Dep=29|Rel=Sb
-34	.	.	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
+34	.	.	PUNCT	Z	_	10	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2631.9385
 # text = Bluesovska zgodovina je v eksploziji“ umazanega”,“ globokega”, silovitega bluesa Muddyja Watersa in sodobnikov ob koncu štiridesetih let razbrala ponovni vznik stila, ki ga poznamo iz dvajsetih let, v downhome bluesovski tradiciji.
@@ -1586,7 +1586,7 @@
 37	downhome	downhome	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	39	nmod	_	Dep=39|Rel=Atr
 38	bluesovski	bluesovski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	Dep=39|Rel=Atr
 39	tradiciji	tradicija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	34	appos	_	SpaceAfter=No|Dep=0|Rel=Root
-40	.	.	PUNCT	Z	_	24	punct	_	Dep=0|Rel=Root
+40	.	.	PUNCT	Z	_	24	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2631.9386
 # text = Običajna razlaga, ki se ob tem prelomu z etabliranim okusom sklicuje na demografski dejavnik, na nove priseljence z Juga v urbana središča Severa, ki jim je stari stil blizu, je vseeno prekratka.
@@ -1626,7 +1626,7 @@
 34	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	36	cop	_	Dep=0|Rel=Root
 35	vseeno	vseeno	ADV	Rgp	Degree=Pos	36	advmod	_	Dep=36|Rel=Atr
 36	prekratka	prekratek	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|Dep=34|Rel=Atr
-37	.	.	PUNCT	Z	_	36	punct	_	Dep=0|Rel=Root
+37	.	.	PUNCT	Z	_	36	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2631.9387
 # text = Ponoven vznik“ plantažniškega bluesa” bolj priča o ponovni getoizaciji večjega dela črnske etnične skupnosti od konca štiridesetih do začetka šestdesetih letih, ki v modificiranem glasbenem slogu skozi osnoven bluesovski ritual participira na isti formi, ki je v teksturi, besedilu in kontekstu igranja bluesa ostala domala nespremenjena.
@@ -1681,7 +1681,7 @@
 49	ostala	ostati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	37	acl	_	Dep=37|Rel=Atr
 50	domala	domala	PART	Q	_	51	advmod	_	Dep=51|Rel=Atr
 51	nespremenjena	nespremenjen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	49	xcomp	_	SpaceAfter=No|Dep=49|Rel=Atr
-52	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+52	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2631.9388
 # text = Izbruh je sovpadal z razpršitvijo gramofonske industrije, nastankom majhnih neodvisnih založb, ki so zagrabile etnične trge, katere so prej obvladovale velike založbe, z razvejanostjo in manjšo obvladljivostjo novonastalih radijskih postaj.
@@ -1719,7 +1719,7 @@
 32	novonastalih	novonastal	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	Dep=34|Rel=Atr
 33	radijskih	radijski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	Dep=34|Rel=Atr
 34	postaj	postaja	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No|Dep=31|Rel=Atr
-35	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+35	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2632.9389
 # text = Na koga in na kaj bi se potem lahko naslonil dosedanji absolutno nedotakljivi način življenja?
@@ -1738,7 +1738,7 @@
 13	nedotakljivi	nedotakljiv	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	Dep=14|Rel=Atr
 14	način	način	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	Dep=10|Rel=Sb
 15	življenja	življenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No|Dep=14|Rel=Atr
-16	?	?	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
+16	?	?	PUNCT	Z	_	10	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2632.9390
 # text = In kaj je z ustaljenim načinom življenja Francozov, Nemcev, Slovencev, Latvijcev?
@@ -1756,7 +1756,7 @@
 12	Slovencev	Slovenec	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No|Dep=8|Rel=Coord
 13	,	,	PUNCT	Z	_	14	punct	_	Dep=14|Rel=Conj
 14	Latvijcev	Latvijec	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No|Dep=8|Rel=Coord
-15	?	?	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+15	?	?	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2632.9392
 # text = Če odgovorimo samo s tem, da bomo ostali demokracija, potem v luči hitrih sprememb, zahtev po večjem nadzoru življenja, resnično nismo rekli veliko.
@@ -1780,14 +1780,14 @@
 18	zahtev	zahteva	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	conj	_	Dep=16|Rel=Coord
 19	po	po	ADP	Sl	Case=Loc	21	case	_	Dep=21|Rel=Atr
 20	večjem	velik	ADJ	Agcmsl	Case=Loc|Degree=Cmp|Gender=Masc|Number=Sing	21	amod	_	Dep=21|Rel=Atr
-21	nadzoru	nadzor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	18	conj	_	Dep=18|Rel=Coord
+21	nadzoru	nadzor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	Dep=18|Rel=Coord
 22	življenja	življenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No|Dep=21|Rel=Atr
-23	,	,	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+23	,	,	PUNCT	Z	_	18	punct	_	Dep=0|Rel=Root
 24	resnično	resnično	ADV	Rgp	Degree=Pos	26	advmod	_	Dep=26|Rel=AdvM
 25	nismo	biti	AUX	Va-r1p-y	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	26	aux	_	Dep=26|Rel=PPart
 26	rekli	reči	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 27	veliko	veliko	DET	Rgp	PronType=Ind	26	advmod	_	SpaceAfter=No|Dep=26|Rel=AdvM
-28	.	.	PUNCT	Z	_	26	punct	_	Dep=0|Rel=Root
+28	.	.	PUNCT	Z	_	26	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2633.9393
 # text = Dva tedna po štirih eksplozijah, v katerih je umrlo 56 ljudi, je bila pregovorna odločenost Londončanov, da bodo kljub grožnjam že nekako, spet na preizkušnji.
@@ -1820,7 +1820,7 @@
 27	spet	spet	ADV	Rgp	Degree=Pos	15	advmod	_	Dep=15|Rel=AdvO
 28	na	na	ADP	Sl	Case=Loc	29	case	_	Dep=29|Rel=Atr
 29	preizkušnji	preizkušnja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|Dep=15|Rel=AdvO
-30	.	.	PUNCT	Z	_	15	punct	_	Dep=0|Rel=Root
+30	.	.	PUNCT	Z	_	15	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2633.9395
 # text = A policija govori tudi o nekaj podtaknjenih napravah na istih prizoriščih, ki pa niso eksplodirale.
@@ -1840,7 +1840,7 @@
 14	pa	pa	CCONJ	Cc	_	16	advmod	_	Dep=0|Rel=Root
 15	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	16	aux	_	Dep=16|Rel=PPart
 16	eksplodirale	eksplodirati	VERB	Vmbp-pf	Gender=Fem|Number=Plur|VerbForm=Part	8	acl	_	SpaceAfter=No|Dep=8|Rel=Atr
-17	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2634.9396
 # text = Sočasno, ko sem se izklapljal iz vseh teh dejavnosti na Petrolu, sem zaključeval tudi delo z društvom Pharos, ki je imelo precej arhiva, ki ga moja računovodkinja po predpisih hrani 10 let.
@@ -1880,7 +1880,7 @@
 34	hrani	hraniti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl	_	Dep=26|Rel=Atr
 35	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	36	nummod	_	Dep=36|Rel=Atr
 36	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	34	obl	_	SpaceAfter=No|Dep=34|Rel=AdvO
-37	.	.	PUNCT	Z	_	15	punct	_	Dep=0|Rel=Root
+37	.	.	PUNCT	Z	_	15	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2634.9397
 # text = Pospravljali smo ta arhiv in moja nerodnost je bila, da sem prosil tehnično službo Petrola, da nam pomaga.
@@ -1904,7 +1904,7 @@
 18	da	da	SCONJ	Cs	_	20	mark	_	Dep=20|Rel=Conj
 19	nam	jaz	PRON	Pp1-pd	Case=Dat|Number=Plur|Person=1|PronType=Prs	20	obj	_	Dep=20|Rel=Obj
 20	pomaga	pomagati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	SpaceAfter=No|Dep=13|Rel=Obj
-21	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2634.9398
 # text = Za to pomoč smo jim seveda tudi plačali.
@@ -1916,7 +1916,7 @@
 6	seveda	seveda	PART	Q	_	8	advmod	_	Dep=0|Rel=Root
 7	tudi	tudi	PART	Q	_	8	advmod	_	Dep=0|Rel=Root
 8	plačali	plačati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-9	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+9	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2634.9399
 # text = Arhiv so zbrali v pisarni na Nazorjevi, iz Petrola pa so prenesli škatle, da so to razsuto gradivo naložili in odpeljali.
@@ -1943,7 +1943,7 @@
 21	naložili	naložiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	13	advcl	_	Dep=13|Rel=AdvO
 22	in	in	CCONJ	Cc	_	23	cc	_	Dep=23|Rel=Conj
 23	odpeljali	odpeljati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	21	conj	_	SpaceAfter=No|Dep=0|Rel=Root
-24	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+24	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2635.9401
 # text = Če lahko politiki očitamo pomanjkanje občutka za demokratično kulturo, ker je policijo opomnila, naj poišče svoja globoka grla, pa lahko policiji očitamo nepremišljeno in težko razumljivo poslušanje namigov politike, naj poišče prave krivce za neprijetne novinarske prispevke.
@@ -1988,7 +1988,7 @@
 39	neprijetne	neprijeten	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	41	amod	_	Dep=41|Rel=Atr
 40	novinarske	novinarski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	41	amod	_	Dep=41|Rel=Atr
 41	prispevke	prispevek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No|Dep=37|Rel=Atr
-42	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+42	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2635.9404
 # text = Ker za takšno trditev obstajajo neposredni dokazi, se lahko vprašamo, ali policija nepooblaščeno nadzira tudi kakšnega drugega novinarja.
@@ -2012,7 +2012,7 @@
 18	kakšnega	kakšen	DET	Pq-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Int	20	det	_	Dep=20|Rel=Atr
 19	drugega	drug	ADJ	Mlpmsa	Case=Acc|Gender=Masc|Number=Sing	20	amod	_	Dep=20|Rel=Atr
 20	novinarja	novinar	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No|Dep=16|Rel=Obj
-21	.	.	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2635.9405
 # text = In ali nadzira tudi politične nasprotnike in navadne državljane.
@@ -2025,7 +2025,7 @@
 7	in	in	CCONJ	Cc	_	9	cc	_	Dep=9|Rel=Conj
 8	navadne	navaden	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	Dep=9|Rel=Atr
 9	državljane	državljan	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No|Dep=6|Rel=Coord
-10	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2636.9406
 # text = Minister Mate je sedaj odredil izreden nadzor, da bi ugotovil, kdo je odgovoren za zbiranje podatkov o novinarki.
@@ -2049,7 +2049,7 @@
 18	podatkov	podatek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	Dep=17|Rel=Atr
 19	o	o	ADP	Sl	Case=Loc	20	case	_	Dep=20|Rel=Atr
 20	novinarki	novinarka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No|Dep=18|Rel=Atr
-21	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2636.9407
 # text = Nadzor naj bi opravili uslužbenci notranjega ministrstva in ne policisti.
@@ -2063,7 +2063,7 @@
 8	in	in	CCONJ	Cc	_	10	cc	_	Dep=10|Rel=Conj
 9	ne	ne	PART	Q	Polarity=Neg	10	advmod	_	Dep=10|Rel=PPart
 10	policisti	policist	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No|Dep=5|Rel=Coord
-11	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2636.9408
 # text = S tem naj bi bila zagotovljena objektivnost.
@@ -2074,7 +2074,7 @@
 5	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	6	cop	_	Dep=0|Rel=Root
 6	zagotovljena	zagotovljen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	Dep=5|Rel=Atr
 7	objektivnost	objektivnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No|Dep=5|Rel=Sb
-8	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+8	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2636.9409
 # text = Po opravljenem nadzoru in rezultatih se lahko zgodi, da bo Mate odstavil koga iz celjske policijske uprave ali pa bo posegel še višje.
@@ -2102,7 +2102,7 @@
 22	posegel	poseči	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	13	conj	_	Dep=0|Rel=Root
 23	še	še	PART	Q	_	22	advmod	_	Dep=0|Rel=Root
 24	višje	visoko	ADV	Rgc	Degree=Cmp	22	advmod	_	SpaceAfter=No|Dep=22|Rel=AdvO
-25	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+25	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2636.9411
 # text = In ravno pri obračunavanju se lahko Mate ujame v zanko in afero iz Celja uporabi za izgovor pri političnem čiščenju.
@@ -2126,7 +2126,7 @@
 18	pri	pri	ADP	Sl	Case=Loc	20	case	_	Dep=20|Rel=Atr
 19	političnem	političen	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	Dep=20|Rel=Atr
 20	čiščenju	čiščenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No|Dep=17|Rel=Atr
-21	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2636.9412
 # text = Zato bi bila primernejša drugačna oblika nadzora kot interna komisija notranjega ministrstva.
@@ -2142,7 +2142,7 @@
 10	komisija	komisija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	obl	_	Dep=6|Rel=AdvM
 11	notranjega	notranji	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	Dep=12|Rel=Atr
 12	ministrstva	ministrstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|Dep=10|Rel=Atr
-13	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2636.9415
 # text = Ker smo novinarji do argumentov policije, ki nas nadzira, in politike, ki nam očita motivirano pristranskost, skeptični, so takšni zadržki seveda smiselni.
@@ -2173,7 +2173,7 @@
 25	zadržki	zadržek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	Dep=23|Rel=Sb
 26	seveda	seveda	PART	Q	_	27	advmod	_	Dep=0|Rel=Root
 27	smiselni	smiseln	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|Dep=23|Rel=Atr
-28	.	.	PUNCT	Z	_	27	punct	_	Dep=0|Rel=Root
+28	.	.	PUNCT	Z	_	27	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2637.9416
 # text = Pa vendar - čim lažji korak voščim in prižigam pipico miru!
@@ -2188,7 +2188,7 @@
 9	prižigam	prižigati	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	Dep=0|Rel=Root
 10	pipico	pipica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	Dep=9|Rel=Obj
 11	miru	mir	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|Dep=10|Rel=Atr
-12	!	!	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+12	!	!	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2638.9417
 # text = Jože Zagožen in Andrijana Starina Kosem, ki menda operativno vodita zasedanje gospodarskih položajev, stvari gotovo vidita drugače.
@@ -2211,7 +2211,7 @@
 17	gotovo	gotovo	ADV	Rgp	Degree=Pos	18	advmod	_	Dep=18|Rel=AdvM
 18	vidita	videti	VERB	Vmbr3d	Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 19	drugače	drugače	ADV	Rgp	Degree=Pos	18	advmod	_	SpaceAfter=No|Dep=18|Rel=AdvM
-20	.	.	PUNCT	Z	_	18	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	18	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2638.9418
 # text = In njun pristop je za zdaj edini odraz resnične vladne politike.
@@ -2226,7 +2226,7 @@
 9	resnične	resničen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	Dep=11|Rel=Atr
 10	vladne	vladen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	Dep=11|Rel=Atr
 11	politike	politika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|Dep=8|Rel=Atr
-12	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2638.9421
 # text = Prava dilema je seveda, ali si bo Janša jeseni upal slediti Damijanovim idejam, kar bi najverjetneje pomenilo resno ogroziti možnost zmage na prihodnjih volitvah.
@@ -2256,14 +2256,14 @@
 24	na	na	ADP	Sl	Case=Loc	26	case	_	Dep=26|Rel=Atr
 25	prihodnjih	prihodnji	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	Dep=26|Rel=Atr
 26	volitvah	volitev	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No|Dep=23|Rel=Atr
-27	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+27	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2638.9422
 # text = Zgodovina je poučna.
 1	Zgodovina	zgodovina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Dep=2|Rel=Sb
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	Dep=0|Rel=Root
 3	poučna	poučen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|Dep=2|Rel=Atr
-4	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+4	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2638.9423
 # text = V prejšnjem mandatu je bila vladna gospodarska politika deležna ostrih kritik, da je premalo liberalna.
@@ -2283,7 +2283,7 @@
 14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	Dep=11|Rel=Atr
 15	premalo	premalo	ADV	Rgp	Degree=Pos	16	advmod	_	Dep=16|Rel=Atr
 16	liberalna	liberalen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	acl	_	SpaceAfter=No|Dep=14|Rel=Atr
-17	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2638.9424
 # text = Hkrati pa se je ob vsaki omembi privatizacije vsul val zgodb o nacionalnem interesu.
@@ -2301,7 +2301,7 @@
 12	o	o	ADP	Sl	Case=Loc	14	case	_	Dep=14|Rel=Atr
 13	nacionalnem	nacionalen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	Dep=14|Rel=Atr
 14	interesu	interes	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|Dep=11|Rel=Atr
-15	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+15	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2638.9425
 # text = Slednje bodo vsakič ob podobnih primerih gotovo ponovno oživele.
@@ -2314,7 +2314,7 @@
 7	gotovo	gotovo	ADV	Rgp	Degree=Pos	9	advmod	_	Dep=9|Rel=AdvM
 8	ponovno	ponovno	ADV	Rgp	Degree=Pos	9	advmod	_	Dep=9|Rel=AdvO
 9	oživele	oživeti	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-10	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2638.9427
 # text = Hkrati pa bo enako oster konflikt neizbežen tudi s tistimi, ki bodo v imenu vlade zasedli položaje v gospodarstvu.
@@ -2338,7 +2338,7 @@
 18	položaje	položaj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	17	obj	_	Dep=17|Rel=Obj
 19	v	v	ADP	Sl	Case=Loc	20	case	_	Dep=20|Rel=Atr
 20	gospodarstvu	gospodarstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No|Dep=18|Rel=Atr
-21	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2638.9428
 # text = Odločitve predsednikov vlad vsekakor niso lahke.
@@ -2348,7 +2348,7 @@
 4	vsekakor	vsekakor	PART	Q	_	6	advmod	_	Dep=0|Rel=Root
 5	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	cop	_	Dep=0|Rel=Root
 6	lahke	lahek	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|Dep=5|Rel=Atr
-7	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+7	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2638.9430
 # text = Premier ima vedno polne roke opravkov.
@@ -2358,7 +2358,7 @@
 4	polne	poln	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	Dep=5|Rel=Atr
 5	roke	roka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	Dep=2|Rel=Obj
 6	opravkov	opravek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No|Dep=5|Rel=Atr
-7	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+7	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj493.2638.9431
 # text = Razvojni projekti se pripravljajo in s tem so povezani veliki napori.
@@ -2373,7 +2373,7 @@
 9	povezani	povezan	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	4	conj	_	Dep=8|Rel=Atr
 10	veliki	velik	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	Dep=11|Rel=Atr
 11	napori	napor	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No|Dep=8|Rel=Sb
-12	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj494.2639.9432
 # text = Že dolgo poslušam in sledim, ali bi bili kakšni takšni nameni.
@@ -2389,7 +2389,7 @@
 10	kakšni	kakšen	DET	Pq-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int	12	det	_	Dep=12|Rel=Atr
 11	takšni	takšen	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	12	det	_	Dep=12|Rel=Atr
 12	nameni	namen	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No|Dep=9|Rel=Sb
-13	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj494.2639.9434
 # text = Fiat je sam recimo poskusil na nekaterih manjših trgih, na Norveškem, Švedskem.
@@ -2407,7 +2407,7 @@
 12	Norveškem	Norveško	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No|Dep=9|Rel=Coord
 13	,	,	PUNCT	Z	_	14	punct	_	Dep=14|Rel=Conj
 14	Švedskem	Švedsko	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No|Dep=9|Rel=Coord
-15	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+15	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj494.2639.9435
 # text = Nastopili so kot uvozniki in so za naložbe porabili veliko preveč denarja.
@@ -2423,7 +2423,7 @@
 10	veliko	veliko	DET	Rgp	PronType=Ind	11	advmod	_	Dep=11|Rel=Atr
 11	preveč	preveč	DET	Rgp	PronType=Ind	12	det	_	Dep=12|Rel=Atr
 12	denarja	denar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|Dep=9|Rel=Obj
-13	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj494.2639.9436
 # text = Ko so presodili, da jim zastopniški posel ne gre od rok, so vse skupaj vrnili neki lokalni pravni osebi.
@@ -2448,7 +2448,7 @@
 19	lokalni	lokalen	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	Dep=21|Rel=Atr
 20	pravni	praven	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	Dep=21|Rel=Atr
 21	osebi	oseba	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	17	iobj	_	SpaceAfter=No|Dep=17|Rel=Obj
-22	.	.	PUNCT	Z	_	17	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	17	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj495.2640.9439
 # text = Na podlagi odredb za hišne preiskave so kriminalisti 5. marca opravili hišne preiskave pri P. D., E. M. in Š. T. iz Pirana.
@@ -2476,7 +2476,7 @@
 22	T.	T.	X	Y	Abbr=Yes	21	nmod	_	Dep=21|Rel=Atr
 23	iz	iz	ADP	Sg	Case=Gen	24	case	_	Dep=24|Rel=Atr
 24	Pirana	Piran	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No|Dep=21|Rel=Atr
-25	.	.	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
+25	.	.	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj495.2640.9440
 # text = Pri njih so našli in zasegli eno tableto mamila ecstasy, zavojček kokaina, štiri zavojčke heroina, 30 tablet heptanona in ponarejen bankovec za 200 DEM.
@@ -2507,7 +2507,7 @@
 25	za	za	ADP	Sa	Case=Acc	27	case	_	Dep=27|Rel=Atr
 26	200	200	NUM	Mdc	NumForm=Digit|NumType=Card	27	nummod	_	Dep=27|Rel=Atr
 27	DEM	DEM	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No|Dep=24|Rel=Atr
-28	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+28	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj495.2640.9441
 # text = Zoper P. D. in T. Š. so podali kazensko ovadbo zaradi suma storitve kaznivega dejanja neupravičene proizvodnje in prometa z mamili.
@@ -2532,7 +2532,7 @@
 19	prometa	promet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	conj	_	Dep=17|Rel=Coord
 20	z	z	ADP	Si	Case=Ins	21	case	_	Dep=21|Rel=Atr
 21	mamili	mamilo	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No|Dep=19|Rel=Atr
-22	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2641.9443
 # text = Za našo najglobljo istovetnost gre.
@@ -2541,7 +2541,7 @@
 3	najglobljo	globok	ADJ	Agsfsa	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	4	amod	_	Dep=4|Rel=Atr
 4	istovetnost	istovetnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	Dep=5|Rel=Obj
 5	gre	iti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-6	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+6	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2641.9444
 # text = Saj država ni nekakšen moloh, ki nemo gleda na ta narod.
@@ -2557,7 +2557,7 @@
 10	na	na	ADP	Sa	Case=Acc	12	case	_	Dep=12|Rel=Atr
 11	ta	ta	DET	Pd-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	Dep=12|Rel=Atr
 12	narod	narod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|Dep=9|Rel=AdvO
-13	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2641.9445
 # text = In to je način našega informiranja, da vemo, kako je z nami.
@@ -2575,20 +2575,20 @@
 12	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	ccomp	_	Dep=9|Rel=Obj
 13	z	z	ADP	Si	Case=Ins	14	case	_	Dep=14|Rel=Atr
 14	nami	jaz	PRON	Pp1-pi	Case=Ins|Number=Plur|Person=1|PronType=Prs	12	obl	_	SpaceAfter=No|Dep=12|Rel=Obj
-15	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+15	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2641.9447
 # text = Kakšni bodo rezultati?
 1	Kakšni	kakšen	DET	Pq-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int	0	root	_	Dep=2|Rel=Atr
 2	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	1	cop	_	Dep=0|Rel=Root
 3	rezultati	rezultat	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No|Dep=2|Rel=Sb
-4	?	?	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+4	?	?	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2641.9448
 # text = Bomo videli.
 1	Bomo	biti	AUX	Va-f1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	2	aux	_	Dep=2|Rel=PPart
 2	videli	videti	VERB	Vmbp-pm	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-3	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+3	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2641.9449
 # text = Bojim pa se, da ne bodo ravno realni.
@@ -2601,7 +2601,7 @@
 7	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	9	cop	_	Dep=1|Rel=Obj
 8	ravno	ravno	PART	Q	_	9	advmod	_	Dep=9|Rel=Atr
 9	realni	realen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	ccomp	_	SpaceAfter=No|Dep=7|Rel=Atr
-10	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2641.9450
 # text = Slišim namreč vse več glasov o nepravilnostih.
@@ -2612,7 +2612,7 @@
 5	glasov	glas	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	obj	_	Dep=1|Rel=Obj
 6	o	o	ADP	Sl	Case=Loc	7	case	_	Dep=7|Rel=Atr
 7	nepravilnostih	nepravilnost	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No|Dep=5|Rel=Atr
-8	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+8	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2641.9451
 # text = Vsaj trije ali štirje so prišli na moja ušesa.
@@ -2625,7 +2625,7 @@
 7	na	na	ADP	Sa	Case=Acc	9	case	_	Dep=9|Rel=Atr
 8	moja	moj	DET	Ps1npas	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	Dep=9|Rel=Atr
 9	ušesa	uho	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|Dep=6|Rel=AdvO
-10	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2641.9453
 # text = Kot da bi starši ne imeli pravice deklarirati narodnosti in veroizpovedi svojih otrok do 14. leta!
@@ -2645,7 +2645,7 @@
 14	do	do	ADP	Sg	Case=Gen	16	case	_	Dep=16|Rel=Atr
 15	14.	14.	NUM	Mdo	NumForm=Digit|NumType=Ord	16	nummod	_	Dep=16|Rel=Atr
 16	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No|Dep=13|Rel=Atr
-17	!	!	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+17	!	!	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2642.9454
 # text = Slovenske Konjice - V Sloveniji se z ekološkim kmetovanjem ukvarja približno 1300 kmetij, okoli petina vseh pa jih je z območja koroško-savinjske regije, kjer so pod okriljem strokovnjakov celjske kmetijsko-gozdarske zbornice povezani tudi v združenje ekoloških pridelovalcev in predelovalcev hrane z imenom Deteljica.
@@ -2698,7 +2698,7 @@
 47	z	z	ADP	Si	Case=Ins	48	case	_	Dep=48|Rel=Atr
 48	imenom	ime	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	41	nmod	_	Dep=41|Rel=Atr
 49	Deteljica	deteljica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No|Dep=48|Rel=Atr
-50	.	.	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
+50	.	.	PUNCT	Z	_	10	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2642.9455
 # text = Na včerajšnji letni skupščini Deteljice so člani soglašali, da bodo poslej ponujali ekološko pridelano biomeso tudi v velikih trgovskih središčih.
@@ -2723,7 +2723,7 @@
 19	velikih	velik	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	21	amod	_	Dep=21|Rel=Atr
 20	trgovskih	trgovski	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	21	amod	_	Dep=21|Rel=Atr
 21	središčih	središče	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No|Dep=13|Rel=AdvO
-22	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2643.9456
 # text = Kakor navaja uprava za kulturno dediščino, namerava država svoje spomenike postopoma obnoviti in jim nameniti primerno funkcijo.
@@ -2745,7 +2745,7 @@
 16	nameniti	nameniti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	13	conj	_	Dep=13|Rel=Coord
 17	primerno	primeren	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	Dep=18|Rel=Atr
 18	funkcijo	funkcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No|Dep=16|Rel=Obj
-19	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+19	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2643.9457
 # text = »Glede na to, da bomo z obnovo in postopno revitalizacijo gradu Šrajbarski turn kmalu začeli, bi bile dodatne nastanitve v gradu povsem neprimerne,« se je glasil odgovor občini, ki je želela od uprave dobiti soglasje za nastanitev omenjenih dveh oseb.
@@ -2775,7 +2775,7 @@
 24	gradu	grad	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	Dep=22|Rel=Atr
 25	povsem	povsem	ADV	Rgp	Degree=Pos	26	advmod	_	Dep=26|Rel=Atr
 26	neprimerne	neprimeren	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|Dep=20|Rel=Atr
-27	,	,	PUNCT	Z	_	31	punct	_	SpaceAfter=No|Dep=0|Rel=Root
+27	,	,	PUNCT	Z	_	26	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 28	«	«	PUNCT	Z	_	26	punct	_	Dep=0|Rel=Root
 29	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	31	expl	_	Dep=31|Rel=PPart
 30	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	31	aux	_	Dep=31|Rel=PPart
@@ -2795,7 +2795,7 @@
 44	omenjenih	omenjen	ADJ	Appfdg	Case=Gen|Degree=Pos|Gender=Fem|Number=Dual|VerbForm=Part	46	amod	_	Dep=46|Rel=Atr
 45	dveh	dva	NUM	Mlcfdg	Case=Gen|Gender=Fem|Number=Dual|NumForm=Word|NumType=Card	46	nummod	_	Dep=46|Rel=Atr
 46	oseb	oseba	NOUN	Ncfdg	Case=Gen|Gender=Fem|Number=Dual	43	nmod	_	SpaceAfter=No|Dep=43|Rel=Atr
-47	.	.	PUNCT	Z	_	26	punct	_	Dep=0|Rel=Root
+47	.	.	PUNCT	Z	_	26	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2644.9458
 # text = Delno je k temu prispevala ustanovitev sveta za varstvo občanov, na katerem so obravnavali težave skupaj z romskimi prebivalci
@@ -2818,7 +2818,7 @@
 17	skupaj	skupaj	ADV	Rgp	Degree=Pos	15	advmod	_	Dep=15|Rel=AdvM
 18	z	z	ADP	Si	Case=Ins	20	case	_	Dep=20|Rel=Atr
 19	romskimi	romski	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	Dep=20|Rel=Atr
-20	prebivalci	prebivalec	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	15	obl	_	Dep=15|Rel=Obj
+20	prebivalci	prebivalec	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No|Dep=15|Rel=Obj
 
 # sent_id = ssj496.2645.9459
 # text = Petra Škofic z ministrstva za kulturo nam je povedala, da država ni lastnica ateljejev v Sloveniji, upravlja le z ateljejem v New Yorku.
@@ -2847,7 +2847,7 @@
 23	v	v	ADP	Sl	Case=Loc	25	case	_	Dep=25|Rel=Atr
 24	New	New	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	Dep=25|Rel=Atr
 25	Yorku	York	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No|Dep=22|Rel=Atr
-26	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+26	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2645.9460
 # text = Zanj vsako leto pripravi razpis, na katerega se lahko prijavijo ustvarjalci z različnih umetniških področij.
@@ -2867,7 +2867,7 @@
 14	različnih	različen	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	Dep=16|Rel=Atr
 15	umetniških	umetniški	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	Dep=16|Rel=Atr
 16	področij	področje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No|Dep=12|Rel=Atr
-17	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2645.9461
 # text = »Problem v zvezi z ateljeji pa se sicer rešuje na mestnih ali občinskih ravneh,« je še dodala.
@@ -2886,12 +2886,12 @@
 13	ali	ali	CCONJ	Cc	_	14	cc	_	Dep=14|Rel=Conj
 14	občinskih	občinski	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	12	conj	_	Dep=12|Rel=Coord
 15	ravneh	raven	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No|Dep=10|Rel=AdvO
-16	,	,	PUNCT	Z	_	20	punct	_	SpaceAfter=No|Dep=0|Rel=Root
+16	,	,	PUNCT	Z	_	10	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 17	«	«	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
 18	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	aux	_	Dep=20|Rel=PPart
 19	še	še	PART	Q	_	20	advmod	_	Dep=0|Rel=Root
 20	dodala	dodati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	10	parataxis	_	SpaceAfter=No|Dep=0|Rel=Root
-21	.	.	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	10	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2646.9463
 # text = Množica konceptualnih in izključno likovnih elementov, ki jih Bernard vključuje v svoje umetnine, nikjer ne ustvarja praznega aditivnega dela, v katerem bi bili le sešteti posamezni postopki.
@@ -2925,7 +2925,7 @@
 28	sešteti	seštet	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	21	acl	_	Dep=26|Rel=Atr
 29	posamezni	posamezen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	30	amod	_	Dep=30|Rel=Atr
 30	postopki	postopek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	SpaceAfter=No|Dep=26|Rel=Sb
-31	.	.	PUNCT	Z	_	18	punct	_	Dep=0|Rel=Root
+31	.	.	PUNCT	Z	_	18	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2646.9464
 # text = Za njegovo slikarstvo je značilno vizualno natančno opredeljevanje prostorske in semantične lastnosti površine, njeno prehajanje iz ploskega vzorca v aluzivno prostorsko naracijo in izpostavljanje sintaktičnih lastnosti slikarskih sredstev.
@@ -2958,7 +2958,7 @@
 27	lastnosti	lastnost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	Dep=25|Rel=Atr
 28	slikarskih	slikarski	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	29	amod	_	Dep=29|Rel=Atr
 29	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	27	nmod	_	SpaceAfter=No|Dep=27|Rel=Atr
-30	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+30	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2646.9465
 # text = Predvsem pa je izpostavljen oseben odnos med slikarjevim telesom in sliko, ki dobi včasih lastnosti objekta.
@@ -2979,7 +2979,7 @@
 15	včasih	včasih	ADV	Rgp	Degree=Pos	14	advmod	_	Dep=14|Rel=AdvO
 16	lastnosti	lastnost	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	Dep=14|Rel=Obj
 17	objekta	objekt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|Dep=16|Rel=Atr
-18	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+18	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2646.9466
 # text = Ta pridobi lastnosti izrazite empatije in prenosa dinamike lastnega dojemanja sveta ter eksistenčnega položaja avtorjevega telesa v njem na platno.
@@ -3003,7 +3003,7 @@
 18	njem	on	PRON	Pp3msl	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nmod	_	Dep=14|Rel=Atr
 19	na	na	ADP	Sa	Case=Acc	20	case	_	Dep=20|Rel=Atr
 20	platno	platno	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|Dep=7|Rel=Atr
-21	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2647.9467
 # text = V Ardenih je tokrat zablestel Aerts, ki mu je bila to šele četrta zmaga v 7-letni karieri profesionalca.
@@ -3028,7 +3028,7 @@
 19	letni	leten	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	Dep=20|Rel=Atr
 20	karieri	kariera	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	Dep=11|Rel=AdvO
 21	profesionalca	profesionalec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No|Dep=20|Rel=Atr
-22	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2647.9469
 # text = Oster ovinek tik pred ciljem, ki je največkrat odločil zmagovalca, je sijajno izpeljal in edini ni izgubil hitrosti.
@@ -3052,7 +3052,7 @@
 18	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	19	aux	_	Dep=19|Rel=PPart
 19	izgubil	izgubiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	15	conj	_	Dep=0|Rel=Root
 20	hitrosti	hitrost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No|Dep=19|Rel=Obj
-21	.	.	PUNCT	Z	_	15	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	15	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2648.9470
 # text = »Za nami je en teden napornega dela in prav je, da imamo zdaj resno preskušnjo na tujem.
@@ -3075,7 +3075,7 @@
 17	preskušnjo	preskušnja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	Dep=14|Rel=Obj
 18	na	na	ADP	Sl	Case=Loc	19	case	_	Dep=19|Rel=Atr
 19	tujem	tuj	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	SpaceAfter=No|Dep=17|Rel=Atr
-20	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj496.2648.9472
 # text = Slovenija je tam celo osvojila 1. mesto, izgubila pa je le z drevišnjimi tekmeci z 0:1.
@@ -3095,8 +3095,8 @@
 14	drevišnjimi	drevišnji	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	Dep=15|Rel=Atr
 15	tekmeci	tekmec	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	9	obl	_	Dep=9|Rel=Obj
 16	z	z	ADP	Si	Case=Ins	17	case	_	Dep=17|Rel=Atr
-17	0:1	0:1	NUM	Mdc	NumForm=Digit|NumType=Card	9	advmod	_	SpaceAfter=No|Dep=9|Rel=AdvM
-18	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+17	0:1	0:1	NUM	Mdc	NumForm=Digit|NumType=Card	9	obl	_	SpaceAfter=No|Dep=9|Rel=AdvM
+18	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj497.2649.9474
 # text = Leta 1948 je Gradbeno podjetje Primorje skupaj z Marjanom Černigojem, ki še danes vodi mlade novogoriške gimnastičarke, ustanovilo Fiskulturno društvo Nova Gorica.
@@ -3124,7 +3124,7 @@
 22	društvo	društvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	Dep=20|Rel=Obj
 23	Nova	nov	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	Dep=24|Rel=Atr
 24	Gorica	Gorica	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No|Dep=22|Rel=Atr
-25	.	.	PUNCT	Z	_	20	punct	_	Dep=0|Rel=Root
+25	.	.	PUNCT	Z	_	20	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj497.2649.9475
 # text = V začetku je društvo razpolagalo le z nekaj metrov dolgim in širokim prostorom v solkanski frnaži, kjer je vadila predvsem solkanska mladina.
@@ -3151,7 +3151,7 @@
 21	predvsem	predvsem	PART	Q	_	20	advmod	_	Dep=0|Rel=Root
 22	solkanska	solkanski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	Dep=23|Rel=Atr
 23	mladina	mladina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No|Dep=20|Rel=Sb
-24	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+24	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj497.2649.9476
 # text = Kmalu nato so se Novogoričani povezali s sorodnimi društvi v Šempetru in Biljah in organizirali prve atletske troboje.
@@ -3173,7 +3173,7 @@
 16	prve	prvi	ADJ	Mlompa	Case=Acc|Gender=Masc|Number=Plur|NumType=Ord	18	amod	_	Dep=18|Rel=Atr
 17	atletske	atletski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	Dep=18|Rel=Atr
 18	troboje	troboj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No|Dep=15|Rel=Obj
-19	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+19	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj497.2649.9477
 # text = Na rezultate dobrega dela so pokazali predvsem tekmovalni uspehi Julijana Gomiščka, Andreja in Joška Štruklja, Marjana Černigoja in Marjana Šebenika.
@@ -3199,7 +3199,7 @@
 20	in	in	CCONJ	Cc	_	21	cc	_	Dep=21|Rel=Conj
 21	Marjana	Marjan	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	10	conj	_	Dep=10|Rel=Coord
 22	Šebenika	Šebenik	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No|Dep=21|Rel=Atr
-23	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+23	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj498.2650.9480
 # text = Ministrica Belillova se zavzema za to, da bi krovni manjšinski zakon na hitro odobrili brez popravkov in razprav.
@@ -3222,7 +3222,7 @@
 17	popravkov	popravek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	15	obl	_	Dep=15|Rel=AdvM
 18	in	in	CCONJ	Cc	_	19	cc	_	Dep=19|Rel=Conj
 19	razprav	razprava	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No|Dep=17|Rel=Coord
-20	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj499.2651.9481
 # text = LJUBLJANA Letošnji Festival za tretje življenjsko obdobje bo starejšim ljudem ponudil bogato izbiro zamisli in možnosti, kako v zrelih letih živeti čim bolj polno in zadovoljno.
@@ -3253,7 +3253,7 @@
 25	polno	polno	ADV	Rgp	Degree=Pos	22	advmod	_	Dep=22|Rel=AdvM
 26	in	in	CCONJ	Cc	_	27	cc	_	Dep=27|Rel=Conj
 27	zadovoljno	zadovoljno	ADV	Rgp	Degree=Pos	25	conj	_	SpaceAfter=No|Dep=25|Rel=Coord
-28	.	.	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
+28	.	.	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj499.2651.9482
 # text = Tako zatrjujejo v Zvezi društev upokojencev Slovenije, ki organizira to že tradicionalno jesensko prireditev za starejše v Cankarjevem domu.
@@ -3277,7 +3277,7 @@
 18	v	v	ADP	Sl	Case=Loc	20	case	_	Dep=20|Rel=Atr
 19	Cankarjevem	Cankarjev	ADJ	Aspmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	20	amod	_	Dep=20|Rel=Atr
 20	domu	dom	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|Dep=10|Rel=AdvO
-21	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj499.2651.9483
 # text = Dvodnevni festival se pričenja danes dopoldne, potekal pa bo pod geslom Starejši spreminjamo sebe in svet za vse generacije.
@@ -3301,7 +3301,7 @@
 18	za	za	ADP	Sa	Case=Acc	20	case	_	Dep=20|Rel=Atr
 19	vse	ves	DET	Pg-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	20	det	_	Dep=20|Rel=Atr
 20	generacije	generacija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No|Dep=14|Rel=Obj
-21	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj499.2651.9484
 # text = S pestrejšo predstavitvijo dejavnosti starejših in storitev, namenjenih starejšim ljudem, s predavanji, okroglimi mizami in izobraževalnimi delavnicami ter spremljajočim kulturnim in družabnim dogajanjem želijo organizatorji na to prireditev privabiti še več obiskovalcev kot prejšnja leta.
@@ -3343,7 +3343,7 @@
 36	kot	kot	SCONJ	Cs	_	38	case	_	Dep=38|Rel=Conj
 37	prejšnja	prejšnji	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	38	amod	_	Dep=38|Rel=Atr
 38	leta	leto	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	35	obl	_	SpaceAfter=No|Dep=35|Rel=AdvM
-39	.	.	PUNCT	Z	_	27	punct	_	Dep=0|Rel=Root
+39	.	.	PUNCT	Z	_	27	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj499.2651.9485
 # text = Irena Levičnik iz ZDUS ugotavlja, da so prejšnje festivale za starejše najbolj številčno in organizirano obiskala društva upokojencev iz okoliških krajev, manj zanimanja pa so pokazali starejši Ljubljančani, ki jim je prizorišče festivala najbolj pri roki.
@@ -3386,7 +3386,7 @@
 37	najbolj	najbolj	ADV	Rgs	Degree=Sup	39	advmod	_	Dep=39|Rel=Atr
 38	pri	pri	ADP	Sl	Case=Loc	39	case	_	Dep=39|Rel=Atr
 39	roki	roka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No|Dep=34|Rel=AdvO
-40	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+40	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj499.2651.9486
 # text = Na vse prireditve je vstop prost.
@@ -3396,13 +3396,13 @@
 4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	Dep=0|Rel=Root
 5	vstop	vstop	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Dep=4|Rel=Sb
 6	prost	prost	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=4|Rel=Atr
-7	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+7	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj499.2651.9487
 # text = (mu)
 1	(	(	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	mu	mu	X	X	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-3	)	)	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+3	)	)	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj499.2652.9488
 # text = Ali kmetje res ne uporabljajo več herbicidov za zatiranje plevela, so se prejšnji teden hotele prepričati tudi inšpektorice kmetijskega inšpektorata, delavci Zavoda za zdravstveno varstvo Maribor pa so vzeli vzorce zemlje.
@@ -3439,7 +3439,7 @@
 31	vzeli	vzeti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	16	parataxis	_	Dep=0|Rel=Root
 32	vzorce	vzorec	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	31	obj	_	Dep=31|Rel=Obj
 33	zemlje	zemlja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No|Dep=32|Rel=Atr
-34	.	.	PUNCT	Z	_	16	punct	_	Dep=0|Rel=Root
+34	.	.	PUNCT	Z	_	16	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj500.2654.9491
 # text = Zgrabil je Madreouovega zasebnega tajnika Dimitriosa Joannidisa v ilegalni igralnici v starem delu Aten.
@@ -3481,7 +3481,7 @@
 18	blizu	blizu	ADP	Sd	Case=Dat	19	case	_	Dep=19|Rel=Atr
 19	družini	družina	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	Dep=17|Rel=AdvO
 20	Andraxos	Andraxos	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No|Dep=19|Rel=Atr
-21	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj500.2655.9493
 # text = Ribji zvitki s špinačo: 60 dag očiščene in oprane špinače dušimo na margarini 20 minut, jo začinimo s soljo in poprom.
@@ -3612,7 +3612,7 @@
 22	rumenjakom	rumenjak	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	20	obl	_	Dep=20|Rel=AdvM
 23	in	in	CCONJ	Cc	_	24	cc	_	Dep=24|Rel=Conj
 24	smetano	smetana	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No|Dep=22|Rel=Coord
-25	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+25	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj501.2656.9500
 # text = Prva bratovščina Marijinega Srca na Slovenskem je bila ustanovljena leta 1718 v samostanu klaris v Mekinjah na Gorenjskem.
@@ -3732,7 +3732,7 @@
 19	kot	kot	SCONJ	Cs	_	21	case	_	Dep=21|Rel=Conj
 20	krščanska	krščanski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	Dep=21|Rel=Atr
 21	družina	družina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No|Dep=18|Rel=AdvM
-22	.	.	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj502.2658.9508
 # text = Ameriški predsednik George Bush je le uro pozneje na ameriški televiziji že pojasnjeval, zakaj so se Združene države Amerike skupaj "s prijateljsko Veliko Britanijo" odločile za vojaške protiukrepe.
@@ -3831,7 +3831,7 @@
 15	zlomili	zlomiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	10	advcl	_	Dep=10|Rel=AdvO
 16	iraško	iraški	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	Dep=17|Rel=Atr
 17	vojsko	vojska	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No|Dep=15|Rel=Obj
-18	.	.	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
+18	.	.	PUNCT	Z	_	10	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj502.2660.9515
 # text = A to ni le zavodska krinka, pod katero bi se skrivalo vse kaj drugega.
@@ -3938,7 +3938,7 @@
 16	riše	risati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No|Dep=0|Rel=Root
 17	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 18	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
-19	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+19	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj502.2661.9521
 # text = Toda tisti so v njegov hotel prihajali le v sanjah.
@@ -3952,7 +3952,7 @@
 8	le	le	PART	Q	_	7	advmod	_	Dep=0|Rel=Root
 9	v	v	ADP	Sl	Case=Loc	10	case	_	Dep=10|Rel=Atr
 10	sanjah	sanja	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No|Dep=7|Rel=AdvO
-11	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj502.2662.9522
 # text = V prodajalni živali opazuje kupec papigo, ki ima na obeh nogah privezano vrvico.
@@ -3976,7 +3976,7 @@
 # text = Prodajalca vpraša:
 1	Prodajalca	prodajalec	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	Dep=2|Rel=Obj
 2	vpraša	vprašati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-3	:	:	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+3	:	:	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj502.2664.9525
 # text = Alex Cvetkov je fant, ki se rad postavi po robu nevarnosti in izzivom.
@@ -4005,14 +4005,14 @@
 5	sin	sin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Dep=3|Rel=Atr
 6	Roka	Rok	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Dep=5|Rel=Atr
 7	Cvetkova	Cvetkov	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No|Dep=6|Rel=Atr
-8	,	,	PUNCT	Z	_	12	punct	_	Dep=0|Rel=Root
+8	,	,	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
 9	enega	en	NUM	Mlpmsg	Case=Gen|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	6	appos	_	Dep=12|Rel=Atr
 10	izmed	izmed	ADP	Sg	Case=Gen	12	case	_	Dep=12|Rel=Atr
 11	najboljših	dober	ADJ	Agsmpg	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	12	amod	_	Dep=12|Rel=Atr
 12	kaskaderjev	kaskader	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	Dep=0|Rel=Root
 13	na	na	ADP	Sl	Case=Loc	14	case	_	Dep=14|Rel=Atr
 14	svetu	svet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|Dep=12|Rel=Atr
-15	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+15	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj502.2665.9528
 # text = Ko se modni oblikovalci trudijo zaznati razpoloženje sodobnega porabnika, ugotavljajo, da je vse bolj dovzeten za nenavadno sestavljanje posameznih kosov oblačil, ki se kljub očitni različnosti zlivajo v harmonično podobo.
@@ -4049,7 +4049,7 @@
 31	v	v	ADP	Sa	Case=Acc	33	case	_	Dep=33|Rel=Atr
 32	harmonično	harmoničen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	Dep=33|Rel=Atr
 33	podobo	podoba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No|Dep=30|Rel=AdvO
-34	.	.	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
+34	.	.	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj502.2666.9529
 # text = Starši lahko s pobotanjem otroku pokažejo, da življenje ni ena sama idila
@@ -4065,7 +4065,7 @@
 10	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	13	cop	_	Dep=6|Rel=Obj
 11	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	13	nummod	_	Dep=13|Rel=Atr
 12	sama	sam	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	Dep=13|Rel=Atr
-13	idila	idila	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	ccomp	_	Dep=10|Rel=Atr
+13	idila	idila	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	ccomp	_	SpaceAfter=No|Dep=10|Rel=Atr
 
 # sent_id = ssj502.2667.9530
 # text = O čipih pri domačih živalih se večkrat bere v dnevnem časopisju, o označevanjih s čipi oziroma mikročipi pri plazilcih pa podatkov tudi mi nismo veliko zasledili.
@@ -4136,7 +4136,7 @@
 17	pri	pri	ADP	Sl	Case=Loc	18	case	_	Dep=18|Rel=Atr
 18	nas	jaz	PRON	Pp1-pl	Case=Loc|Number=Plur|Person=1|PronType=Prs	16	obl	_	Dep=16|Rel=AdvO
 19	že	že	PART	Q	_	16	advmod	_	SpaceAfter=No|Dep=0|Rel=Root
-20	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj503.2668.9536
 # text = Poleg novic, koncertov in slik posebej priporočam poslušanje osmih demo komadov, ki vas bodo prepričali, da fantje dobro žagajo.
@@ -4299,7 +4299,7 @@
 14	rečejo	reči	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No|Dep=11|Rel=AdvO
 15	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 16	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
-17	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj504.2672.9548
 # text = Bleda in drobcena sedi ob mizi na zanjo kar prevelikem in neudobnem stolu in ubada iglo s črno nitjo v stramin, kamor je prej Branko zarisal žalostnega klovna.
@@ -4376,7 +4376,7 @@
 6	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 7	milijon	milijon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Dep=6|Rel=Sb
 8	ekujev	eku	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No|Dep=7|Rel=Atr
-9	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+9	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj504.2675.9554
 # text = Prometni koledar, tista analiza, ki sledi trendom v cestnem prometu, je pravilno napovedal, da je bil minuli konec tedna eden prometno najbolj obremenjenih vikendov na evropskih cestah.
@@ -4461,7 +4461,7 @@
 44	ugasnilo	ugasniti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	39	acl	_	Dep=39|Rel=Atr
 45	človeško	človeški	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	46	amod	_	Dep=46|Rel=Atr
 46	življenje	življenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	44	nsubj	_	SpaceAfter=No|Dep=44|Rel=Sb
-47	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+47	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj504.2677.9558
 # text = Na podoben način lahko sodelujejo podjetja; na podlagi izpolnjenega zahtevka za iskanje kandidatov skušamo najti zanje najprimernejše delavce.
@@ -4484,7 +4484,7 @@
 17	zanje	zame	PRON	Pp3mpa--b	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Bound	16	iobj	_	Dep=16|Rel=Obj
 18	najprimernejše	primeren	ADJ	Agsmpa	Case=Acc|Degree=Sup|Gender=Masc|Number=Plur	19	amod	_	Dep=19|Rel=Atr
 19	delavce	delavec	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No|Dep=16|Rel=Obj
-20	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj504.2678.9559
 # text = Krizni štab ima dobro osnovo za delo.
@@ -4531,7 +4531,7 @@
 30	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	32	obj	_	Dep=32|Rel=Obj
 31	dalo	dati	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	13	conj	_	Dep=0|Rel=Root
 32	uresničiti	uresničiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	31	xcomp	_	SpaceAfter=No|Dep=31|Rel=Atr
-33	!	!	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+33	!	!	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj505.2679.9561
 # text = Večina navzočih v dvorani je nato podprla predlog Toneta Anderliča (LDS), s katerim so na eno prihodnjih sej preložili obravnavo novele zakona o zdravstveni dejavnosti.
@@ -4586,7 +4586,7 @@
 17	iz	iz	ADP	Sg	Case=Gen	18	case	_	Dep=18|Rel=Atr
 18	vrst	vrsta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	obl	_	Dep=16|Rel=AdvO
 19	LDS	LDS	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No|Dep=18|Rel=Atr
-20	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj505.2680.9563
 # text = Če bo ustava spremenjena, bi bilo zagotovo preprosteje dosledneje povzeti nemško ureditev kot pa v ustavi povsem na novo urediti poglavje o vladi
@@ -4613,7 +4613,7 @@
 21	urediti	urediti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	11	advcl	_	Dep=11|Rel=AdvM
 22	poglavje	poglavje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	Dep=21|Rel=Obj
 23	o	o	ADP	Sl	Case=Loc	24	case	_	Dep=24|Rel=Atr
-24	vladi	vlada	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	Dep=22|Rel=Atr
+24	vladi	vlada	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No|Dep=22|Rel=Atr
 
 # sent_id = ssj506.2681.9564
 # text = Ljudi pogosto ocenjujemo na podlagi prvega vtisa, pri katerem igra pomembno vlogo tudi barva las.
@@ -4649,7 +4649,7 @@
 # text = Berite dalje!
 1	Berite	brati	VERB	Vmpm2p	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 2	dalje	dalje	ADV	Rgp	Degree=Pos	1	advmod	_	SpaceAfter=No|Dep=1|Rel=AdvO
-3	!	!	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+3	!	!	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj506.2682.9568
 # text = Kaspofungin je prvi v novem razredu protiglivičnih zdravil, imenovanih ehinokandini oziroma zaviralci sinteze glukana, ki so prišli na tržišče po več kot desetletju.
@@ -4724,7 +4724,7 @@
 25	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	26	obj	_	Dep=26|Rel=Obj
 26	pojemo	pojesti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	acl	_	Dep=21|Rel=Atr
 27	vročo	vroč	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	acl	_	SpaceAfter=No|Dep=26|Rel=Atr
-28	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+28	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj506.2685.9575
 # text = Kaj menijo strokovnjaki?
@@ -4756,7 +4756,7 @@
 7	do	do	ADP	Sg	Case=Gen	8	case	_	Dep=8|Rel=Atr
 8	basanja	basanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	Dep=6|Rel=Obj
 9	kasneje	kasno	ADV	Rgc	Degree=Cmp	6	advmod	_	SpaceAfter=No|Dep=6|Rel=AdvO
-10	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj506.2686.9578
 # text = • Prepoznajte svojo sitost.
@@ -4789,7 +4789,7 @@
 8	že	že	PART	Q	_	7	advmod	_	Dep=0|Rel=Root
 9	štirideset	štirideset	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	10	nummod	_	Dep=10|Rel=Atr
 10	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	7	nsubj	_	SpaceAfter=No|Dep=7|Rel=Sb
-11	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj506.2691.9586
 # text = Usedite se na stol pred ogledalom in roko, s katero boste vlekli črto, naslonite na ravno in trdo podlago.
@@ -4814,14 +4814,14 @@
 19	in	in	CCONJ	Cc	_	20	cc	_	Dep=20|Rel=Conj
 20	trdo	trd	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	conj	_	Dep=18|Rel=Coord
 21	podlago	podlaga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|Dep=16|Rel=AdvO
-22	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj506.2692.9587
 # text = Danes je vozniško dovoljenje eden od temeljnih dokumentov, ki omogoča mobilnost in opravljanje vseh nalog in funkcij, ki jih imamo.
-1	Danes	danes	ADV	Rgp	Degree=Pos	8	advmod	_	Dep=2|Rel=AdvO
-2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	Dep=0|Rel=Root
+1	Danes	danes	ADV	Rgp	Degree=Pos	5	advmod	_	Dep=2|Rel=AdvO
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	Dep=0|Rel=Root
 3	vozniško	vozniški	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	Dep=4|Rel=Atr
-4	dovoljenje	dovoljenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	Dep=2|Rel=Sb
+4	dovoljenje	dovoljenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Dep=2|Rel=Sb
 5	eden	eden	NUM	Mlpmsn	Case=Nom|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	0	root	_	Dep=8|Rel=Atr
 6	od	od	ADP	Sg	Case=Gen	8	case	_	Dep=8|Rel=Atr
 7	temeljnih	temeljen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	Dep=8|Rel=Atr
@@ -4840,7 +4840,7 @@
 20	ki	ki	SCONJ	Cs	_	22	mark	_	Dep=22|Rel=Conj
 21	jih	on	PRON	Pp3fpa--y	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs|Variant=Short	22	obj	_	Dep=22|Rel=Obj
 22	imamo	imeti	VERB	Vmpr1p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	acl	_	SpaceAfter=No|Dep=18|Rel=Atr
-23	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+23	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj506.2693.9589
 # text = Predvsem se morate naučiti vsakodnevne pravilne prehrane.
@@ -4959,7 +4959,7 @@
 13	daleč	daleč	ADV	Rgp	Degree=Pos	15	advmod	_	Dep=15|Rel=AdvO
 14	boste	biti	AUX	Va-f2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	15	aux	_	Dep=15|Rel=PPart
 15	prišli	priti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	10	conj	_	SpaceAfter=No|Dep=0|Rel=Root
-16	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+16	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj506.2695.9598
 # text = In če ste ga znali zapolniti z balastom, kot je nepotrebno pospravljanje stanovanja sredi tedna oziroma vsakodnevno posedanje s kolegico na kavici, potem ste ga sposobni tudi očistiti nepotrebnih opravkov.
@@ -5006,7 +5006,7 @@
 5	lov	lov	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	Dep=3|Rel=AdvO
 6	za	za	ADP	Si	Case=Ins	7	case	_	Dep=7|Rel=Atr
 7	ciljem	cilj	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|Dep=5|Rel=Atr
-8	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+8	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj506.2696.9600
 # text = - Naredite izpadni korak v stran, tako da sta obe stopali še vedno obrnjeni naprej, noga, ki je ostala na mestu, pa je skoraj popolnoma iztegnjena.
@@ -5016,7 +5016,7 @@
 4	korak	korak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	Dep=2|Rel=Obj
 5	v	v	ADP	Sa	Case=Acc	6	case	_	Dep=6|Rel=Atr
 6	stran	stran	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|Dep=4|Rel=Atr
-7	,	,	PUNCT	Z	_	30	punct	_	Dep=0|Rel=Root
+7	,	,	PUNCT	Z	_	15	punct	_	Dep=0|Rel=Root
 8	tako	tako	CCONJ	Cc	_	15	cc	_	Dep=10|Rel=Conj
 9	da	da	SCONJ	Cs	_	8	fixed	_	Dep=8|Rel=MWU
 10	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	Dep=2|Rel=AdvM
@@ -5040,7 +5040,7 @@
 28	skoraj	skoraj	PART	Q	_	29	advmod	_	Dep=29|Rel=Atr
 29	popolnoma	popolnoma	ADV	Rgp	Degree=Pos	30	advmod	_	Dep=30|Rel=Atr
 30	iztegnjena	iztegnjen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	2	parataxis	_	SpaceAfter=No|Dep=27|Rel=Atr
-31	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+31	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj507.2697.9603
 # text = Mož je še enkrat iztegnil roko skozi režo in potem je pomencal s prsti, mračilo se je.
@@ -5075,7 +5075,7 @@
 7	mož	mož	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Dep=9|Rel=Sb
 8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	Dep=9|Rel=PPart
 9	šepetal	šepetati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	5	parataxis	_	SpaceAfter=No|Dep=0|Rel=Root
-10	:	:	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+10	:	:	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj508.2698.9605
 # text = Moher je po svojih fizikalnih in kemijskih lastnostih, odpornosti proti kemijskim reagentom, toploti, mikroorganizmom in mrčesu podoben volni.
@@ -5126,7 +5126,7 @@
 7	za	za	ADP	Sa	Case=Acc	9	case	_	Dep=9|Rel=Atr
 8	poletna	poleten	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	Dep=9|Rel=Atr
 9	oblačila	oblačilo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No|Dep=5|Rel=Obj
-10	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj509.2699.9609
 # text = Na sedežu severnoatlantskega zavezništva še vedno odmeva novica o umoru Fehmija Aganija, ki je bil med pogajanji v Rambouilletu glavni svetovalec Ibrahima Rugove.
@@ -5173,10 +5173,10 @@
 13	spraviti	spraviti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	12	xcomp	_	Dep=12|Rel=Atr
 14	s	z	ADP	Sg	Case=Gen	15	case	_	Dep=15|Rel=Atr
 15	Kosova	Kosovo	PROPN	Npnsg	Case=Gen|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|Dep=13|Rel=AdvO
-16	,	,	PUNCT	Z	_	18	punct	_	SpaceAfter=No|Dep=0|Rel=Root
+16	,	,	PUNCT	Z	_	12	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 17	«	«	PUNCT	Z	_	12	punct	_	Dep=0|Rel=Root
 18	pristavljajo	pristavljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No|Dep=0|Rel=Root
-19	.	.	PUNCT	Z	_	12	punct	_	Dep=0|Rel=Root
+19	.	.	PUNCT	Z	_	12	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj510.2700.9613
 # text = Prvo pravilo: Za nakup si je treba vzeti čas.
@@ -5272,7 +5272,7 @@
 8	in	in	CCONJ	Cc	_	9	cc	_	Dep=9|Rel=Conj
 9	draga	drag	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	7	conj	_	Dep=7|Rel=Coord
 10	darila	darilo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	SpaceAfter=No|Dep=4|Rel=Sb
-11	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj510.2701.9619
 # text = Spominjam se dveh sosedov, ki sta bila med seboj skregana.
@@ -5369,7 +5369,7 @@
 15	treba	treba	ADV	Rgp	Degree=Pos	14	advmod	_	Dep=14|Rel=AdvM
 16	zamero	zamera	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	Dep=17|Rel=Obj
 17	prerasti	prerasti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	14	csubj	_	SpaceAfter=No|Dep=14|Rel=Sb
-18	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+18	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj510.2702.9625
 # text = Ta prostor obstaja, če ga neguješ.
@@ -5438,7 +5438,7 @@
 28	in	in	CCONJ	Cc	_	29	cc	_	Dep=29|Rel=Conj
 29	čustveno	čustveno	ADV	Rgp	Degree=Pos	27	conj	_	Dep=27|Rel=Coord
 30	razvija	razvijati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	SpaceAfter=No|Dep=0|Rel=Root
-31	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+31	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj510.2703.9628
 # text = Katarina je veliki roman o velikem romanju v Kelmorajn, ki je v bistvu romanje k sebi.
@@ -5482,7 +5482,7 @@
 17	do	do	ADP	Sg	Case=Gen	19	case	_	Dep=19|Rel=Atr
 18	zlate	zlat	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	Dep=19|Rel=Atr
 19	skrinje	skrinja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No|Dep=16|Rel=Atr
-20	?	?	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+20	?	?	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj510.2704.9631
 # text = Veliko inovativnih sposobnosti premore, ne boji se jih udejanjati in po pravilu mu taki poskusi uspevajo.
@@ -5589,7 +5589,7 @@
 7	kar	kar	ADV	Rgp	Degree=Pos	5	advmod	_	Dep=0|Rel=Root
 8	kompleks	kompleks	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Dep=5|Rel=Sb
 9	superiornosti	superiornost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|Dep=8|Rel=Atr
-10	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj510.2705.9637
 # text = Vsebnost surovih beljakovin, njihova razgradljivost in vsebnost prebavljivih nerazgradljivih beljakovin v različnih krmilih
@@ -5606,7 +5606,7 @@
 11	beljakovin	beljakovina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	Dep=8|Rel=Atr
 12	v	v	ADP	Sl	Case=Loc	14	case	_	Dep=14|Rel=Atr
 13	različnih	različen	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	Dep=14|Rel=Atr
-14	krmilih	krmilo	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	8	nmod	_	Dep=8|Rel=Atr
+14	krmilih	krmilo	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No|Dep=8|Rel=Atr
 
 # sent_id = ssj510.2706.9638
 # text = Vlada je po enajstih letih usklajevanj sprejela predloga zakonov o urejanju prostora in gradnji objektov, ki naj bi bila pomemben del t. i. antibirokratskega programa.
@@ -5722,7 +5722,7 @@
 33	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	34	aux	_	Dep=34|Rel=PPart
 34	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	15	acl	_	Dep=15|Rel=Atr
 35	več	več	PART	Q	_	34	advmod	_	SpaceAfter=No|Dep=0|Rel=Root
-36	.	.	PUNCT	Z	_	14	punct	_	Dep=0|Rel=Root
+36	.	.	PUNCT	Z	_	14	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj511.2707.9644
 # text = - Kakšen kredit vzeti?
@@ -5762,7 +5762,7 @@
 26	skupno	skupno	ADV	Rgp	Degree=Pos	27	advmod	_	Dep=27|Rel=Atr
 27	320	320	NUM	Mdc	NumForm=Digit|NumType=Card	28	nummod	_	Dep=28|Rel=Atr
 28	zaposlenih	zaposlen	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	24	amod	_	SpaceAfter=No|Dep=24|Rel=Atr
-29	.	.	PUNCT	Z	_	20	punct	_	Dep=0|Rel=Root
+29	.	.	PUNCT	Z	_	20	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj511.2709.9648
 # text = Če je udeležencev več, pa nastopijo težave zaradi omejenih hotelskih zmogljivosti, saj Ljubljana nima dovolj sob za prenočitev dva tisoč gostov.
@@ -5828,7 +5828,7 @@
 12	od	od	ADP	Sg	Case=Gen	13	case	_	Dep=13|Rel=Atr
 13	števila	število	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	conj	_	Dep=7|Rel=Coord
 14	letov	let	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No|Dep=13|Rel=Atr
-15	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+15	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj512.2710.9653
 # text = Dve vrstici v Praški deklaraciji, ki se nanašata na ustanovitev pododbora za kmetijstvo, vlivata upanje, da je to spoznanje končno dozorelo v vseh članicah Cefte.
@@ -5914,7 +5914,7 @@
 29	skupna	skupen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	Dep=31|Rel=Atr
 30	bruseljska	bruseljski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	Dep=31|Rel=Atr
 31	blagajna	blagajna	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	SpaceAfter=No|Dep=28|Rel=Sb
-32	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+32	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj512.2711.9656
 # text = Grožnje z odstavitvijo Jelcina same po sebi niti niso tako nevarne, saj najmočnejša stranka v parlamentu kljub vsem retoričnim grožnjam v svojih arzenalih (še) nima vzvodov, s katerimi bi kar tako čez noč podirala Kremelj.
@@ -5943,7 +5943,7 @@
 23	svojih	svoj	DET	Px-mpl	Case=Loc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	24	det	_	Dep=24|Rel=Atr
 24	arzenalih	arzenal	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	28	obl	_	Dep=28|Rel=AdvO
 25	(	(	PUNCT	Z	_	26	punct	_	SpaceAfter=No|Dep=0|Rel=Root
-26	še	še	PART	Q	_	11	discourse	_	SpaceAfter=No|Dep=0|Rel=Root
+26	še	še	PART	Q	_	28	advmod	_	SpaceAfter=No|Dep=0|Rel=Root
 27	)	)	PUNCT	Z	_	26	punct	_	Dep=0|Rel=Root
 28	nima	imeti	VERB	Vmpr3s-y	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	conj	_	Dep=0|Rel=Root
 29	vzvodov	vzvod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	28	obj	_	SpaceAfter=No|Dep=28|Rel=Obj
@@ -6049,7 +6049,7 @@
 38	moreš	moči	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 39	predvidevati	predvidevati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	38	xcomp	_	Dep=38|Rel=Atr
 40	vnaprej	vnaprej	ADV	Rgp	Degree=Pos	39	advmod	_	SpaceAfter=No|Dep=39|Rel=AdvO
-41	.	.	PUNCT	Z	_	38	punct	_	Dep=0|Rel=Root
+41	.	.	PUNCT	Z	_	38	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj513.2713.9661
 # text = Srečanje s tradicionalnimi plemenskimi ljudmi mi ni samo osmislilo poti, ampak za vedno spremenilo moj pogled na svet.
@@ -6176,7 +6176,7 @@
 7	kresal	kresati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 8	z	z	ADP	Si	Case=Ins	9	case	_	Dep=9|Rel=Atr
 9	našim	naš	DET	Ps1msip	Case=Ins|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	obl	_	SpaceAfter=No|Dep=7|Rel=Obj
-10	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj513.2714.9669
 # text = Nubijci so bili prva tarča organizirane gonje, s katero želi Kartum islamizirati oziroma "civilizirati" celotno državo.
@@ -6306,7 +6306,7 @@
 17	del	del	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	acl	_	Dep=15|Rel=Atr
 18	tradicionalne	tradicionalen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	Dep=19|Rel=Atr
 19	prehrane	prehrana	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No|Dep=17|Rel=Atr
-20	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj513.2715.9681
 # text = Na festivalu je bilo več obiskovalcev kot kdajkoli prej in tudi seznam nastopajočih ni bil še nikoli daljši.
@@ -6583,7 +6583,7 @@
 9	vendarle	vendarle	CCONJ	Cc	_	11	advmod	_	Dep=0|Rel=Root
 10	močno	močno	ADV	Rgp	Degree=Pos	11	advmod	_	Dep=11|Rel=AdvM
 11	utrudil	utruditi	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	1	ccomp	_	SpaceAfter=No|Dep=1|Rel=Obj
-12	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj513.2717.9700
 # text = Vstala sem in se pozanimala, kako naj najdem njegov dom.
@@ -6598,7 +6598,7 @@
 9	najdem	najti	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	Dep=5|Rel=Obj
 10	njegov	njegov	DET	Ps3msasm	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	Dep=11|Rel=Atr
 11	dom	dom	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|Dep=9|Rel=Obj
-12	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj513.2718.9701
 # text = V Jenneju je vse staro; pročelja hiš, ometanih z blatom riževih luščin in kravjekov, stoletna mošeja, celo pred petimi leti napeljani električni kabli so tam že od nekdaj.
@@ -6622,7 +6622,7 @@
 18	stoletna	stoleten	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	Dep=19|Rel=Atr
 19	mošeja	mošeja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|Dep=7|Rel=Coord
 20	,	,	PUNCT	Z	_	27	punct	_	Dep=27|Rel=Conj
-21	celo	celo	PART	Q	_	28	advmod	_	Dep=0|Rel=Root
+21	celo	celo	PART	Q	_	27	advmod	_	Dep=0|Rel=Root
 22	pred	pred	ADP	Si	Case=Ins	24	case	_	Dep=24|Rel=Atr
 23	petimi	pet	NUM	Mlc-pi	Case=Ins|Number=Plur|NumForm=Word|NumType=Card	24	nummod	_	Dep=24|Rel=Atr
 24	leti	leto	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	25	nmod	_	Dep=25|Rel=Atr
@@ -6709,7 +6709,7 @@
 7	zmoti	zmotiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 8	mestno	mesten	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	Dep=9|Rel=Atr
 9	tišino	tišina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|Dep=7|Rel=Obj
-10	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj513.2719.9707
 # text = V okupiranem Sarajevu ga je prijatelj pobaral, naj mu pove, kdo je evropska osebnost dvajsetega stoletja.
@@ -6749,7 +6749,7 @@
 12	me	jaz	PRON	Pp1-sa--y	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	14	obj	_	Dep=14|Rel=Obj
 13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	Dep=14|Rel=PPart
 14	vprašal	vprašati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	7	advcl	_	SpaceAfter=No|Dep=7|Rel=AdvO
-15	:	:	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+15	:	:	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj513.2720.9714
 # text = Kone je bil resnično zadnji človek, o katerem se mi je ljubilo pogovarjati.
@@ -6794,7 +6794,7 @@
 2	šale	šala	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	Dep=3|Rel=Sb
 3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	Dep=0|Rel=Root
 4	prepovedane	prepovedan	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|Dep=3|Rel=Atr
-5	:	:	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+5	:	:	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj513.2721.9718
 # text = V Gani nam je ugajalo zaradi Gancev.
@@ -6805,7 +6805,7 @@
 5	ugajalo	ugajati	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 6	zaradi	zaradi	ADP	Sg	Case=Gen	7	case	_	Dep=7|Rel=Atr
 7	Gancev	Ganec	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|Dep=5|Rel=AdvO
-8	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+8	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj514.2723.9720
 # text = WASHINGTON Američani podpirajo zamisel o ustanovitvi mednarodnega sodišča za vojne zločine, ki naj bi jih zagrešil režim iraškega predsednika Sadama Huseina.
@@ -6878,7 +6878,7 @@
 28	v	v	ADP	Sl	Case=Loc	30	case	_	Dep=30|Rel=Atr
 29	Zalivski	zalivski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	Dep=30|Rel=Atr
 30	vojni	vojna	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No|Dep=27|Rel=Atr
-31	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+31	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj514.2724.9723
 # text = Odvetnik stanovalcev Jože Kristan je potrdil, da je zadeva v rokah sodišča, in dejal, da bodo stanovalci dolgove za elektriko in druge stroške poravnali.
@@ -6940,7 +6940,7 @@
 25	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	26	aux	_	Dep=26|Rel=PPart
 26	počeli	početi	VERB	Vmbp-pm	Gender=Masc|Number=Plur|VerbForm=Part	3	parataxis	_	Dep=0|Rel=Root
 27	redno	redno	ADV	Rgp	Degree=Pos	26	advmod	_	SpaceAfter=No|Dep=26|Rel=AdvO
-28	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+28	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj514.2725.9725
 # text = Za zdaj je kemoterapija najboljše sredstvo za odganjanje zaskrbljenosti bolnikov, pravijo raziskovalci iz Heidelberga.
@@ -6988,7 +6988,7 @@
 # text = (fl)
 1	(	(	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	fl	fl	X	X	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-3	)	)	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+3	)	)	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj514.2726.9729
 # text = Načeloma bi lahko ISS oskrbovali ceneje, če bi stvar prepustili predvsem Rusom.
@@ -7046,7 +7046,7 @@
 16	skopim	skop	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	Dep=17|Rel=Atr
 17	denarjem	denar	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	12	obl	_	Dep=12|Rel=AdvM
 18	davkoplačevalcev	davkoplačevalec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No|Dep=17|Rel=Atr
-19	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+19	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj515.2727.9733
 # text = Uvrščanje ljudi v prevladujoči tip glede na teorijo petih elementov temelji na opazovanju, spraševanju, poslušanju, pregledovanju in tipanju človeka.
@@ -7110,7 +7110,7 @@
 8	njegov	njegov	DET	Ps3msnsm	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	Dep=10|Rel=Atr
 9	prevladujoči	prevladujoč	ADJ	Appmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	10	amod	_	Dep=10|Rel=Atr
 10	element	element	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No|Dep=7|Rel=Sb
-11	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj515.2728.9737
 # text = Z novim letom so se podražili prenosi nekaterih poštnih pošiljk v notranjem prometu ter telefaksne storitve v notranjem in mednarodnem prometu.
@@ -7197,7 +7197,7 @@
 22	ne	ne	PART	Q	Polarity=Neg	23	advmod	_	Dep=23|Rel=PPart
 23	zaupamo	zaupati	VERB	Vmbr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	Dep=16|Rel=AdvM
 24	več	več	PART	Q	_	23	advmod	_	SpaceAfter=No|Dep=0|Rel=Root
-25	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+25	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj516.2732.9753
 # text = Dobra ponazoritev nove ureditve je primerjava med dvema največjima gospodarskima silama na svetu.
@@ -7262,7 +7262,7 @@
 42	kot	kot	SCONJ	Cs	_	44	case	_	Dep=44|Rel=Conj
 43	v	v	ADP	Sl	Case=Loc	44	case	_	Dep=44|Rel=Atr
 44	uniji	unija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No|Dep=41|Rel=AdvM
-45	.	.	PUNCT	Z	_	41	punct	_	Dep=0|Rel=Root
+45	.	.	PUNCT	Z	_	41	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj517.2733.9756
 # text = Bistvena za uporabnike kmetijskih vozil pa je sprememba 188. člena, ki govori o samih tehničnih pregledih.
@@ -7296,7 +7296,7 @@
 7	v	v	ADP	Sl	Case=Loc	9	case	_	Dep=9|Rel=Atr
 8	Uradnem	uraden	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	Dep=9|Rel=Atr
 9	listu	list	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|Dep=6|Rel=Atr
-10	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj517.2734.9759
 # text = Živali, ki so bolj izpostavljene poškodbam, kot so delovni in vojaški konji, moramo cepiti aktivno.
@@ -7366,7 +7366,7 @@
 14	spremenjeno	spremenjen	ADJ	Appfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	15	amod	_	Dep=15|Rel=Atr
 15	plast	plast	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	Dep=9|Rel=Obj
 16	mrve	mrva	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|Dep=15|Rel=Atr
-17	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj517.2736.9766
 # text = Za podaljšanje oskrbe trga lahko sladki komarček shranjujejo od 4 do 6 tednov pri temperaturi 0 do 1 oC in relativni vlagi 95 odstotkov.
@@ -7424,10 +7424,10 @@
 24	oveneli	ovenel	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	25	amod	_	Dep=25|Rel=Atr
 25	gomolji	gomolj	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	Dep=26|Rel=Sb
 26	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	27	cop	_	Dep=0|Rel=Root
-27	primerni	primeren	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	19	conj	_	Dep=26|Rel=Atr
+27	primerni	primeren	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	18	conj	_	Dep=26|Rel=Atr
 28	za	za	ADP	Sa	Case=Acc	29	case	_	Dep=29|Rel=Atr
 29	prodajo	prodaja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No|Dep=27|Rel=Obj
-30	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+30	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj519.2738.9770
 # text = Makedonija je po mnenju zahodnih vojaških strokovnjakov izjemno pomembna za ohranjanje miru na jugu Balkana, zato se vse pogosteje govori, da utegne že v kratkem postati članica Nata, čeprav glede tega doslej ni bilo nikakršne uradne napovedi.
@@ -7503,7 +7503,7 @@
 26	potujejo	potovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	Dep=0|Rel=Root
 27	v	v	ADP	Sa	Case=Acc	28	case	_	Dep=28|Rel=Atr
 28	Bruselj	Bruselj	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|Dep=26|Rel=AdvO
-29	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+29	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj520.2740.9773
 # text = Po zadnjih napovedih Evropske komisije naj bi se o dokončni obliki plačila oz. ustreznega modela s Slovenijo začeli pogovarjati že v prvi polovici leta 2005.
@@ -7568,7 +7568,7 @@
 30	plačila	plačilo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	28	nsubj	_	Dep=27|Rel=Sb
 31	na	na	ADP	Sa	Case=Acc	32	case	_	Dep=32|Rel=Atr
 32	hektar	hektar	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No|Dep=30|Rel=Atr
-33	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+33	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj520.2741.9775
 # text = O svoji odločitvi in o izvršitvi uklonilnega zapora sodišče obvesti prekrškovni organ, ki je podal predlog za uklonilni zapor.
@@ -7592,7 +7592,7 @@
 18	za	za	ADP	Sa	Case=Acc	20	case	_	Dep=20|Rel=Atr
 19	uklonilni	uklonilen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	Dep=20|Rel=Atr
 20	zapor	zapor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No|Dep=17|Rel=Atr
-21	.	.	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	10	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj520.2743.9777
 # text = Pri seriji vision so na voljo štiri različice menjalnika, če dodamo še plazeče prestave.
@@ -7627,7 +7627,7 @@
 10	(	(	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 11	invertorjem	invertor	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No|Dep=0|Rel=Root
 12	)	)	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
-13	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj520.2744.9780
 # text = Leto, ki se izteka, so zaznamovali pomembni dogodki.
@@ -7693,7 +7693,7 @@
 10	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	Dep=12|Rel=PPart
 11	ga	on	PRON	Pp3nsa--y	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	12	obj	_	Dep=12|Rel=Obj
 12	začeli	začeti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	7	acl	_	SpaceAfter=No|Dep=7|Rel=Atr
-13	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj520.2746.9786
 # text = »Potem pa le pazi name,« se mu je v odgovor nasmehnila Regina.
@@ -7703,7 +7703,7 @@
 4	le	le	PART	Q	_	5	advmod	_	Dep=0|Rel=Root
 5	pazi	paziti	VERB	Vmpm2s	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 6	name	name	PRON	Pp1-sa--b	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Bound	5	obj	_	SpaceAfter=No|Dep=5|Rel=Obj
-7	,	,	PUNCT	Z	_	14	punct	_	SpaceAfter=No|Dep=0|Rel=Root
+7	,	,	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 8	«	«	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
 9	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	14	expl	_	Dep=14|Rel=PPart
 10	mu	on	PRON	Pp3msd--y	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	14	obj	_	Dep=14|Rel=Obj
@@ -7712,7 +7712,7 @@
 13	odgovor	odgovor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	Dep=14|Rel=AdvO
 14	nasmehnila	nasmehniti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	5	parataxis	_	Dep=0|Rel=Root
 15	Regina	Regina	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No|Dep=14|Rel=Sb
-16	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+16	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj520.2748.9789
 # text = V romanu Doktor Živago ruskega nobelovca Borisa Pasternaka je opisana ena najlepših ljubezenskih zgodb svetovne literature...
@@ -7749,7 +7749,7 @@
 9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	Dep=0|Rel=Root
 10	nesporna	nesporen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	Dep=11|Rel=Atr
 11	mojstrovina	mojstrovina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|Dep=9|Rel=Atr
-12	.	.	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj520.2749.9792
 # text = Programe vzdrževalnih del pripravijo za gozdne ceste v državnih gozdovih, v zasebnih gozdovih in v gozdovih, ki so v postopku vračanja prejšnjim lastnikom.
@@ -7801,7 +7801,7 @@
 17	pri	pri	ADP	Sl	Case=Loc	19	case	_	Dep=19|Rel=Atr
 18	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	19	det	_	Dep=19|Rel=Atr
 19	delu	delo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No|Dep=16|Rel=Atr
-20	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj520.2750.9794
 # text = Na ta način opozorijo delavce zavoda za gozdove, katera vzdrževalna dela so najbolj potrebna na posameznih gozdnih cestah:
@@ -7824,7 +7824,7 @@
 17	posameznih	posamezen	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	Dep=19|Rel=Atr
 18	gozdnih	gozden	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	Dep=19|Rel=Atr
 19	cestah	cesta	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No|Dep=13|Rel=AdvO
-20	:	:	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+20	:	:	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj520.2751.9795
 # text = Med obvezno opremo v vozilu spada torbica za prvo pomoč.
@@ -7895,7 +7895,7 @@
 19	za	za	ADP	Sa	Case=Acc	21	case	_	Dep=21|Rel=Atr
 20	prvo	prvi	ADJ	Mlofsa	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	21	amod	_	Dep=21|Rel=Atr
 21	pomoč	pomoč	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No|Dep=18|Rel=Atr
-22	.	.	PUNCT	Z	_	13	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	13	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj521.2752.9798
 # text = O tem, kako pripravimo prostor, orodje in posodo, kdo lahko kolje in katere živali so primerne za zakol, smo že pisali.
@@ -7944,7 +7944,7 @@
 14	mesa	meso	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	Dep=13|Rel=Atr
 15	ter	ter	CCONJ	Cc	_	16	cc	_	Dep=16|Rel=Conj
 16	slanine	slanina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No|Dep=14|Rel=Coord
-17	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj522.2753.9801
 # text = • Najbolj pomembna za uspešno čiščenje je določitev ustreznega čistila ali kombinacije čistil in pravilne količine čistil.
@@ -8004,7 +8004,7 @@
 18	vzorčenjem	vzorčenje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	20	obl	_	Dep=20|Rel=AdvO
 19	dobro	dobro	ADV	Rgp	Degree=Pos	20	advmod	_	Dep=20|Rel=AdvM
 20	premešamo	premešati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No|Dep=0|Rel=Root
-21	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj523.2754.9807
 # text = Vsekakor pa priporočamo, da bi bili vsi tisti, ki ste preboleli katerokoli bolezen, ki jo prenašajo klopi, zaščiteni z ustreznimi oblačili in obuvalom, kadar se odpravite tja, kjer živijo klopi.
@@ -8166,7 +8166,7 @@
 35	upravnega	upraven	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	Dep=36|Rel=Atr
 36	odbora	odbor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	Dep=34|Rel=Atr
 37	zavoda	zavod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No|Dep=36|Rel=Atr
-38	.	.	PUNCT	Z	_	32	punct	_	Dep=0|Rel=Root
+38	.	.	PUNCT	Z	_	32	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj523.2758.9817
 # text = V tem primeru, o katerem bi rad potarnal, bi verjetno ravnal z enako pozornostjo in obzirnostjo.
@@ -8246,7 +8246,7 @@
 12	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	14	aux	_	Dep=14|Rel=PPart
 13	prej	prej	ADV	Rgc	Degree=Cmp	14	advmod	_	Dep=14|Rel=AdvO
 14	preverjal	preverjati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	5	parataxis	_	SpaceAfter=No|Dep=0|Rel=Root
-15	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+15	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj525.2759.9823
 # text = Za dom lahko kupimo ciklame v naših vrtnarijah.
@@ -8298,7 +8298,7 @@
 4	z	z	ADP	Si	Case=Ins	6	case	_	Dep=6|Rel=Atr
 5	lopatastimi	lopatast	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	Dep=6|Rel=Atr
 6	vilami	vila	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|Dep=3|Rel=AdvM
-7	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+7	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj525.2761.9828
 # text = Zalijemo in v zemljo zapičimo etiketo z imenom rastlin, da bomo spomladi vedeli, kaj smo kam posadili, saj je pomlad še daleč.
@@ -8368,7 +8368,7 @@
 16	ali	ali	CCONJ	Cc	_	18	cc	_	Dep=18|Rel=Conj
 17	ploščate	ploščat	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	Dep=18|Rel=Atr
 18	kamne	kamen	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No|Dep=15|Rel=Coord
-19	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+19	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj525.2763.9832
 # text = Imam dve vprašanji.
@@ -8443,7 +8443,7 @@
 18	le	le	PART	Q	_	19	advmod	_	Dep=0|Rel=Root
 19	držal	držati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	7	advcl	_	Dep=7|Rel=AdvO
 20	koledarja	koledar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No|Dep=19|Rel=Obj
-21	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj525.2764.9837
 # text = Buč ni težko gojiti.
@@ -8532,7 +8532,7 @@
 21	oblikovati	oblikovati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	20	xcomp	_	Dep=20|Rel=Atr
 22	mlade	mlad	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	Dep=21|Rel=Sb
 23	bučke	bučka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No|Dep=22|Rel=Atr
-24	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+24	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj525.2765.9843
 # text = Večinoma se razraščajo kot grmiči, veliki okoli 1 kvadratnega metra.
@@ -8634,7 +8634,7 @@
 9	druge	drug	ADJ	Mlpfpn	Case=Nom|Gender=Fem|Number=Plur	11	amod	_	Dep=11|Rel=Atr
 10	poletne	poleten	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	Dep=11|Rel=Atr
 11	oblike	oblika	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No|Dep=5|Rel=Coord
-12	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj525.2766.9849
 # text = S svojo prisotnostjo in ropotom, ki ga občasno povzroča na podstrešju, kuna seveda vnaša nemir med ljudi, ki živijo v hiši.
@@ -8824,7 +8824,7 @@
 24	s	z	ADP	Si	Case=Ins	26	case	_	Dep=26|Rel=Atr
 25	hranilno	hranilen	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	Dep=26|Rel=Atr
 26	kremo	krema	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No|Dep=23|Rel=Obj
-27	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+27	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj528.2772.9866
 # text = Svetujemo: Bodite pozitivni do sebe in svoje okolice.
@@ -8874,7 +8874,7 @@
 17	reakcijo	reakcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	Dep=14|Rel=Obj
 18	imunskega	imunski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	Dep=19|Rel=Atr
 19	sistema	sistem	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No|Dep=17|Rel=Atr
-20	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj528.2774.9871
 # text = Zakoni vesolja so vedenja, s katerimi uskladimo telo in duha ter preidemo v stanje, ko lahko dosežemo vse, kar si želimo.
@@ -8926,7 +8926,7 @@
 18	uravnovešeni	uravnovešen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	16	conj	_	SpaceAfter=No|Dep=16|Rel=Coord
 19	,	,	PUNCT	Z	_	20	punct	_	Dep=20|Rel=Conj
 20	srečni	srečen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No|Dep=16|Rel=Coord
-21	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj528.2775.9873
 # text = Tudi nohtne glivice lahko dobite v plavalnih bazenih, savnah in tuš kabinah.
@@ -9143,7 +9143,7 @@
 36	vode	voda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	Dep=35|Rel=Atr
 37	pravilno	pravilno	ADV	Rgp	Degree=Pos	38	advmod	_	Dep=38|Rel=Atr
 38	uravnavan	uravnavan	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	22	advcl	_	SpaceAfter=No|Dep=30|Rel=Atr
-39	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+39	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj528.2777.9887
 # text = Čebulo olupimo, jo narežemo na obročke.
@@ -9183,7 +9183,7 @@
 23	koščke	košček	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	24	nmod	_	Dep=24|Rel=Atr
 24	narezan	narezan	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	25	amod	_	Dep=25|Rel=Atr
 25	feferon	feferon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No|Dep=17|Rel=Coord
-26	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+26	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj528.2778.9889
 # text = • Peteršilj operite, osušite in ga nasekljajte.
@@ -9204,7 +9204,7 @@
 3	nasekljajte	nasekljati	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 4	tudi	tudi	PART	Q	_	3	advmod	_	Dep=0|Rel=Root
 5	česen	česen	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|Dep=3|Rel=Obj
-6	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+6	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj528.2779.9891
 # text = • Spolnim odnosom se je priporočljivo odpovedati tudi, če v visoki nosečnosti odteče plodovnica.
@@ -9261,7 +9261,7 @@
 5	potrebno	potreben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	Dep=4|Rel=Atr
 6	sprožiti	sprožiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	5	csubj	_	Dep=4|Rel=Sb
 7	porod	porod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|Dep=6|Rel=Obj
-8	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+8	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj528.2780.9894
 # text = Že star rek pravi, da zdravnik pomaga, narava pa pozdravi.
@@ -9337,7 +9337,7 @@
 23	ali	ali	CCONJ	Cc	_	24	cc	_	Dep=24|Rel=Conj
 24	živalskega	živalski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	conj	_	Dep=20|Rel=Coord
 25	izvora	izvor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No|Dep=19|Rel=Atr
-26	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+26	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj528.2783.9899
 # text = Da rastline preoblikujemo v fitoterapevtska zdravila, jih obdelujemo po različnih postopkih.
@@ -9353,7 +9353,7 @@
 10	po	po	ADP	Sl	Case=Loc	12	case	_	Dep=12|Rel=Atr
 11	različnih	različen	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	Dep=12|Rel=Atr
 12	postopkih	postopek	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|Dep=9|Rel=AdvM
-13	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj529.2784.9900
 # text = Spoštovani gospod predsednik, spoštovane poslanke in poslanci, predstavniki Vlade!
@@ -9454,7 +9454,7 @@
 # text = Hvala lepa.
 1	Hvala	hvala	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Dep=0|Rel=Root
 2	lepa	lep	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No|Dep=1|Rel=Atr
-3	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+3	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj529.2785.9907
 # text = Je pa pri odločanju o spremembi tega zakona prišlo do prav čudne situacije, da smo dobili v odločanje zakon, ki povečuje finančno obveznost države in ki v posledici omogoča odprodaje delov tega sistema brez obveznosti, kar meče čudno luč na samo smer, v katero naj bi se ta sanacija vodila.
@@ -9512,7 +9512,7 @@
 52	ta	ta	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	53	det	_	Dep=53|Rel=Atr
 53	sanacija	sanacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	54	nsubj	_	Dep=54|Rel=Sb
 54	vodila	voditi	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	45	acl	_	SpaceAfter=No|Dep=45|Rel=Atr
-55	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+55	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj529.2786.9908
 # text = In grem naprej.
@@ -9623,7 +9623,7 @@
 1	Mene	jaz	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	Dep=3|Rel=AdvO
 2	ne	ne	PART	Q	Polarity=Neg	3	advmod	_	Dep=3|Rel=PPart
 3	boste	biti	VERB	Va-f2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-4	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+4	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj529.2787.9917
 # text = Spoštovani predsednik, spoštovani zbor!
@@ -9992,7 +9992,7 @@
 20	ki	ki	SCONJ	Cs	_	22	mark	_	Dep=22|Rel=Conj
 21	podatke	podatek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	22	obj	_	Dep=22|Rel=Obj
 22	imajo	imeti	VERB	Vmpr3p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	conj	_	SpaceAfter=No|Dep=0|Rel=Root
-23	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+23	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj530.2791.9951
 # text = Spet bi rad nekaj malega napisal o varnosti v cestnem prometu (VCP).
@@ -10030,7 +10030,7 @@
 14	nasiljem	nasilje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	8	conj	_	Dep=8|Rel=Coord
 15	določa	določati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 16	šolska	šolski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	Dep=17|Rel=Atr
-17	praksa	praksa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	Dep=15|Rel=Sb
+17	praksa	praksa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No|Dep=15|Rel=Sb
 
 # sent_id = ssj531.2793.9956
 # text = Jaz ga nisem.
@@ -10054,7 +10054,7 @@
 11	z	z	ADP	Si	Case=Ins	12	case	_	Dep=12|Rel=Atr
 12	veseljem	veselje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	13	obl	_	Dep=13|Rel=AdvM
 13	prisluhnil	prisluhniti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	3	parataxis	_	SpaceAfter=No|Dep=0|Rel=Root
-14	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+14	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj531.2794.9958
 # text = Italijanski mediji poročajo, da je Bossijeva soproga Manuela pozvala druge voditelje gibanja, naj nadaljujejo načrtovane dejavnosti.
@@ -10108,7 +10108,7 @@
 26	implementaciji	implementacija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	Dep=24|Rel=Atr
 27	federalne	federalen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	Dep=28|Rel=Atr
 28	reforme	reforma	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No|Dep=26|Rel=Atr
-29	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+29	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj531.2795.9960
 # text = MARSA - Potem ko so zimsko sezono z uspešnim nastopom na svetovnem atletskem dvoranskem prvenstvu v Budimpešti prejšnji konec tedna sklenili tekači in šprinterji, so bili minuli konec tedna na Malti aktivni še najboljši slovenski metalci.
@@ -10182,7 +10182,7 @@
 27	izkazal	izkazati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 28	Miran	Miran	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	Dep=27|Rel=Sb
 29	Vodovnik	Vodovnik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	28	flat:name	_	SpaceAfter=No|Dep=28|Rel=Atr
-30	.	.	PUNCT	Z	_	27	punct	_	Dep=0|Rel=Root
+30	.	.	PUNCT	Z	_	27	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj531.2797.9963
 # text = Francoski splošni zdravniki se soglasno strinjajo z dejstvom, ki ga ne znajo razložiti; bolniki se na rednih ali kontrolnih obiskih najpogosteje pritožujejo nad splošno utrujenostjo.
@@ -10236,7 +10236,7 @@
 6	zahteva	zahtevati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	Dep=3|Rel=Atr
 7	diagnostične	diagnostičen	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	Dep=8|Rel=Atr
 8	preiskave	preiskava	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No|Dep=6|Rel=Obj
-9	,	,	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+9	,	,	PUNCT	Z	_	15	punct	_	Dep=0|Rel=Root
 10	s	z	ADP	Si	Case=Ins	11	case	_	Dep=11|Rel=Atr
 11	pomočjo	pomoč	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	15	obl	_	Dep=12|Rel=Atr
 12	katerih	kateri	DET	Pq-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Int	11	nmod	_	Dep=15|Rel=Conj
@@ -10289,7 +10289,7 @@
 6	kakšno	kakšen	DET	Pq-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	7	det	_	Dep=7|Rel=Atr
 7	terapijo	terapija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	Dep=8|Rel=Obj
 8	uporabiti	uporabiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-9	?	?	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+9	?	?	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj532.2798.9972
 # text = Največji udarec po denarnici pa bodo tako kot pred dvema tednoma tudi tokrat doživeli kupci kurilnega olja.
@@ -10459,7 +10459,7 @@
 13	prav	prav	PART	Q	_	14	advmod	_	Dep=14|Rel=Atr
 14	nič	nič	ADV	Rgp	Degree=Pos	15	advmod	_	Dep=15|Rel=Atr
 15	krivi	kriv	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	advcl	_	SpaceAfter=No|Dep=12|Rel=Atr
-16	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+16	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj532.2800.9979
 # text = Pred dvema letoma je Slovenija sprejela Konvencijo o mednarodni trgovini z ogroženimi prostoživečimi živalskimi in rastlinskimi vrstami (CITES).
@@ -10503,7 +10503,7 @@
 14	na	na	ADP	Sl	Case=Loc	16	case	_	Dep=16|Rel=Atr
 15	Sturmovi	Sturmov	ADJ	Aspfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	16	amod	_	Dep=16|Rel=Atr
 16	klopi	klop	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	Dep=13|Rel=AdvO
-17	-	-	PUNCT	Z	_	23	punct	_	Dep=0|Rel=Root
+17	-	-	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
 18	»	»	PUNCT	Z	_	20	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 19	zdravstvene	zdravstven	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	Dep=20|Rel=Atr
 20	težave	težava	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	SpaceAfter=No|Dep=23|Rel=Sb
@@ -10567,7 +10567,7 @@
 43	naša	naš	DET	Ps1fsnp	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	45	det	_	Dep=45|Rel=Atr
 44	reprezentančna	reprezentančen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	Dep=45|Rel=Atr
 45	vrsta	vrsta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	42	nsubj	_	SpaceAfter=No|Dep=42|Rel=Sb
-46	.	.	PUNCT	Z	_	28	punct	_	Dep=0|Rel=Root
+46	.	.	PUNCT	Z	_	28	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj533.2803.9987
 # text = Slobodan Milošević bo v haaških zaporih živel bolje kot večina srbskih upokojencev.
@@ -10583,7 +10583,7 @@
 10	večina	večina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	Dep=8|Rel=AdvM
 11	srbskih	srbski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	Dep=12|Rel=Atr
 12	upokojencev	upokojenec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No|Dep=10|Rel=Atr
-13	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj533.2804.9988
 # text = Po ocenah Svetovne banke bi Jugoslavija v prihodnjih treh ali štirih letih potrebovala za oživitev svojega gospodarstva skoraj štiri milijarde dolarjev.
@@ -10608,7 +10608,7 @@
 19	štiri	štirje	NUM	Mlcfpa	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	20	nummod	_	Dep=20|Rel=Atr
 20	milijarde	milijarda	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	Dep=13|Rel=Obj
 21	dolarjev	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No|Dep=20|Rel=Atr
-22	.	.	PUNCT	Z	_	13	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	13	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj533.2805.9990
 # text = Med njimi je bil tudi kolumbijski policist Jajiro Cardenas.
@@ -10705,7 +10705,7 @@
 22	te	ta	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	24	det	_	Dep=24|Rel=Atr
 23	avtomobilske	avtomobilski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	Dep=24|Rel=Atr
 24	tovarne	tovarna	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No|Dep=21|Rel=Atr
-25	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+25	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj533.2807.9997
 # text = Nihče ni glasno nasprotoval napredku, na novo tehniko in disciplino, ki jo je zahtevala, pa so se vsi sčasoma navadili.
@@ -10732,7 +10732,7 @@
 21	vsi	ves	DET	Pg-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	23	nsubj	_	Dep=23|Rel=Sb
 22	sčasoma	sčasoma	ADV	Rgp	Degree=Pos	23	advmod	_	Dep=23|Rel=AdvO
 23	navadili	navaditi	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	4	parataxis	_	SpaceAfter=No|Dep=0|Rel=Root
-24	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+24	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj533.2808.9999
 # text = Če naj torej razmišljamo vsaj o funkciji proslav, bi rekli, da naj bi predstavljala povezovalno, združevalno simbolno točko, v kateri bi se državljani prepoznali in vsaj za en dan predali nekakšni empatiji do politične tvorbe, katere del so.
@@ -10883,7 +10883,7 @@
 8	kasnejših	kasen	ADJ	Agcfpl	Case=Loc|Degree=Cmp|Gender=Fem|Number=Plur	9	amod	_	Dep=9|Rel=Atr
 9	fazah	faza	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	6	obl	_	Dep=6|Rel=AdvO
 10	preučevanja	preučevanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No|Dep=9|Rel=Atr
-11	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj533.2810.10009
 # text = Ime se je potem razširilo na celotno območje, čeprav avtohtone skupine sebe niso označevale s skupnim imenom.
@@ -10968,7 +10968,7 @@
 18	težko	težko	ADV	Rgp	Degree=Pos	19	advmod	_	Dep=19|Rel=AdvM
 19	popravi	popraviti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	Dep=0|Rel=Root
 20	formo	forma	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No|Dep=19|Rel=Obj
-21	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj533.2813.10015
 # text = Bi se vam z detektorjem laži v mobilnem telefonu življenje spremenilo na bolje ali slabše
@@ -10986,7 +10986,7 @@
 12	na	na	ADP	Sa	Case=Acc	13	case	_	Dep=13|Rel=Atr
 13	bolje	dobro	ADV	Rgc	Degree=Cmp	11	advmod	_	Dep=11|Rel=AdvM
 14	ali	ali	CCONJ	Cc	_	15	cc	_	Dep=15|Rel=Conj
-15	slabše	slabo	ADV	Rgc	Degree=Cmp	13	advmod	_	Dep=13|Rel=Atr
+15	slabše	slabo	ADV	Rgc	Degree=Cmp	13	advmod	_	SpaceAfter=No|Dep=13|Rel=Atr
 
 # sent_id = ssj533.2814.10017
 # text = Rogge v skladu s pravili sploh ne sme omeniti svoje kandidature, kaj šele lobirati in agitirati zanjo.
@@ -11021,7 +11021,7 @@
 7	generalni	generalen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	Dep=8|Rel=Atr
 8	sekretar	sekretar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Dep=6|Rel=Sb
 9	EOC	EOC	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|Dep=8|Rel=Atr
-10	,	,	PUNCT	Z	_	41	punct	_	Dep=0|Rel=Root
+10	,	,	PUNCT	Z	_	17	punct	_	Dep=0|Rel=Root
 11	z	z	ADP	Si	Case=Ins	13	case	_	Dep=13|Rel=Atr
 12	vsemi	ves	DET	Pg-fpi	Case=Ins|Gender=Fem|Number=Plur|PronType=Tot	13	det	_	Dep=13|Rel=Atr
 13	žavbami	žavba	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	14	nmod	_	Dep=14|Rel=Atr
@@ -11183,7 +11183,7 @@
 # text = (jo)
 1	(	(	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	jo	jo	X	X	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-3	)	)	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+3	)	)	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj533.2815.10024
 # text = Dolly Parton je pevka, glavna zanimivost newyorškega nočnega kluba Rhinestone.
@@ -11253,7 +11253,7 @@
 6	taksista	taksist	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	Dep=4|Rel=Obj
 7	Sylvestra	Sylvester	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	Dep=6|Rel=Atr
 8	Stallona	Stallone	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No|Dep=7|Rel=Atr
-9	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+9	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj534.2816.10028
 # text = Festival v Celju je dobro zastavil okrogle mize, filmske delavnice, predstavil mednarodne sklade in ustanove ter posvetovanja.
@@ -11433,7 +11433,7 @@
 43	nekoliko	nekoliko	ADV	Rgp	Degree=Pos	44	advmod	_	Dep=44|Rel=Atr
 44	zaspano	zaspan	ADJ	Appnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	41	conj	_	Dep=41|Rel=Coord
 45	Celje	Celje	PROPN	Npnsa	Case=Acc|Gender=Neut|Number=Sing	40	obj	_	SpaceAfter=No|Dep=40|Rel=Obj
-46	.	.	PUNCT	Z	_	35	punct	_	Dep=0|Rel=Root
+46	.	.	PUNCT	Z	_	35	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj534.2817.10033
 # text = Vendar se ni nadejati sočnih zgodbic mične pevke.
@@ -11461,7 +11461,7 @@
 10	imel	imeti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 11	sedem	sedem	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	12	nummod	_	Dep=12|Rel=Atr
 12	številk	številka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No|Dep=10|Rel=Obj
-13	.	.	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	10	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj534.2818.10037
 # text = Malo bolj izzivalno pa bo soočenje režiserja Diega de Bree s Cankarjevim Pohujšanjem v dolini Šentflorjanski.
@@ -11481,7 +11481,7 @@
 14	v	v	ADP	Sl	Case=Loc	15	case	_	Dep=15|Rel=Atr
 15	dolini	dolina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	Dep=13|Rel=Atr
 16	Šentflorjanski	šentflorjanski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No|Dep=15|Rel=Atr
-17	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj534.2819.10039
 # text = Ob operaciji slepiča so me pod imenom Štefka odpeljali na ženski oddelek, čeprav sem imel že takrat razkošno kosmate noge.
@@ -11506,7 +11506,7 @@
 19	razkošno	razkošno	ADV	Rgp	Degree=Pos	20	advmod	_	Dep=20|Rel=Atr
 20	kosmate	kosmat	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	Dep=21|Rel=Atr
 21	noge	noga	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No|Dep=16|Rel=Obj
-22	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj534.2820.10040
 # text = Jasno Hribernik so nam sodelavci opisali kot deloholičarko in nežno dušo hkrati, Maria Galuniča pa zanima predvsem, kako ji uspeva narediti toliko, ob tem, da vzorno skrbi za osnovnošolko Zalo.
@@ -11534,7 +11534,7 @@
 22	uspeva	uspevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	csubj	_	Dep=17|Rel=Sb
 23	narediti	narediti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	22	xcomp	_	Dep=22|Rel=Atr
 24	toliko	toliko	DET	Rgp	PronType=Dem	23	advmod	_	SpaceAfter=No|Dep=23|Rel=AdvM
-25	,	,	PUNCT	Z	_	22	punct	_	Dep=0|Rel=Root
+25	,	,	PUNCT	Z	_	27	punct	_	Dep=0|Rel=Root
 26	ob	ob	ADP	Sl	Case=Loc	27	case	_	Dep=27|Rel=Atr
 27	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	23	obl	_	SpaceAfter=No|Dep=23|Rel=AdvO
 28	,	,	PUNCT	Z	_	31	punct	_	Dep=0|Rel=Root
@@ -11567,7 +11567,7 @@
 17	cenah	cena	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	14	conj	_	Dep=14|Rel=Coord
 18	nekaj	nekaj	PRON	Pi-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	4	ccomp	_	Dep=7|Rel=Atr
 19	slabega	slab	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	SpaceAfter=No|Dep=18|Rel=Atr
-20	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj535.2822.10043
 # text = Ekološki forum LDS je ob dnevu Zemlje letos izdal že tretjo razglednico
@@ -11582,7 +11582,7 @@
 9	izdal	izdati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 10	že	že	PART	Q	_	9	advmod	_	Dep=0|Rel=Root
 11	tretjo	tretji	ADJ	Mlofsa	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	Dep=12|Rel=Atr
-12	razglednico	razglednica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	Dep=9|Rel=Obj
+12	razglednico	razglednica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|Dep=9|Rel=Obj
 
 # sent_id = ssj535.2823.10044
 # text = Ženska je dogodek prijavila teden kasneje, ko je šla tudi k zdravniku, in ta je popisal njene poškodbe.
@@ -11668,7 +11668,7 @@
 13	že	že	PART	Q	_	14	advmod	_	Dep=0|Rel=Root
 14	napovedal	napovedati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	5	parataxis	_	Dep=0|Rel=Root
 15	pritožbo	pritožba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No|Dep=14|Rel=Obj
-16	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+16	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj536.2824.10048
 # text = Te dni mineva leto dni, odkar so čečenski skrajneži vdrli v Dagestan in tam poskušali ustanoviti islamsko državo.
@@ -11836,7 +11836,7 @@
 25	s	z	ADP	Si	Case=Ins	27	case	_	Dep=27|Rel=Atr
 26	čečenskimi	čečenski	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	27	amod	_	Dep=27|Rel=Atr
 27	teroristi	terorist	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No|Dep=24|Rel=Obj
-28	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+28	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj536.2825.10055
 # text = Reakcijska kisikova posoda (v ozadju) bo bistveno prispevala k zmanjšanju uporabe klora v Krškem.
@@ -11856,7 +11856,7 @@
 14	klora	klor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	Dep=13|Rel=Atr
 15	v	v	ADP	Sl	Case=Loc	16	case	_	Dep=16|Rel=Atr
 16	Krškem	Krško	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|Dep=12|Rel=Atr
-17	.	.	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	10	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj536.2826.10056
 # text = Park je bil prazen.
@@ -11911,7 +11911,7 @@
 10	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	aux	_	Dep=11|Rel=PPart
 11	videl	videti	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part	3	conj	_	Dep=0|Rel=Root
 12	Penny	Penny	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No|Dep=11|Rel=Obj
-13	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj536.2827.10060
 # text = V nenavadni vojni med taksisti in šoferji avtobusov v Capetownu je umrlo že sedem ljudi
@@ -11929,7 +11929,7 @@
 12	umrlo	umreti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 13	že	že	PART	Q	_	12	advmod	_	Dep=0|Rel=Root
 14	sedem	sedem	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	15	nummod	_	Dep=15|Rel=Atr
-15	ljudi	človek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nsubj	_	Dep=12|Rel=Sb
+15	ljudi	človek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No|Dep=12|Rel=Sb
 
 # sent_id = ssj536.2828.10061
 # text = Bojan Prašnikar se ne obremenjuje z Mariborom, ker ima preveč problemov z Olimpijo
@@ -11946,7 +11946,7 @@
 11	preveč	preveč	DET	Rgp	PronType=Ind	12	det	_	Dep=12|Rel=Atr
 12	problemov	problem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	obj	_	Dep=10|Rel=Obj
 13	z	z	ADP	Si	Case=Ins	14	case	_	Dep=14|Rel=Atr
-14	Olimpijo	Olimpija	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	Dep=12|Rel=Atr
+14	Olimpijo	Olimpija	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No|Dep=12|Rel=Atr
 
 # sent_id = ssj536.2829.10063
 # text = Čez poletje smo dobro trenirali in je povsem logično, da so igralci željni ledu.
@@ -12083,7 +12083,7 @@
 6	raztrosite	raztrositi	VERB	Vmer2p	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Dep=0|Rel=Root
 7	po	po	ADP	Sl	Case=Loc	8	case	_	Dep=8|Rel=Atr
 8	vrtu	vrt	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|Dep=6|Rel=AdvO
-9	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+9	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj537.2833.10077
 # text = Na vetrovnih mestih lahko ob oporah uspevajo tudi nekatere zelnate trajnice.
@@ -12184,7 +12184,7 @@
 10	stran	stran	ADV	Rgp	Degree=Pos	12	advmod	_	Dep=12|Rel=Atr
 11	od	od	ADP	Sg	Case=Gen	12	case	_	Dep=12|Rel=Atr
 12	korenin	korenina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No|Dep=8|Rel=Coord
-13	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj537.2834.10082
 # text = Škrlatni luk se bo uspešno naselil na suhih in s soncem obsijanih zemljiščih in na dobro odcednih peščenih tleh.
@@ -12260,7 +12260,7 @@
 21	njegove	njegov	DET	Ps3mpasm	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	Dep=23|Rel=Atr
 22	posušene	posušen	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	23	amod	_	Dep=23|Rel=Atr
 23	liste	list	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No|Dep=20|Rel=Obj
-24	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+24	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj537.2835.10085
 # text = Čeprav so jesenske vrese cenjene predvsem zaradi živobarvnih listov, imajo tudi zelo lepa socvetja, ki pa jih je treba občudovati od blizu.
@@ -12310,7 +12310,7 @@
 16	kontrastno	kontrastno	ADV	Rgp	Degree=Pos	17	advmod	_	Dep=17|Rel=Atr
 17	obarvani	obarvan	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	18	amod	_	Dep=18|Rel=Atr
 18	prašniki	prašnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No|Dep=15|Rel=Sb
-19	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+19	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj537.2836.10088
 # text = Ta vrsta cveti poleti in jeseni in ima goste skupine belih, intenzivno rožnatih ali škrlatnih cvetov, ki se lepo odražajo od temno zelenih zimzelenih listov.
@@ -12363,16 +12363,16 @@
 16	dokler	dokler	SCONJ	Cs	_	19	mark	_	Dep=19|Rel=Conj
 17	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	19	expl	_	Dep=19|Rel=PPart
 18	še	še	PART	Q	_	19	advmod	_	Dep=0|Rel=Root
-19	razrašča	razraščati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No|Dep=0|Rel=Root
+19	razrašča	razraščati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	SpaceAfter=No|Dep=0|Rel=Root
 20	,	,	PUNCT	Z	_	19	punct	_	Dep=0|Rel=Root
 21	potrebuje	potrebovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	Dep=5|Rel=AdvO
 22	zastirko	zastirka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No|Dep=21|Rel=Obj
 23	,	,	PUNCT	Z	_	27	punct	_	Dep=0|Rel=Root
-24	npr.	npr.	X	Y	Abbr=Yes	27	advmod	_	Dep=0|Rel=Root
+24	npr.	npr.	X	Y	Abbr=Yes	27	nmod	_	Dep=0|Rel=Root
 25	iz	iz	ADP	Sg	Case=Gen	27	case	_	Dep=27|Rel=Atr
 26	sesekljanega	sesekljan	ADJ	Appnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	27	amod	_	Dep=27|Rel=Atr
 27	lubja	lubje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	22	appos	_	SpaceAfter=No|Dep=0|Rel=Root
-28	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+28	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj537.2837.10090
 # text = Mrtve koprive so dobre za prekrivanje tal tako na zelo senčnih kot tudi na deloma sončnih rastiščih.
@@ -12427,7 +12427,7 @@
 14	biti	biti	AUX	Va-n	VerbForm=Inf	16	cop	_	Dep=13|Rel=Atr
 15	dobro	dobro	ADV	Rgp	Degree=Pos	16	advmod	_	Dep=16|Rel=Atr
 16	odcedna	odceden	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	13	xcomp	_	SpaceAfter=No|Dep=14|Rel=Atr
-17	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj537.2839.10095
 # text = Rastline je treba obrezovati, da ohranijo košato rast.
@@ -12440,7 +12440,7 @@
 7	ohranijo	ohraniti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	Dep=4|Rel=AdvO
 8	košato	košat	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	Dep=9|Rel=Atr
 9	rast	rast	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|Dep=7|Rel=Obj
-10	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj538.2840.10098
 # text = Tako bodo igralci neke vrste vodiči, gledalci pa popotniki skozi lasten spomin, ki v njih porojeva najrazličnejše zgodbe.
@@ -12477,7 +12477,7 @@
 7	doživel	doživeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 8	drugačno	drugačen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	Dep=9|Rel=Atr
 9	predstavo	predstava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|Dep=7|Rel=Obj
-10	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+10	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj539.2842.10102
 # text = Zoper sodbo pritožbenega sodišča je tožnica vložila revizijo zaradi bistvenih kršitev določb pravdnega postopka in zmotne uporabe materialnega prava.
@@ -12733,7 +12733,7 @@
 11	sodišča	sodišče	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	Dep=10|Rel=Atr
 12	prve	prvi	ADJ	Mlofsg	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	Dep=13|Rel=Atr
 13	stopnje	stopnja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|Dep=11|Rel=Atr
-14	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+14	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj540.2847.10119
 # text = Še enkrat ali dvakrat smo prigriznili, da je vino laže teklo, na odprtem ognju v gostilni pa so se pekli kostanji...
@@ -12801,7 +12801,7 @@
 18	kot	kot	SCONJ	Cs	_	21	mark	_	Dep=21|Rel=Conj
 19	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	21	expl	_	Dep=21|Rel=PPart
 20	uradno	uradno	ADV	Rgp	Degree=Pos	21	advmod	_	Dep=21|Rel=AdvM
-21	reče	reči	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No|Dep=0|Rel=Root
+21	reče	reči	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	SpaceAfter=No|Dep=0|Rel=Root
 22	,	,	PUNCT	Z	_	21	punct	_	Dep=0|Rel=Root
 23	Mohorjeva	Mohorjev	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	24	amod	_	Dep=24|Rel=Atr
 24	družba	družba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	Dep=25|Rel=Sb
@@ -12931,7 +12931,7 @@
 21	za	za	ADP	Sa	Case=Acc	23	case	_	Dep=23|Rel=Atr
 22	tisoč	tisoč	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	23	nummod	_	Dep=23|Rel=Atr
 23	dolarjev	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No|Dep=20|Rel=Atr
-24	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+24	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj543.2851.10134
 # text = In že je ležala na tleh kot ob koncu nadaljevanke.
@@ -12945,7 +12945,7 @@
 8	ob	ob	ADP	Sl	Case=Loc	9	case	_	Dep=9|Rel=Atr
 9	koncu	konec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	Dep=6|Rel=AdvM
 10	nadaljevanke	nadaljevanka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|Dep=9|Rel=Atr
-11	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj543.2852.10135
 # text = Obvestilo sta morala starša podpisati.
@@ -12982,13 +12982,13 @@
 11	pristanka	pristanek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	Dep=9|Rel=Atr
 12	na	na	ADP	Sl	Case=Loc	13	case	_	Dep=13|Rel=Atr
 13	Luni	Luna	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|Dep=11|Rel=Atr
-14	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+14	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj543.2853.10139
 # text = »Jezesna!« je zakričala, kot bi bila Meta v Cvetju v jeseni in se opotekla do vrat.
 1	»	»	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	Jezesna	jezesna	INTJ	I	_	6	discourse	_	SpaceAfter=No|Dep=0|Rel=Root
-3	!	!	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
+3	!	!	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 4	«	«	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
 5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	Dep=6|Rel=PPart
 6	zakričala	zakričati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
@@ -12996,14 +12996,14 @@
 8	kot	kot	SCONJ	Cs	_	11	mark	_	Dep=10|Rel=Conj
 9	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	11	aux	_	Dep=10|Rel=PPart
 10	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	11	cop	_	Dep=0|Rel=Root
-11	Meta	Meta	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	parataxis	_	Dep=10|Rel=Atr
+11	Meta	Meta	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	advcl	_	Dep=10|Rel=Atr
 12	v	v	ADP	Sl	Case=Loc	13	case	_	Dep=13|Rel=Atr
 13	Cvetju	cvetje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	11	nmod	_	Dep=11|Rel=Atr
 14	v	v	ADP	Sl	Case=Loc	15	case	_	Dep=15|Rel=Atr
 15	jeseni	jesen	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	Dep=13|Rel=Atr
 16	in	in	CCONJ	Cc	_	18	cc	_	Dep=18|Rel=Conj
 17	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	18	expl	_	Dep=18|Rel=PPart
-18	opotekla	opoteči	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	11	conj	_	Dep=0|Rel=Root
+18	opotekla	opoteči	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	6	conj	_	Dep=0|Rel=Root
 19	do	do	ADP	Sg	Case=Gen	20	case	_	Dep=20|Rel=Atr
 20	vrat	vrata	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	18	obl	_	SpaceAfter=No|Dep=18|Rel=AdvO
 21	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
@@ -13042,7 +13042,7 @@
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	Dep=4|Rel=PPart
 4	menila	meniti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 5	tako	tako	ADV	Rgp	Degree=Pos	4	advmod	_	SpaceAfter=No|Dep=4|Rel=AdvM
-6	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+6	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj543.2854.10143
 # text = Pa če kdo spi sto ur na dan!
@@ -13054,7 +13054,7 @@
 6	ur	ura	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	Dep=4|Rel=AdvO
 7	na	na	ADP	Sa	Case=Acc	8	case	_	Dep=8|Rel=Atr
 8	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|Dep=6|Rel=Atr
-9	!	!	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+9	!	!	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj543.2855.10144
 # text = Mami se je naslonila na skladovnico s preprogami in začela sanjati.
@@ -13089,7 +13089,7 @@
 4	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	6	cop	_	Dep=0|Rel=Root
 5	nič	nič	PRON	Pz-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	6	nmod	_	Dep=6|Rel=Atr
 6	boljši	dober	ADJ	Agcmsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Dep=4|Rel=Atr
-7	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+7	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj543.2856.10148
 # text = Resnici na ljubo je treba povedati, da smo v dvorano pod pretvezo, da gre za nekaj zgodovinskega oziroma usodnega, zvabili tudi vse dedke in babice ter vso drugo bližnjo in daljno žlahto.
@@ -13153,7 +13153,7 @@
 19	pošto	pošta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	Dep=21|Rel=Obj
 20	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	aux	_	Dep=21|Rel=PPart
 21	dobili	dobiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	16	ccomp	_	SpaceAfter=No|Dep=16|Rel=Obj
-22	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+22	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj544.2857.10150
 # text = Tik pred začetkom tokijskega salona je Subaru bolj vzbudil pozornost z delno zamenjavo lastništva.
@@ -13257,7 +13257,7 @@
 33	,	,	PUNCT	Z	_	32	punct	_	Dep=0|Rel=Root
 34	nujno	nujno	ADV	Rgp	Degree=Pos	35	advmod	_	Dep=35|Rel=AdvM
 35	potrebuje	potrebovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	SpaceAfter=No|Dep=18|Rel=Atr
-36	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+36	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj544.2858.10154
 # text = Zmogljivostni primankljaj na cesti ni opazen, bežna primerjava z istočasno testiranim Passatom Variantom 2,0 TDI pa celo pokaže, da deluje praktično enak stroj v Mitsubishijevem nosu ušesom prijazneje kot v Volkswagnu.
@@ -13294,7 +13294,7 @@
 31	kot	kot	SCONJ	Cs	_	33	case	_	Dep=33|Rel=Conj
 32	v	v	ADP	Sl	Case=Loc	33	case	_	Dep=33|Rel=Atr
 33	Volkswagnu	volkswagen	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No|Dep=30|Rel=AdvM
-34	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+34	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj544.2859.10157
 # text = Vsak zavarovanec ima namreč pri zavarovalnici na voljo osebnega odvetnika, ki si ga izbere sam.
@@ -13416,7 +13416,7 @@
 6	tudi	tudi	PART	Q	_	5	advmod	_	Dep=0|Rel=Root
 7	za	za	ADP	Sa	Case=Acc	8	case	_	Dep=8|Rel=Atr
 8	tujino	tujina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	xcomp	_	SpaceAfter=No|Dep=5|Rel=Obj
-9	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+9	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj544.2860.10164
 # text = Za šestvaljnika so predvideli tudi prilagodljivo vzmetenje, ki s pritiskom na gumb opazno otrdi.
@@ -13459,7 +13459,7 @@
 18	ločuje	ločevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	Dep=13|Rel=Atr
 19	od	od	ADP	Sg	Case=Gen	20	case	_	Dep=20|Rel=Atr
 20	drugih	drug	ADJ	Mlpmpg	Case=Gen|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No|Dep=18|Rel=Obj
-21	.	.	PUNCT	Z	_	12	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	12	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj546.2863.10171
 # text = TETOVO Več sto študentov albanske narodnosti se je včeraj zbralo v tem severozahodnem makedonskem mestu na protestnem shodu v podporo kolegoma, ki so ju v petek zaprli zaradi domnevnega sodelovanja v hudodelski skupini.
@@ -13563,7 +13563,7 @@
 17	priprtega	priprt	ADJ	Appmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	18	amod	_	Dep=18|Rel=Atr
 18	Lirima	Lirim	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	Dep=12|Rel=Atr
 19	Jakupija	Jakupi	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	18	flat:name	_	SpaceAfter=No|Dep=18|Rel=Atr
-20	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj546.2864.10176
 # text = V svojo zahtevo so napisali, da je predsednikov ded Prescott Bush med drugo svetovno vojno trgoval z nacisti in se je kot solastnik jeklarskega podjetja obogatil s prisilnim delom osvjencimskih taboriščnikov.
@@ -13599,7 +13599,7 @@
 30	delom	delo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	27	obl	_	Dep=27|Rel=AdvM
 31	osvjencimskih	osvjencimski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	32	amod	_	Dep=32|Rel=Atr
 32	taboriščnikov	taboriščnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No|Dep=30|Rel=Atr
-33	.	.	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+33	.	.	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj546.2865.10178
 # text = Iraški uporniki so medtem v pokrajini Al Anbar na zahodu Iraka ugrabili avtobus, na katerem je bilo 21 pripadnikov iraške narodne garde.
@@ -13632,7 +13632,7 @@
 # text = (sta)
 1	(	(	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	sta	sta	X	X	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-3	)	)	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+3	)	)	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj546.2866.10181
 # text = Že od vsega začetka je bilo slišati številne pritožbe na ravnanje vojakov z ženskami in dekleti.
@@ -13681,7 +13681,7 @@
 11	zacvetela	zacveteti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 12	kupljiva	kupljiv	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	Dep=13|Rel=Atr
 13	ljubezen	ljubezen	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No|Dep=11|Rel=Sb
-14	.	.	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
+14	.	.	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj546.2867.10185
 # text = Kot pravi Matej Žilavec iz Ilirike, je tudi na evropskih kapitalskih trgih Pfizer povzročil manjši pretres.
@@ -13768,7 +13768,7 @@
 9	trajalo	trajati	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part	4	acl	_	Dep=4|Rel=Atr
 10	dalj	dolgo	ADV	Rgc	Degree=Cmp	11	advmod	_	Dep=11|Rel=Atr
 11	časa	čas	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|Dep=9|Rel=AdvO
-12	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj547.2869.10193
 # text = Profesor Lay je pogledal na uro.
@@ -13784,7 +13784,7 @@
 # text = Bila je tri in triintrideset minut.
 1	Bila	biti	VERB	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	Dep=0|Rel=Root
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	Dep=1|Rel=PPart
-3	tri	trije	NUM	Mlcfpn	Case=Nom|Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	1	advmod	_	Dep=1|Rel=AdvM
+3	tri	trije	NUM	Mlcfpn	Case=Nom|Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	1	obl	_	Dep=1|Rel=AdvM
 4	in	in	CCONJ	Cc	_	6	cc	_	Dep=6|Rel=Conj
 5	triintrideset	triintrideset	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	6	nummod	_	Dep=6|Rel=Atr
 6	minut	minuta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No|Dep=3|Rel=Coord
@@ -13821,7 +13821,7 @@
 20	na	na	ADP	Sl	Case=Loc	21	case	_	Dep=21|Rel=Atr
 21	sredi	sreda	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	19	obl	_	Dep=19|Rel=AdvO
 22	ceste	cesta	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No|Dep=21|Rel=Atr
-23	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+23	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj548.2871.10198
 # text = - Število osamljenih ljudi stalno narašča.
@@ -13863,7 +13863,7 @@
 9	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	11	nummod	_	Dep=11|Rel=Atr
 10	sama	sam	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	Dep=11|Rel=Atr
 11	oseba	oseba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No|Dep=3|Rel=Sb
-12	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+12	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj548.2872.10201
 # text = C Odločite se, da boste šli na izlet raje kdaj drugič.
@@ -13879,7 +13879,7 @@
 10	raje	raje	ADV	Rgc	Degree=Cmp	7	advmod	_	Dep=7|Rel=AdvM
 11	kdaj	kdaj	ADV	Rgp	Degree=Pos	12	advmod	_	Dep=12|Rel=Atr
 12	drugič	drugič	ADV	Rgp	Degree=Pos	7	advmod	_	SpaceAfter=No|Dep=7|Rel=AdvO
-13	.	.	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+13	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj549.2873.10202
 # text = Šele ko se je pred davčnim uradom ustavila dolga kolona kraljevih avtomobilov, da bi kralja odpeljala nazaj v palačo, so spoznali, kdo je bil pravkar med njimi.
@@ -13913,7 +13913,7 @@
 28	pravkar	pravkar	ADV	Rgp	Degree=Pos	27	advmod	_	Dep=27|Rel=AdvO
 29	med	med	ADP	Si	Case=Ins	30	case	_	Dep=30|Rel=Atr
 30	njimi	on	PRON	Pp3mpi	Case=Ins|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	obl	_	SpaceAfter=No|Dep=27|Rel=AdvO
-31	.	.	PUNCT	Z	_	23	punct	_	Dep=0|Rel=Root
+31	.	.	PUNCT	Z	_	23	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj549.2875.10204
 # text = Moderna galerija v Ljubljani si prizadeva za primernejšo predstavitev klasikov
@@ -13926,7 +13926,7 @@
 7	za	za	ADP	Sa	Case=Acc	9	case	_	Dep=9|Rel=Atr
 8	primernejšo	primeren	ADJ	Agcfsa	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	9	amod	_	Dep=9|Rel=Atr
 9	predstavitev	predstavitev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	Dep=6|Rel=Obj
-10	klasikov	klasik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	Dep=9|Rel=Atr
+10	klasikov	klasik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|Dep=9|Rel=Atr
 
 # sent_id = ssj549.2876.10205
 # text = V ognju in hrumenju motornih žag izginja amazonski tropski gozd.
@@ -13940,7 +13940,7 @@
 8	amazonski	amazonski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	Dep=10|Rel=Atr
 9	tropski	tropski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	Dep=10|Rel=Atr
 10	gozd	gozd	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|Dep=7|Rel=Sb
-11	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+11	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj549.2877.10206
 # text = Si prepričan?
@@ -13983,7 +13983,7 @@
 13	pikro	pikro	ADV	Rgp	Degree=Pos	14	advmod	_	Dep=14|Rel=AdvM
 14	postavljala	postavljati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	11	conj	_	Dep=0|Rel=Root
 15	vprašanja	vprašanje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No|Dep=14|Rel=Obj
-16	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+16	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj549.2879.10213
 # text = Na vprašanje, kako mu je potem le uspelo v sobo pretihotapiti vžigalnik, je pojasnila, da lahko pazniki opravijo le osebni pregled oblačil in telesa, ne smejo pa posegati v človeške odprtine.
@@ -14094,7 +14094,7 @@
 37	v	v	ADP	Sl	Case=Loc	39	case	_	Dep=39|Rel=Atr
 38	zgornjem	zgornji	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	Dep=39|Rel=Atr
 39	nadstropju	nadstropje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	36	nmod	_	SpaceAfter=No|Dep=36|Rel=Atr
-40	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+40	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj549.2880.10217
 # text = V mnogih hrvaških obmorskih hotelih so restavracije opremili z naslednjim napisom: hrane ni dovoljeno odnašati.
@@ -14232,7 +14232,7 @@
 24	temeljite	temeljit	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	Dep=25|Rel=Atr
 25	raziskave	raziskava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	Dep=23|Rel=Atr
 26	virov	vir	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No|Dep=25|Rel=Atr
-27	.	.	PUNCT	Z	_	16	punct	_	Dep=0|Rel=Root
+27	.	.	PUNCT	Z	_	16	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj550.2882.10226
 # text = MOŠČANCI - Pri gasilskem domu v Moščancih bo jutri ob 13. uri tekmovanje v pripravi jedi.
@@ -14356,7 +14356,7 @@
 17	obilo	obilo	DET	Rgp	Degree=Pos	19	advmod	_	Dep=19|Rel=Atr
 18	dobre	dober	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	Dep=19|Rel=Atr
 19	volje	volja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No|Dep=10|Rel=Coord
-20	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj550.2884.10234
 # text = Čeprav je bil ves dan zaseden z vnaprej napovedanimi pogovori z novinarji, si je takoj po telefonskem klicu ljubeznivo vzel čas tudi za pogovor za Dnevnik.
@@ -14387,7 +14387,7 @@
 25	pogovor	pogovor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	Dep=22|Rel=Atr
 26	za	za	ADP	Sa	Case=Acc	27	case	_	Dep=27|Rel=Atr
 27	Dnevnik	dnevnik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No|Dep=25|Rel=Atr
-28	.	.	PUNCT	Z	_	21	punct	_	Dep=0|Rel=Root
+28	.	.	PUNCT	Z	_	21	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj550.2885.10235
 # text = "V skladu s pravilnikom moramo do konca leta 2000 uvesti nov sistem oštevilčenja, odpraviti dosedanjo šestico v številkah omrežnih skupin ter te zmanjšati z dvanajstih na šest.
@@ -14417,9 +14417,9 @@
 24	te	ta	DET	Pd-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	25	obj	_	Dep=25|Rel=Obj
 25	zmanjšati	zmanjšati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	11	conj	_	Dep=11|Rel=Coord
 26	z	z	ADP	Sg	Case=Gen	27	case	_	Dep=27|Rel=Atr
-27	dvanajstih	dvanajst	NUM	Mlc-pg	Case=Gen|Number=Plur|NumForm=Word|NumType=Card	25	advmod	_	Dep=25|Rel=AdvO
+27	dvanajstih	dvanajst	NUM	Mlc-pg	Case=Gen|Number=Plur|NumForm=Word|NumType=Card	25	obl	_	Dep=25|Rel=AdvO
 28	na	na	ADP	Sa	Case=Acc	29	case	_	Dep=29|Rel=Atr
-29	šest	šest	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	25	advmod	_	SpaceAfter=No|Dep=25|Rel=AdvO
+29	šest	šest	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	25	obl	_	SpaceAfter=No|Dep=25|Rel=AdvO
 30	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
 
 # sent_id = ssj550.2885.10236
@@ -14580,7 +14580,7 @@
 28	naslednjega	naslednji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	Dep=29|Rel=Atr
 29	tekmeca	tekmec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	Dep=27|Rel=Atr
 30	Maribora	Maribor	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No|Dep=29|Rel=Atr
-31	.	.	PUNCT	Z	_	17	punct	_	Dep=0|Rel=Root
+31	.	.	PUNCT	Z	_	17	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj551.2888.10245
 # text = Mini motor, ki ima le tri dele, je močan, kot da bi imel osem valjev
@@ -14601,7 +14601,7 @@
 15	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	16	aux	_	Dep=16|Rel=PPart
 16	imel	imeti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	Dep=11|Rel=Atr
 17	osem	osem	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	18	nummod	_	Dep=18|Rel=Atr
-18	valjev	valj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	16	obj	_	Dep=16|Rel=Obj
+18	valjev	valj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No|Dep=16|Rel=Obj
 
 # sent_id = ssj551.2889.10246
 # text = Tragika te ženske: na koncu ji noben zdravnik ni več verjel.
@@ -14655,7 +14655,7 @@
 32	preskočim	preskočiti	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	conj	_	Dep=0|Rel=Root
 33	morebitno	morebiten	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	Dep=34|Rel=Atr
 34	okužbo	okužba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No|Dep=32|Rel=Obj
-35	?	?	PUNCT	Z	_	11	punct	_	Dep=0|Rel=Root
+35	?	?	PUNCT	Z	_	11	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj552.2892.10250
 # text = V knjigi je zbranih skoraj 40 prikupnih pesmic, ki jih je ilustriral Marjan Manček.
@@ -14696,7 +14696,7 @@
 6	vrsto	vrsta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	Dep=5|Rel=Obj
 7	nedvomnih	nedvomen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	Dep=8|Rel=Atr
 8	prednosti	prednost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No|Dep=6|Rel=Atr
-9	:	:	PUNCT	Z	_	5	punct	_	Dep=0|Rel=Root
+9	:	:	PUNCT	Z	_	5	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj554.2894.10254
 # text = V Sloveniji so se protestniki zbrali v Ljubljani in Kopru.
@@ -14727,7 +14727,7 @@
 11	,	,	PUNCT	Z	_	13	punct	_	Dep=13|Rel=Conj
 12	naši	naš	DET	Ps1mpnp	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod	_	Dep=13|Rel=Atr
 13	mrtvi	mrtev	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No|Dep=10|Rel=Coord
-14	!	!	PUNCT	Z	_	20	punct	_	Dep=0|Rel=Root
+14	!	!	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
 15	v	v	ADP	Sl	Case=Loc	16	case	_	Dep=16|Rel=Atr
 16	organizaciji	organizacija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	Dep=6|Rel=AdvO
 17	Protivojne	protivojen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	Dep=18|Rel=Atr
@@ -14785,7 +14785,7 @@
 38	Organizacije	organizacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	Dep=37|Rel=Atr
 39	združenih	združen	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	40	amod	_	Dep=40|Rel=Atr
 40	narodov	narod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No|Dep=38|Rel=Atr
-41	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+41	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj554.2895.10257
 # text = JESENICE Gledališče Toneta Čufarja Jesenice bo jutri gostilo območno srečanje plesnih skupin.
@@ -14842,7 +14842,7 @@
 # text = (pj)
 1	(	(	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 2	pj	pj	X	X	_	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-3	)	)	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+3	)	)	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj554.2896.10260
 # text = Celjani so v soboto izenačili dosežek Slovana, ki je v sezoni 1980/ 81 igral v finalu pokala državnih prvakov.
@@ -14899,11 +14899,11 @@
 5	nosilci	nosilec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	Dep=7|Rel=Sb
 6	igre	igra	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Dep=5|Rel=Atr
 7	dozoreli	dozoreti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	Dep=0|Rel=Root
-8	-	-	PUNCT	Z	_	17	punct	_	Dep=0|Rel=Root
+8	-	-	PUNCT	Z	_	10	punct	_	Dep=0|Rel=Root
 9	tako	tako	CCONJ	Cc	_	10	cc:preconj	_	Dep=10|Rel=Conj
 10	zasebno	zasebno	ADV	Rgp	Degree=Pos	7	advmod	_	Dep=0|Rel=Root
 11	kot	kot	SCONJ	Cs	_	12	case	_	Dep=12|Rel=Conj
-12	športno	športno	ADV	Rgp	Degree=Pos	10	advmod	_	SpaceAfter=No|Dep=10|Rel=AdvM
+12	športno	športno	ADV	Rgp	Degree=Pos	10	conj	_	SpaceAfter=No|Dep=10|Rel=AdvM
 13	,	,	PUNCT	Z	_	17	punct	_	Dep=0|Rel=Root
 14	fantje	fant	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	Dep=17|Rel=Sb
 15	pa	pa	CCONJ	Cc	_	17	advmod	_	Dep=0|Rel=Root
@@ -14920,7 +14920,7 @@
 26	postala	postati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	20	acl	_	Dep=20|Rel=Atr
 27	rokometna	rokometen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	Dep=28|Rel=Atr
 28	poezija	poezija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	26	xcomp	_	SpaceAfter=No|Dep=26|Rel=Obj
-29	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+29	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj555.2898.10266
 # text = Predsednika personalnega sveta in njegovega namestnika izvolijo izmed sebe člani personalnega sveta z večino glasov s tajnim glasovanjem.
@@ -14942,7 +14942,7 @@
 16	s	z	ADP	Si	Case=Ins	18	case	_	Dep=18|Rel=Atr
 17	tajnim	tajen	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	Dep=18|Rel=Atr
 18	glasovanjem	glasovanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|Dep=7|Rel=AdvM
-19	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+19	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj555.2899.10267
 # text = Dodeljeni sodnik odgovarja za opravljanje nalog iz prejšnjega odstavka ministru, pristojnemu za pravosodje.
@@ -14960,7 +14960,7 @@
 12	pristojnemu	pristojen	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	Dep=10|Rel=Atr
 13	za	za	ADP	Sa	Case=Acc	14	case	_	Dep=14|Rel=Atr
 14	pravosodje	pravosodje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|Dep=12|Rel=Atr
-15	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+15	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj556.2901.10270
 # text = Jasno je, da med eno in drugo pojavno obliko situacijske komedije obstajajo številna, bistvena razhajanja, ki so posledica razlik v naravi obeh medijev ali drugačnih pristopov k oblikovanju in pripovedi zgodbe.
@@ -15136,7 +15136,7 @@
 12	tudi	tudi	PART	Q	_	11	advmod	_	Dep=0|Rel=Root
 13	po	po	ADP	Sl	Case=Loc	14	case	_	Dep=14|Rel=Atr
 14	televiziji	televizija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|Dep=11|Rel=AdvO
-15	?	?	PUNCT	Z	_	2	punct	_	Dep=0|Rel=Root
+15	?	?	PUNCT	Z	_	2	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj557.2902.10277
 # text = Jaz sem bil vedno kritičen do GZS, ampak to je verjetno vsak, ki dela v klubu.
@@ -15245,7 +15245,7 @@
 15	kot	kot	SCONJ	Cs	_	17	case	_	Dep=17|Rel=Conj
 16	elitno	eliten	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	Dep=17|Rel=Atr
 17	druženje	druženje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|Dep=13|Rel=AdvM
-18	,	,	PUNCT	Z	_	13	punct	_	Dep=0|Rel=Root
+18	,	,	PUNCT	Z	_	23	punct	_	Dep=0|Rel=Root
 19	temveč	temveč	CCONJ	Cc	_	23	cc	_	Dep=23|Rel=Conj
 20	kot	kot	SCONJ	Cs	_	23	cc	_	Dep=23|Rel=Conj
 21	neizkoriščen	neizkoriščen	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	Dep=23|Rel=Atr
@@ -15275,7 +15275,7 @@
 18	neke	nek	DET	Pi-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	19	det	_	Dep=19|Rel=Atr
 19	mere	mera	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	Dep=16|Rel=AdvO
 20	smiselno	smiseln	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	xcomp	_	SpaceAfter=No|Dep=16|Rel=Atr
-21	.	.	PUNCT	Z	_	7	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	7	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj557.2903.10285
 # text = ZAKON št. 1: Ne glede na to, kako slab je bil vaš zadnji udarec, vedite, da najslabši šele prihaja.
@@ -15334,7 +15334,7 @@
 26	udarca	udarec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	28	obj	_	Dep=28|Rel=Obj
 27	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	28	aux	_	Dep=28|Rel=PPart
 28	izvedel	izvesti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	23	csubj	_	SpaceAfter=No|Dep=23|Rel=Sb
-29	.	.	PUNCT	Z	_	23	punct	_	Dep=0|Rel=Root
+29	.	.	PUNCT	Z	_	23	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj557.2905.10289
 # text = TAKO KOT MED MOŠKIMI Vija Singh beležijo tudi v ženskem profesionalnem golfu nadvse uspešno sezono.
@@ -15425,7 +15425,7 @@
 11	še	še	PART	Q	_	13	advmod	_	Dep=0|Rel=Root
 12	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	13	cop	_	Dep=6|Rel=Atr
 13	konec	konec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	acl	_	SpaceAfter=No|Dep=12|Rel=Atr
-14	.	.	PUNCT	Z	_	4	punct	_	Dep=0|Rel=Root
+14	.	.	PUNCT	Z	_	4	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj558.2906.10293
 # text = Zakaj niso korenite?
@@ -15553,7 +15553,7 @@
 18	vmešavanje	vmešavanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	Dep=17|Rel=Obj
 19	v	v	ADP	Sa	Case=Acc	20	case	_	Dep=20|Rel=Atr
 20	podjetja	podjetje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No|Dep=18|Rel=Atr
-21	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+21	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj559.2907.10299
 # text = Tretji del kvote naj bi šel v fond nerazdeljenih dovolilnic.
@@ -15654,7 +15654,7 @@
 32	členom	člen	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	27	nmod	_	Dep=27|Rel=Atr
 33	carinskega	carinski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	Dep=34|Rel=Atr
 34	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No|Dep=32|Rel=Atr
-35	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+35	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj559.2909.10304
 # text = Ta uredba določa pogoje za uvoz blaga, ki se v letu 2003 uvaža v Republiko Slovenijo in je po poreklu iz Republike Hrvaške.
@@ -15767,7 +15767,7 @@
 4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	Dep=6|Rel=PPart
 5	ne	ne	PART	Q	Polarity=Neg	6	advmod	_	Dep=6|Rel=PPart
 6	plačuje	plačevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Dep=0|Rel=Root
-7	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+7	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj559.2913.10312
 # text = Delavec, ki sklene pogodbo o zaposlitvi, mora izpolnjevati predpisane, s kolektivno pogodbo ali splošnim aktom delodajalca določene oz. s strani delodajalca zahtevane in v skladu z zakonom objavljene pogoje za opravljanje dela.
@@ -15806,7 +15806,7 @@
 33	za	za	ADP	Sa	Case=Acc	34	case	_	Dep=34|Rel=Atr
 34	opravljanje	opravljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	32	nmod	_	Dep=32|Rel=Atr
 35	dela	delo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	SpaceAfter=No|Dep=34|Rel=Atr
-36	.	.	PUNCT	Z	_	9	punct	_	Dep=0|Rel=Root
+36	.	.	PUNCT	Z	_	9	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj559.2914.10313
 # text = Na sejemskem področju lahko pričakujemo v letošnjem in prihodnjih letih ostro konkurenco in boj med posameznimi skoraj istovrstnimi prireditvami.
@@ -16027,7 +16027,7 @@
 17	zapeljal	zapeljati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	2	conj	_	Dep=0|Rel=Root
 18	na	na	ADP	Sa	Case=Acc	19	case	_	Dep=19|Rel=Atr
 19	brezpotje	brezpotje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No|Dep=17|Rel=AdvO
-20	.	.	PUNCT	Z	_	1	punct	_	Dep=0|Rel=Root
+20	.	.	PUNCT	Z	_	1	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj560.2917.10331
 # text = Za vodenje zalog in ugotavljanja stroška prodaje teh zalog trgovskega blaga pa veljajo enaka določila, kot smo jih zapisali pri obravnavi razreda 3 za material.
@@ -16057,7 +16057,7 @@
 24	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	23	nummod	_	Dep=23|Rel=Atr
 25	za	za	ADP	Sa	Case=Acc	26	case	_	Dep=26|Rel=Atr
 26	material	material	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|Dep=20|Rel=Obj
-27	.	.	PUNCT	Z	_	13	punct	_	Dep=0|Rel=Root
+27	.	.	PUNCT	Z	_	13	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj561.2918.10332
 # text = Srbski jezik je res poseben jezik, pri katerem se drugi najprej naučijo kletvic, toda to je jezik v katerem človek ne more pošteno molčati.
@@ -16087,7 +16087,7 @@
 24	more	moči	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl	_	Dep=19|Rel=Atr
 25	pošteno	pošteno	ADV	Rgp	Degree=Pos	26	advmod	_	Dep=26|Rel=AdvM
 26	molčati	molčati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	24	xcomp	_	SpaceAfter=No|Dep=24|Rel=Atr
-27	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+27	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj562.2919.10333
 # text = Deloma se strinjam z drugim delom članka, ko opisuje finančne učinke reforme.
@@ -16124,7 +16124,7 @@
 14	za	za	ADP	Sa	Case=Acc	16	case	_	Dep=16|Rel=Atr
 15	druge	drug	ADJ	Mlpfpa	Case=Acc|Gender=Fem|Number=Plur	16	amod	_	Dep=16|Rel=Atr
 16	stvari	stvar	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No|Dep=12|Rel=Obj
-17	.	.	PUNCT	Z	_	6	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	6	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj562.2920.10337
 # text = Sedanje stanje bi strnil takole: Odločilen element zdravljenja bolnika je izbrani zdravnik na primarnem nivoju.
@@ -16182,7 +16182,7 @@
 32	jih	on	PRON	Pp3npa--y	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs|Variant=Short	33	obj	_	Dep=33|Rel=Obj
 33	prenese	prenesti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl	_	Dep=29|Rel=Atr
 34	nanj	name	PRON	Pp3msa--b	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Bound	33	obl	_	SpaceAfter=No|Dep=33|Rel=AdvO
-35	.	.	PUNCT	Z	_	8	punct	_	Dep=0|Rel=Root
+35	.	.	PUNCT	Z	_	8	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj562.2921.10339
 # text = Na nedavnem mednarodnem turnirju mladih judoistov za pokal Ptuja je sodelovalo 285 tekmovalcev in tekmovalk iz 27 klubov Madžarske, Hrvaške in Slovenije.
@@ -16229,7 +16229,7 @@
 14	na	na	ADP	Sa	Case=Acc	16	case	_	Dep=16|Rel=Atr
 15	najvišjo	visok	ADJ	Agsfsa	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	16	amod	_	Dep=16|Rel=Atr
 16	stopničko	stopnička	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|Dep=13|Rel=AdvO
-17	.	.	PUNCT	Z	_	3	punct	_	Dep=0|Rel=Root
+17	.	.	PUNCT	Z	_	3	punct	_	SpaceAfter=No|Dep=0|Rel=Root
 
 # sent_id = ssj562.2922.10341
 # text = Način uporabe gomoljev topinamburja je podoben krompirjevim.
