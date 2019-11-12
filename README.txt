@@ -77,6 +77,14 @@ Seventh International Conference on Language Resources and Evaluation
 
 # Changelog
 
+2019-10-28 v2.5
+-- Fixed legacy validation errors, i.e.
+--- Re-attaching the punctuation causing non-projectivity
+--- Changing numerical adjuncts from 'advmod' to 'obl'
+--- Re-attaching leafs of unlike parents
+--- (Temporarily) changing 'aux' to 'dep' for colloquial contracted forms
+-- Created the language overview page
+
 2019-01-24 v2.4
 -- Performed new conversion from (draft) ssj500k 2.2
 -- Removed bugs related to # text and SpaceAfter=No

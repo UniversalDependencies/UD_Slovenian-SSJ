@@ -98,38 +98,39 @@
     <feat name="VerbForm" value="Sup" upos="VERB">18</feat><!-- delat, spat, gledat, iskat, krpat, mižat, odpotovat, organizirat, osvobodit, pogledat -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="32">
+  <deps unique="33">
     <dep name="acl">2394</dep>
-    <dep name="advcl">1302</dep>
-    <dep name="advmod">11702</dep>
+    <dep name="advcl">1307</dep>
+    <dep name="advmod">11630</dep>
     <dep name="amod">11800</dep>
-    <dep name="appos">393</dep>
-    <dep name="aux">7161</dep>
-    <dep name="case">13495</dep>
-    <dep name="cc">4668</dep>
+    <dep name="appos">394</dep>
+    <dep name="aux">7153</dep>
+    <dep name="case">13494</dep>
+    <dep name="cc">4667</dep>
     <dep name="cc:preconj">62</dep>
-    <dep name="ccomp">1216</dep>
-    <dep name="conj">5297</dep>
+    <dep name="ccomp">1215</dep>
+    <dep name="conj">5302</dep>
     <dep name="cop">2826</dep>
     <dep name="csubj">558</dep>
-    <dep name="dep">8</dep>
+    <dep name="dep">17</dep>
     <dep name="det">3311</dep>
-    <dep name="discourse">68</dep>
+    <dep name="discourse">66</dep>
     <dep name="expl">2298</dep>
     <dep name="fixed">455</dep>
     <dep name="flat">43</dep>
     <dep name="flat:foreign">55</dep>
     <dep name="flat:name">688</dep>
     <dep name="iobj">606</dep>
-    <dep name="mark">4701</dep>
-    <dep name="nmod">10352</dep>
+    <dep name="mark">4698</dep>
+    <dep name="nmod">10360</dep>
     <dep name="nsubj">7242</dep>
     <dep name="nummod">1610</dep>
     <dep name="obj">7036</dep>
-    <dep name="obl">9900</dep>
-    <dep name="parataxis">1625</dep>
+    <dep name="obl">9968</dep>
+    <dep name="parataxis">1616</dep>
     <dep name="punct">18596</dep>
     <dep name="root">8000</dep>
+    <dep name="vocative">1</dep>
     <dep name="xcomp">1202</dep>
   </deps>
 </treebank>
