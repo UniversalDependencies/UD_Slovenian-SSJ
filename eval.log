@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Slovenian-SSJ:
-commit 806894789668ad3352c8c656a1d10b9468a6e5b5
-Merge: ed76c12 bfb1f80
+commit 1c0faa5eb10d1cf747baa7168199ae0ac3a8ff35
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 12 17:43:51 2019 +0100
 Size: counted 140670 of 140670 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.89283344353921.
 Size: maximum value 13.815511 is for 1000000 words or more.
