@@ -4037,9 +4037,9 @@
 # newpar id = ssj576.2956
 # sent_id = ssj576.2956.10496
 # text = < Flash> Gorenje d. d., razstavni prostor: razstava slik akademskega slikarja Tomaža Gorjupa, do 29. 11.
-1	<	<	SYM	Z	_	2	punct	_	NER=O
+1	<	<	SYM	Z	_	2	dep	_	NER=O
 2	Flash	Flash	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	NER=O|SpaceAfter=No
-3	>	>	SYM	Z	_	2	punct	_	NER=O
+3	>	>	SYM	Z	_	2	dep	_	NER=O
 4	Gorenje	gorenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NER=O
 5	d.	d.	X	Y	Abbr=Yes	4	nmod	_	NER=O
 6	d.	d.	X	Y	Abbr=Yes	5	fixed	_	NER=O|SpaceAfter=No
@@ -4732,7 +4732,7 @@
 22	Zrimšek	Zrimšek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	NER=O
 23	20.	20.	NUM	Mdo	NumForm=Digit|NumType=Ord	20	parataxis	_	NER=O|SpaceAfter=No
 24	/	/	PUNCT	Z	_	27	punct	_	NER=O|SpaceAfter=No
-25	+	+	SYM	Z	_	26	punct	_	NER=O
+25	+	+	SYM	Z	_	26	dep	_	NER=O
 26	20	20	NUM	Mdc	NumForm=Digit|NumType=Card	27	nummod	_	NER=O
 27	sek.	sek.	X	Y	Abbr=Yes	23	appos	_	NER=O|SpaceAfter=No
 28	)	)	PUNCT	Z	_	23	punct	_	NER=O|SpaceAfter=No
@@ -6849,7 +6849,7 @@
 10	in	in	CCONJ	Cc	_	11	cc	_	NER=O
 11	kostanja	kostanj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	NER=O|SpaceAfter=No
 12	.	.	PUNCT	Z	_	1	punct	_	NER=O|SpaceAfter=No
-13	+	+	SYM	Z	_	15	punct	_	NER=O
+13	+	+	SYM	Z	_	15	dep	_	NER=O
 14	(	(	PUNCT	Z	_	15	punct	_	NER=O|SpaceAfter=No
 15	061	061	NUM	Mdc	NumForm=Digit|NumType=Card	1	parataxis	_	NER=O|SpaceAfter=No
 16	)	)	PUNCT	Z	_	15	punct	_	NER=O
@@ -6890,7 +6890,7 @@
 16	ECR	ECR	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	NER=O
 17	003	003	NUM	Mdc	NumForm=Digit|NumType=Card	16	nummod	_	NER=O
 18	N.	N.	X	Y	Abbr=Yes	17	nmod	_	NER=O|SpaceAfter=No
-19	+	+	SYM	Z	_	21	punct	_	NER=O
+19	+	+	SYM	Z	_	21	dep	_	NER=O
 20	(	(	PUNCT	Z	_	21	punct	_	NER=O|SpaceAfter=No
 21	068	068	NUM	Mdc	NumForm=Digit|NumType=Card	9	parataxis	_	NER=O|SpaceAfter=No
 22	)	)	PUNCT	Z	_	21	punct	_	NER=O
@@ -20542,7 +20542,7 @@
 19	vsakdanjo	vsakdanji	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	NER=O
 20	dejavnost	dejavnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	36	obj	_	NER=O|SpaceAfter=No
 21	,	,	PUNCT	Z	_	23	punct	_	NER=O
-22	recimo	reči	VERB	Vmem1p	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	23	cc	_	NER=O
+22	recimo	reči	VERB	Vmem1p	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	23	parataxis	_	NER=O
 23	gradnjo	gradnja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	appos	_	NER=O
 24	jezov	jez	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	NER=O|SpaceAfter=No
 25	,	,	PUNCT	Z	_	26	punct	_	NER=O
@@ -28372,7 +28372,7 @@
 7	mladi	mlad	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
 8	umetniki	umetnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	Z	_	11	punct	_	_
-10	recimo	reči	VERB	Vmem1p	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	11	cc	_	_
+10	recimo	reči	VERB	Vmem1p	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	11	parataxis	_	_
 11	Andy	Andy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
 12	Warhol	Warhol	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
 13	,	,	PUNCT	Z	_	11	punct	_	_
