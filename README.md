@@ -1,5 +1,3 @@
-http://universaldependencies.github.io/docs/sl/overview/introduction.html
-
 # Summary
 
 The SSJ treebank is the reference UD treebank for Slovenian, consisting of approximately 13,000 sentences and 267,097 tokens from fiction, non-fiction, periodical and Wikipedia texts in standard modern Slovenian. As of UD release 2.10 in May 2022, the original version of the SSJ UD treebank has been partially manually revised and extended with new manually annotated data. 
@@ -10,27 +8,28 @@ The original Slovenian SSJ UD Treebank, first released as part of UD v1.2 in 201
 
 In 2022, the original SSJ UD treebank was partially manually revised to correct the previously identified annotation inconsistencies, and implement the newly introduced changes in the annotation guidelines. In addition, the treebank was substantially extended to almost double the original size, with new manually annotated sentences coming from the previously unreleased subset of the ssj500k corpus, and the Slovenian subset of the ELEXIS parallel sense-annotated corpus of Wikipedia texts (Martelli et al. 2021). Despite the extension, the data split remained unchanged with the original SSJ sentences being preserved as part of the same train-dev-test subset. More details on the latest SSJ UD version are given in Dobrovoljc and Ljubešić (2022).
 
-# How to cite
-
-Kaja Dobrovoljc, Tomaž Erjavec, Simon Krek. 2017. The Universal Dependencies Treebank for Slovenian. In: Proceeding of the 6th Workshop on Balto-Slavic Natural Language Processing (BSNLP 2017), 33–38. Valencia, 2017.
-
-Kaja Dobrovoljc, Nikola Ljubešić. 2022. Extending the SSJ Universal Dependencies Treebank for Slovenian: Was it Worth it?. In: Proceedings of the 16th Linguistic Annotation Workshop (LAW-XVI), LREC 2022, 15–22. Marseille, 2022.
-
 # Acknowledgments
 
 We wish to thank all of the contributors to the original ssj500k training corpus (Kristina Bizjak, Živa Blaževič, Klara Canzutti, Lea Cibrič, Kaja Dobrovoljc, Tadeja Dušej, Tomaž Erjavec, Ivana Fekeža, Nanika Holz, Urška Kamenšek, Simon Krek, Andreja Košir, Robert Kuret, Nina Ledinek, Andrej Lovšin, Boštjan Marhold, Nina Mikulin, Barbara Modrijan, Sara Može, Tanja Novak, Lea Peršič, Tanja Radovič, Simona Šinkovec, Urška Vranjek, Jerneja Umer, Petra Žalodec), and the annotators within the Development of Slovene in the Digital Environment project (Tina Munda, Ina Poteko, Rebeka Roblek, Luka Terčon and Karolina Zgaga).
 
-# References:
+## Key references
 
-Tomaž Erjavec, Darja Fišer, Simon Krek and Nina Ledinek. 2010. The JOS Linguistically Tagged Corpus of Slovene. In: Proceedings of the Seventh International Conference on Language Resources and Evaluation (LREC'10). Malta, 2010.
+* Kaja Dobrovoljc, Tomaž Erjavec, Simon Krek. 2017. The Universal Dependencies Treebank for Slovenian. In: Proceeding of the 6th Workshop on Balto-Slavic Natural Language Processing (BSNLP 2017), 33–38. Valencia, 2017.
 
-Simon Krek et al. 2021. Training corpus ssj500k 2.3, Slovenian language resource repository CLARIN.SI, ISSN 2820-4042, http://hdl.handle.net/11356/1434.
+* Kaja Dobrovoljc, Nikola Ljubešić. 2022. Extending the SSJ Universal Dependencies Treebank for Slovenian: Was it Worth it?. In: Proceedings of the 16th Linguistic Annotation Workshop (LAW-XVI), LREC 2022, 15–22. Marseille, 2022.
 
-Federico Martelli et al. 2022. Parallel sense-annotated corpus ELEXIS-WSD 1.0, Slovenian language resource repository CLARIN.SI, ISSN 2820-4042, http://hdl.handle.net/11356/1674.
+## Other
+
+* Tomaž Erjavec, Darja Fišer, Simon Krek and Nina Ledinek. 2010. The JOS Linguistically Tagged Corpus of Slovene. In: Proceedings of the Seventh International Conference on Language Resources and Evaluation (LREC'10). Malta, 2010.
+
+* Simon Krek et al. 2021. Training corpus ssj500k 2.3, Slovenian language resource repository CLARIN.SI, ISSN 2820-4042, http://hdl.handle.net/11356/1434.
+
+* Federico Martelli et al. 2022. Parallel sense-annotated corpus ELEXIS-WSD 1.0, Slovenian language resource repository CLARIN.SI, ISSN 2820-4042, http://hdl.handle.net/11356/1674.
 
 
 # Changelog
 
+<pre>
 2022-08-10 v2.10
 -- Updated the readme file to document the treebank extension in v2.10 (post-release)
 -- Fixed some annotation errors in the test set to be released as part of v2.11
@@ -74,8 +73,9 @@ Federico Martelli et al. 2022. Parallel sense-annotated corpus ELEXIS-WSD 1.0, S
 -- Fixed a few minor issues in the conversion script based on content validation
 -- Fixed a few errors in the original ssj500k treebank
 -- Fixed the SpaceAfter=No bug
+</pre>
 
-
+<pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.2
 License: CC BY-SA 4.0
@@ -90,3 +90,4 @@ Contributors: Dobrovoljc, Kaja; Erjavec, Tomaž; Krek, Simon
 Contributing: elsewhere
 Contact: kaja.dobrovoljc@ijs.si
 ===============================================================================
+</pre>
