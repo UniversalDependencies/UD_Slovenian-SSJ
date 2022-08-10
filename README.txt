@@ -2,80 +2,48 @@ http://universaldependencies.github.io/docs/sl/overview/introduction.html
 
 # Summary
 
-The Slovenian UD Treebank is a rule-based conversion of the ssj500k
-treebank, the largest collection of manually syntactically annotated
-data in Slovenian, originally annotated in the JOS annotation scheme.
-
+The SSJ treebank is the reference UD treebank for Slovenian, consisting of approximately 13,000 sentences and 267,097 tokens from fiction, non-fiction, periodical and Wikipedia texts in standard modern Slovenian. As of UD release 2.10 in May 2022, the original version of the SSJ UD treebank has been partially manually revised and extended with new manually annotated data. 
 
 # Introduction
 
-The Slovenian SSJ UD Treebank (Dobrovoljc et al. 2017) is based on the ssj500k treebank
-(Krek et al. 2019), a balanced collection of sampled texts from the FidaPLUS reference
-corpus of written Slovene (Arhar and Gorjanc 2007). The original ssj500k corpus has
-been manually segmented, tokenized, lemmatized and morphosyntactically tagged within
-JOS project, in which the annotation guidelines have also been developed (Erjavec et
-al. 2010). Additionally, approximately one half of the ssj500k treebank has been
-manually annotated for dependency relations, according to the JOS syntactic annotation
-scheme. The syntactically annotated part of the ssj500k corpus (known as ssj200k),
-consisting of 11,411 annotated sentences and 235,864 tokens, has been used as the
-basis for conversion to the Slovenian UD Treebank.
+The original Slovenian SSJ UD Treebank, first released as part of UD v1.2 in 2015 (Dobrovoljc et al. 2017), was created through a fine-grained rule-based conversion of the ssj500k treebank (Krek et al. 2021), the largest collection of manually syntactically annotated data in Slovenian, originally annotated in the JOS annotation scheme (Erjavec et al. 2010). With the exception of the manual disambiguation of the AUX and VERB occurrences of the verb 'biti' (to be), the conversion was fully automatic, based on a set of rules for both morphosyntactic and syntactic layer, which include different lexical, morphological and dependency features, while the original ssj500k tokenization and lemmatization principles remained unchanged. The rules and conversion scripts are available at https://github.com/clarinsi/jos2ud.
 
-The conversion from ssj200k to the Slovenian SSJ UD Treebank was
-automatic (except for "biti"), based on a set of rules for both
-morphosyntactic and syntactic layer, which include different lexical,
-morphological and dependency features. The rules and conversion
-scripts are available at https://github.com/clarinsi/jos2ud
+In 2022, the original SSJ UD treebank was partially manually revised to correct the previously identified annotation inconsistencies, and implement the newly introduced changes in the annotation guidelines. In addition, the treebank was substantially extended to almost double the original size, with new manually annotated sentences coming from the previously unreleased subset of the ssj500k corpus, and the Slovenian subset of the ELEXIS parallel sense-annotated corpus of Wikipedia texts (Martelli et al. 2021). Despite the extension, the data split remained unchanged with the original SSJ sentences being preserved as part of the same train-dev-test subset. More details on the latest SSJ UD version are given in Dobrovoljc and Ljubešić (2022).
 
-Due to the specifics of the original JOS syntactic annotation scheme,
-not all dependency relations from the original ssj200k treebank could
-be converted automatically, resulting in a smaller UD treebank
-size. The current version of the Slovenian UD Treebank thus contains
-8,000 sentences with 140,670 tokens taken from various text types,
-e.g. fiction, non-fiction and periodicals, dating from 1990-2000. The
-original JOS annotations are included as part of the POSTAG (JOS
-morphosyntactic tags) and MISC (JOS dependency heads and labels)
-columns in the CONLLU format.
+# How to cite
 
-The corpus is linearly split into training (80%), development (10%) and test
-(10%) data.
+Kaja Dobrovoljc, Tomaž Erjavec, Simon Krek. 2017. The Universal Dependencies Treebank for Slovenian. In: Proceeding of the 6th Workshop on Balto-Slavic Natural Language Processing (BSNLP 2017), 33–38. Valencia, 2017.
 
+Kaja Dobrovoljc, Nikola Ljubešić. 2022. Extending the SSJ Universal Dependencies Treebank for Slovenian: Was it Worth it?. In: Proceedings of the 16th Linguistic Annotation Workshop (LAW-XVI), LREC 2022, 15–22. Marseille, 2022.
 
 # Acknowledgments
 
-We wish to thank all of the contributors to the original ssj500k
-training corpus: Kristina Bizjak, Živa Blaževič, Klara Canzutti, Lea
-Cibrič, Kaja Dobrovoljc, Tadeja Dušej, Tomaž Erjavec, Ivana Fekeža,
-Nanika Holz, Urška Kamenšek, Simon Krek, Andreja Košir, Robert Kuret,
-Nina Ledinek, Andrej Lovšin, Boštjan Marhold, Nina Mikulin, Barbara
-Modrijan, Sara Može, Tanja Novak, Lea Peršič, Tanja Radovič, Simona
-Šinkovec, Urška Vranjek, Jerneja Umer, Petra Žalodec.
-
+We wish to thank all of the contributors to the original ssj500k training corpus (Kristina Bizjak, Živa Blaževič, Klara Canzutti, Lea Cibrič, Kaja Dobrovoljc, Tadeja Dušej, Tomaž Erjavec, Ivana Fekeža, Nanika Holz, Urška Kamenšek, Simon Krek, Andreja Košir, Robert Kuret, Nina Ledinek, Andrej Lovšin, Boštjan Marhold, Nina Mikulin, Barbara Modrijan, Sara Može, Tanja Novak, Lea Peršič, Tanja Radovič, Simona Šinkovec, Urška Vranjek, Jerneja Umer, Petra Žalodec), and the annotators within the Development of Slovene in the Digital Environment project (Tina Munda, Ina Poteko, Rebeka Roblek, Luka Terčon and Karolina Zgaga).
 
 # References:
 
-Kaja Dobrovoljc, Tomaž Erjavec, Simon Krek. 2017. The Universal
-Dependencies Treebank for Slovenian. In: Proceeding of the 6th
-Workshop on Balto-Slavic Natural Language Processing (BSNLP 2017),
-Valencia, 2017.
+Tomaž Erjavec, Darja Fišer, Simon Krek and Nina Ledinek. 2010. The JOS Linguistically Tagged Corpus of Slovene. In: Proceedings of the Seventh International Conference on Language Resources and Evaluation (LREC'10). Malta, 2010.
 
-Simon Krek, Kaja Dobrovoljc, Tomaž Erjavec, Sara Može, Nina Ledinek,
-Nanika Holz, Katja Zupan, Polona Gantar, Taja Kuzman, Jaka Čibej,
-Špela Arhar Holdt, Teja Kavčič, Iza Škrjanec, Dafne Marko, Lucija
-Jezeršek, and Anja Zajc. 2019. Training corpus ssj500k 2.2.
-Slovenian language resource repository CLARIN.SI.
-http://hdl.handle.net/11356/1210.
+Simon Krek et al. 2021. Training corpus ssj500k 2.3, Slovenian language resource repository CLARIN.SI, ISSN 2820-4042, http://hdl.handle.net/11356/1434.
 
-Špela Arhar and Vojko Gorjanc. 2007. Korpus FidaPLUS: nova generacija
-slovenskega referenčnega korpusa (The FidaPLUS corpus: a new
-generation of the Slovene reference corpus). Jezik in slovstvo, 52(2).
-
-Tomaž Erjavec, Darja Fišer, Simon Krek and Nina Ledinek. 2010. The JOS
-Linguistically Tagged Corpus of Slovene. In: Proceedings of the
-Seventh International Conference on Language Resources and Evaluation
-(LREC'10), Malta, 2010.
+Federico Martelli et al. 2022. Parallel sense-annotated corpus ELEXIS-WSD 1.0, Slovenian language resource repository CLARIN.SI, ISSN 2820-4042, http://hdl.handle.net/11356/1674.
 
 
 # Changelog
+
+2022-08-10 v2.10
+-- Updated the readme file to document the treebank extension in v2.10 (post-release)
+-- Fixed some annotation errors in the test set to be released as part of v2.11
+-- Fixed legacy validation errors relating to erroneous dual subjects to be released as part of v2.11
+-- Changed license to CC-BY-SA
+
+2019-10-28 v2.5
+-- Fixed legacy validation errors, i.e.
+--- Re-attaching the punctuation causing non-projectivity
+--- Changing numerical adjuncts from 'advmod' to 'obl'
+--- Re-attaching leafs of unlike parents
+--- (Temporarily) changing 'aux' to 'dep' for colloquial contracted forms
+-- Created the language overview page
 
 2019-10-28 v2.5
 -- Fixed legacy validation errors, i.e.
@@ -110,15 +78,15 @@ Seventh International Conference on Language Resources and Evaluation
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.2
-License: CC BY-NC-SA 4.0
+License: CC BY-SA 4.0
 Includes text: yes
 Genre: news nonfiction fiction
-Lemmas: converted from manual
-UPOS: converted from manual
+Lemmas: manual native
+UPOS: converted with corrections
 XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
+Features: converted with corrections
+Relations: converted with corrections
 Contributors: Dobrovoljc, Kaja; Erjavec, Tomaž; Krek, Simon
 Contributing: elsewhere
-Contact: kaja.dobrovoljc@ijs.si; tomaz.erjavec@ijs.si; simon.krek@ijs.si
+Contact: kaja.dobrovoljc@ijs.si
 ===============================================================================
