@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Slovenian-SSJ:
-commit aae159ba72835641b0078cef2ce58a2ff602aec4
+commit 979fded0722d7d0fe44d1e1993f6331f9063938b
+Merge: 97bfaef 892442b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 12:33:49 2022 +0100
 Size: counted 267097 of 267097 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.1752237766089.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.9.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL        276
-Udapi: found 276 bugs.
+               TOTAL        274
+Udapi: found 274 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 267097 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SSJ/sl_ssj-ud-dev.conllu
@@ -29,6 +29,8 @@ Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SSJ/sl_ssj-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SSJ/sl_ssj-ud-train.conllu
+[Line 31184 Sent ssj53.331.1351 Node 18]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+Warnings: 1
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
@@ -37,8 +39,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.808889670035874) = 0.207407607701506
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
-(weight=0.307692307692308) * (score{udapi}=0.989666675402569) = 0.304512823200791
+(weight=0.307692307692308) * (score{udapi}=0.989741554566319) = 0.304535862943483
 (weight=0.0769230769230769) * (score{udeprels}=0.802702702702703) = 0.0617463617463617
-(TOTAL score=0.853908119948809) * (availability=1) * (validity=1) = 0.853908119948809
+(TOTAL score=0.853931159691501) * (availability=1) * (validity=1) = 0.853931159691501
 STARS = 4.5
-UD_Slovenian-SSJ	0.853908119948809	4.5
+UD_Slovenian-SSJ	0.853931159691501	4.5
