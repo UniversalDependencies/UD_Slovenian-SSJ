@@ -30,6 +30,14 @@ We wish to thank all of the contributors to the original ssj500k training corpus
 # Changelog
 
 <pre>
+2023-10-30 v 2.13
+-- Various fixes made to conform to the new guidelines changes in UDv2, i.e.
+--- Fixed sufficiency and excess constructions to have proper annotations
+--- Revised sole objects in sentences via automatic conversion from semantic role labels (recepients are aligned with the iobj relation)
+--- Revised optional depictives, they are now consistently annotated as 'advcl'
+-- Improved consistency of certain constructions using the 'flat', 'xcomp', and 'orphan' relations
+-- Various other fixes pertaining to the use of certain words/phrases ('ne glede', 'pol', 'kaj', 'saj', etc.)
+
 2022-08-10 v2.10
 -- Updated the readme file to document the treebank extension in v2.10 (post-release)
 -- Fixed some annotation errors in the test set to be released as part of v2.11
