@@ -30,7 +30,18 @@ We wish to thank all of the contributors to the original ssj500k training corpus
 # Changelog
 
 <pre>
-2023-10-30 v 2.13
+2024-04-29 v2.14
+-- Reran the automatic conversion of sole object dependency relations from semantic role labels to address some errors
+-- Manually checked the remaining sole object relations in the portion of the treebank that does not have SRL tags available
+-- Implemented additional fixes to conform to new guidelines changes:
+--- Manually corrected instances of reported speech to conform to new guidelines
+--- Manually corrected foreign language expressions in the treebank to conform to the revised flat:foreign guidelines
+-- Revised the annotations of emphatic particles and adverbs, so that they are now consistently attached to the following phrase
+-- Manually checked all instances of the lemma "saj", converting 'cc' to 'advmod' where appropriate
+-- Manually checked all syntactic trees made up of only two leaf nodes and corrected them if they proved to be errors
+-- Improved consistency of expressions using the 'fixed' relation
+
+2023-10-30 v2.13
 -- Various fixes made to conform to the new guidelines changes in UDv2, i.e.
 --- Fixed sufficiency and excess constructions to have proper annotations
 --- Revised sole objects in sentences via automatic conversion from semantic role labels (recepients are aligned with the iobj relation)
