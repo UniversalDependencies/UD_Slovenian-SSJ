@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Slovenian-SSJ:
-commit 979fded0722d7d0fe44d1e1993f6331f9063938b
-Merge: 97bfaef 892442b
+commit 8baf874839ff80c241b7d2ce95c4a9a8c645d276
+Merge: 7e7372c d0a9819
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 267097 of 267097 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.1752237766089.
@@ -15,13 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 200849 out of 267097 total words have one or more features.
+Features: 200862 out of 267097 total words have one or more features.
 Features: source of annotation (from README) factor is 0.9.
-Universal relations: 33 out of 37 found in the corpus.
+Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL        274
-Udapi: found 274 bugs.
+               TOTAL        271
+Udapi: found 271 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 267097 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SSJ/sl_ssj-ud-dev.conllu
@@ -29,8 +29,6 @@ Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SSJ/sl_ssj-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SSJ/sl_ssj-ud-train.conllu
-[Line 31184 Sent ssj53.331.1351 Node 18]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-Warnings: 1
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
@@ -39,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.808889670035874) = 0.207407607701506
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
-(weight=0.307692307692308) * (score{udapi}=0.989741554566319) = 0.304535862943483
-(weight=0.0769230769230769) * (score{udeprels}=0.802702702702703) = 0.0617463617463617
-(TOTAL score=0.853931159691501) * (availability=1) * (validity=1) = 0.853931159691501
+(weight=0.307692307692308) * (score{udapi}=0.989853873311943) = 0.304570422557521
+(weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
+(TOTAL score=0.855836821176642) * (availability=1) * (validity=1) = 0.855836821176642
 STARS = 4.5
-UD_Slovenian-SSJ	0.853931159691501	4.5
+UD_Slovenian-SSJ	0.855836821176642	4.5
