@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Slovenian-SSJ:
-commit 8baf874839ff80c241b7d2ce95c4a9a8c645d276
-Merge: 7e7372c d0a9819
+commit 73f60c4afa2bd43e473819328562c5f15b3e4e1d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 13:30:05 2024 +0200
 Size: counted 267097 of 267097 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.1752237766089.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,10 +25,33 @@ Udapi: found 271 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 267097 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SSJ/sl_ssj-ud-dev.conllu
+[Line 1349 Sent ssj489.2624.9341 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:vseh:det --> 13:nacionalnih:appos)
+[Line 7823 Sent ssj506.2693.9590 Node 23]: [L3 Warning leaf-det] 'det' not expected to have children (23:več:det --> 29:porabite:advcl)
+[Line 10391 Sent ssj513.2715.9697 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:več:det --> 19:tistim:advcl)
+[Line 20917 Sent ssj539.2842.10107 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:tolikšnega:det --> 11:zatrjuje:advcl)
+[Line 21190 Sent ssj540.2847.10117 Node 22]: [L3 Warning leaf-det] 'det' not expected to have children (22:tolko:det --> 21:kaplc:advcl)
+[Line 26932 Sent ssj560.2917.10331 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:enaka:det --> 20:zapisali:advcl)
+[Line 27193 Sent 1630.sl.132455 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:manj:det --> 21:kaže:advcl)
+Warnings: 7
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SSJ/sl_ssj-ud-test.conllu
+[Line 5367 Sent ssj579.2971.10541 Node 41]: [L3 Warning leaf-det] 'det' not expected to have children (41:enakem:det --> 46:opravlja:advcl)
+[Line 10414 Sent ssj591.3034.10744 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:takem:det --> 14:zapustili:advcl)
+[Line 13892 Sent ssj598.3081.10914 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:manj:det --> 24:bi:advcl)
+[Line 19025 Sent ssj607.3133.11128 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:tolikšni:det --> 12:je:advcl)
+Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SSJ/sl_ssj-ud-train.conllu
+[Line 48650 Sent ssj82.538.2047 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:toliko:det --> 33:zagotavlja:advcl)
+[Line 54521 Sent ssj91.606.2281 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:svoj:det --> 4:sam:amod)
+[Line 81460 Sent ssj141.910.3486 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:malo:det --> 18:poskušali:advcl)
+[Line 98320 Sent ssj165.1133.4182 Node 25]: [L3 Warning leaf-det] 'det' not expected to have children (25:več:det --> 30:dopuščamo:advcl)
+[Line 112220 Sent ssj198.1324.4775 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:več:det --> 20:izreklo:advcl)
+[Line 129112 Sent ssj226.1499.5447 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:manj:det --> 16:odstotkov:nmod)
+[Line 167756 Sent ssj333.1976.7020 Node 16]: [L3 Warning leaf-det] 'det' not expected to have children (16:več:det --> 28:preberemo:advcl)
+[Line 189473 Sent ssj402.2249.7941 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:takšen:det --> 11:žilav:appos)
+[Line 196603 Sent ssj420.2338.8235 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:več:det --> 21:upali:advcl)
+Warnings: 9
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
