@@ -8,6 +8,8 @@ The original Slovenian SSJ UD Treebank, first released as part of UD v1.2 in 201
 
 In 2022, the original SSJ UD treebank was partially manually revised to correct the previously identified annotation inconsistencies, and implement the newly introduced changes in the annotation guidelines. In addition, the treebank was substantially extended to almost double the original size, with new manually annotated sentences coming from the previously unreleased subset of the ssj500k corpus, and the Slovenian subset of the ELEXIS parallel sense-annotated corpus of Wikipedia texts (Martelli et al. 2021). Despite the extension, the data split remained unchanged with the original SSJ sentences being preserved as part of the same train-dev-test subset. More details on the latest SSJ UD version are given in Dobrovoljc and Ljubešić (2022).
 
+The *issues* section of this repository serves as a platform for general discussion regarding suggestions for the Slovenian UD guidelines and other open issues.
+
 # Acknowledgments
 
 We wish to thank all of the contributors to the original ssj500k training corpus (Kristina Bizjak, Živa Blaževič, Klara Canzutti, Lea Cibrič, Kaja Dobrovoljc, Tadeja Dušej, Tomaž Erjavec, Ivana Fekeža, Nanika Holz, Urška Kamenšek, Simon Krek, Andreja Košir, Robert Kuret, Nina Ledinek, Andrej Lovšin, Boštjan Marhold, Nina Mikulin, Barbara Modrijan, Sara Može, Tanja Novak, Lea Peršič, Tanja Radovič, Simona Šinkovec, Urška Vranjek, Jerneja Umer, Petra Žalodec), and the annotators within the Development of Slovene in the Digital Environment project (Tina Munda, Ina Poteko, Rebeka Roblek, Luka Terčon and Karolina Zgaga).
