@@ -857,6 +857,7 @@
 # newpar id = ssj563.2926
 # sent_id = ssj563.2926.10367
 # text = Zato nacionalna ničta institucija individua, ki ga je zgrabila v svoj interpelacijski mehanizem, prisili, da se prepusti, podvrže, podredi neki ideologiji; a hkrati nacionalna ničta institucija sama ne daje prednosti nobeni posebni ideologiji.
+# genre = professional
 1	Zato	zato	CCONJ	Cc	_	16	cc	_	NER=O
 2	nacionalna	nacionalen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	NER=O
 3	ničta	ničti	ADJ	Mlofsn	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	NER=O
@@ -1935,6 +1936,7 @@
 # newpar id = ssj564.2932
 # sent_id = ssj564.2932.10398
 # text = Obrobljeni kozak se naseli v plitvih ribnikih ali potokih.
+# genre = magazine
 1	Obrobljeni	obrobljen	ADJ	Appmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	2	amod	_	NER=O
 2	kozak	kozak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	NER=O
 3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	NER=O
@@ -2001,6 +2003,7 @@
 # newpar id = ssj565.2934
 # sent_id = ssj565.2934.10401
 # text = Mimi Podkrižnik Komisijo za šolsko prehrano sestavljajo ravnatelj ali pomočnik, vodja šolske prehrane ter predstavniki kuharskega osebja, zdravstvene in socialne službe (z vidika regresirane prehrane), učencev, staršev…
+# genre = newspaper
 1	Mimi	Mimi	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	7	parataxis	_	NER=O
 2	Podkrižnik	Podkrižnik	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	NER=O
 3	Komisijo	komisija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	NER=O
@@ -2166,6 +2169,7 @@
 # newpar id = ssj566.2935
 # sent_id = ssj566.2935.10408
 # text = Ena od odlik knjižne zbirke Scripta je njena neprofitnost, ki nam ob finančni pomoči ŠOU omogoča, da izdajamo tudi skripta z malo naklado in tako ustrežemo potrebam vseh fakultet, tudi tistih z malo študenti, ki drugih založb sploh ne zanimajo.
+# genre = professional
 1	Ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	9	nsubj	_	NER=O
 2	od	od	ADP	Sg	Case=Gen	3	case	_	NER=O
 3	odlik	odlika	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	NER=O
@@ -2240,6 +2244,7 @@
 # newpar id = ssj567.2936
 # sent_id = ssj567.2936.10410
 # text = Ko stopate v posamezne prostore, ki se v svoji opremi zgledujejo po kocki, hkrati odkrivate drugačne ambiente, kot ste jih vajeni.
+# genre = magazine
 1	Ko	ko	SCONJ	Cs	_	2	mark	_	NER=O
 2	stopate	stopati	VERB	Vmpr2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	advcl	_	NER=O
 3	v	v	ADP	Sa	Case=Acc	5	case	_	NER=O
@@ -2443,6 +2448,7 @@
 # newpar id = ssj568.2937
 # sent_id = ssj568.2937.10415
 # text = Na vprašanje, kaj menita o javni porabi, je Zagožen odgovoril, da je najpomembnejše pri tem, kakšne učinke daje.
+# genre = newspaper
 1	Na	na	ADP	Sa	Case=Acc	2	case	_	NER=O
 2	vprašanje	vprašanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	Z	_	5	punct	_	NER=O
@@ -2676,6 +2682,7 @@
 # newpar id = ssj569.2938
 # sent_id = ssj569.2938.10426
 # text = Znamenje Bika vlada grlu.
+# genre = professional
 1	Znamenje	znamenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	NER=O
 2	Bika	bik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	NER=O
 3	vlada	vladati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
@@ -2718,6 +2725,7 @@
 # newpar id = ssj570.2939
 # sent_id = ssj570.2939.10428
 # text = Izbira je eden izmed ključnih dejavnikov, ki spremljajo laganje.
+# genre = fiction
 1	Izbira	izbira	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	NER=O
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	NER=O
 3	eden	eden	NUM	Mlpmsn	Case=Nom|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	0	root	_	NER=O
@@ -3563,6 +3571,7 @@
 # newpar id = ssj571.2946
 # sent_id = ssj571.2946.10469
 # text = Spodnje perilo postaja vedno bolj pomemben del v naši garderobi.
+# genre = magazine
 1	Spodnje	spodnji	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	NER=O
 2	perilo	perilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	NER=O
 3	postaja	postajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
@@ -3633,6 +3642,7 @@
 # newpar id = ssj572.2948
 # sent_id = ssj572.2948.10473
 # text = V tistem hipu pa me je presvetlilo, kje se skriva napaka v mojem sklepanju, in v hipu sem se zdramil.
+# genre = other
 1	V	v	ADP	Sl	Case=Loc	3	case	_	NER=O
 2	tistem	tisti	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	NER=O
 3	hipu	hip	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	NER=O
@@ -3742,6 +3752,7 @@
 # newpar id = ssj573.2949
 # sent_id = ssj573.2949.10478
 # text = • Vlažnost, ki nastane na površini, kamor nanašamo lepilo, zmanjšamo z raztiranjem lepila od sredine proti robovom lepljenca.
+# genre = magazine
 1	•	•	PUNCT	Z	_	13	punct	_	NER=O
 2	Vlažnost	vlažnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	Z	_	5	punct	_	NER=O
@@ -3941,6 +3952,7 @@
 # newpar id = ssj574.2954
 # sent_id = ssj574.2954.10491
 # text = Določbe o minimalni plači veljajo za vse delodajalce, ki zaposlujejo delavce v Republiki Sloveniji.
+# genre = newspaper
 1	Določbe	določba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	NER=O
 2	o	o	ADP	Sl	Case=Loc	4	case	_	NER=O
 3	minimalni	minimalen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	NER=O
@@ -3962,6 +3974,7 @@
 # newpar id = ssj575.2955
 # sent_id = ssj575.2955.10492
 # text = Ne, vendar mislim, da je žalostno, da smo se uvrstili med tista plemena, ki jih morajo ločevati modre čelade.
+# genre = magazine
 1	Ne	ne	PART	Q	Polarity=Neg	4	discourse	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	NER=O
 3	vendar	vendar	CCONJ	Cc	_	4	cc	_	NER=O
@@ -4062,6 +4075,7 @@
 # newpar id = ssj577.2957
 # sent_id = ssj577.2957.10497
 # text = Strokovnjaki OECD napovedujejo, da bodo ZDA letos dosegle kar 4,9-odstotno gospodarsko rast, ki bo prihodnje leto zaradi povišanja najpomembnejših obrestnih mer upadla na 3 odstotke.
+# genre = newspaper
 1	Strokovnjaki	strokovnjak	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	NER=O
 2	OECD	OECD	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	NER=O
 3	napovedujejo	napovedovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O|SpaceAfter=No
@@ -4138,6 +4152,7 @@
 # newpar id = ssj578.2958
 # sent_id = ssj578.2958.10499
 # text = Leta 2004 bo slovenski kmetijski proračun presegel 65 milijard tolarjev (za 10 odstotkov več kot leta 2003) in pri tem temelji na pričakovanem sofinanciranju EU, za katero se Slovenija zavzema v pogajanjih.
+# genre = newspaper
 1	Leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	NER=O
 2	2004	2004	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	NER=O
 3	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	7	aux	_	NER=O
@@ -5050,6 +5065,7 @@
 # newpar id = ssj579.2968
 # sent_id = ssj579.2968.10531
 # text = Košarkarji Krke so v enem tednu doživeli dva poraza - Najboljši Matjaž Bajc
+# genre = newspaper
 1	Košarkarji	košarkar	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	NER=O
 2	Krke	Krka	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	NER=O
 3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	NER=O
@@ -7011,6 +7027,7 @@
 # newpar id = ssj580.2994
 # sent_id = ssj580.2994.10598
 # text = Šele križanje podobe in teksta ustvarja jasen in razumljiv diskurz.
+# genre = newspaper
 1	Šele	šele	PART	Q	_	2	advmod	_	NER=O
 2	križanje	križanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	NER=O
 3	podobe	podoba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	NER=O
@@ -7475,6 +7492,7 @@
 # newpar id = ssj582.2997
 # sent_id = ssj582.2997.10613
 # text = Kljub majskemu odprtju meja trga tisočerih priložnosti velikega povpraševanja delodajalcev nismo doživeli.
+# genre = magazine
 1	Kljub	kljub	ADP	Sd	Case=Dat	3	case	_	NER=O
 2	majskemu	majski	ADJ	Agpnsd	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	NER=O
 3	odprtju	odprtje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	NER=O
@@ -7734,6 +7752,7 @@
 # newpar id = ssj583.2999
 # sent_id = ssj583.2999.10621
 # text = 60 LET SKUPNEGA ŽIVLJENJA - Konec tega tedna bosta v krogu svojih najbližjih praznovala 60. obletnico poroke Vida in Janko Kraševec iz Metlike.
+# genre = newspaper
 1	60	60	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	NER=O
 2	LET	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	14	parataxis	_	NER=O
 3	SKUPNEGA	skupen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	NER=O
@@ -7954,6 +7973,7 @@
 # newpar id = ssj584.3000
 # sent_id = ssj584.3000.10629
 # text = Kaj pa naj bi ji bil rekel?
+# genre = fiction
 1	Kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	7	obj	_	NER=O
 2	pa	pa	CCONJ	Cc	_	7	advmod	_	NER=O
 3	naj	naj	PART	Q	_	7	advmod	_	NER=O
@@ -8444,6 +8464,7 @@
 # newpar id = ssj585.3014
 # sent_id = ssj585.3014.10659
 # text = Mali Tom (danes dveletnik) se je rodil.
+# genre = magazine
 1	Mali	mali	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	NER=O
 2	Tom	Tom	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	NER=O
 3	(	(	PUNCT	Z	_	5	punct	_	NER=O|SpaceAfter=No
@@ -8561,6 +8582,7 @@
 # newpar id = ssj586.3016
 # sent_id = ssj586.3016.10666
 # text = Izbirajmo kuhalno posodo iz materialov, ki omogočajo dobro toplotno prevodnost in enakomerno porazdelitev toplote.
+# genre = magazine
 1	Izbirajmo	izbirati	VERB	Vmpm1p	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	0	root	_	NER=O
 2	kuhalno	kuhalen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	NER=O
 3	posodo	posoda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	NER=O
@@ -8653,6 +8675,7 @@
 # newpar id = ssj587.3019
 # sent_id = ssj587.3019.10672
 # text = Revolucije ponavadi ne potekajo mirno.
+# genre = newspaper
 1	Revolucije	revolucija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	NER=O
 2	ponavadi	ponavadi	ADV	Rgp	Degree=Pos	4	advmod	_	NER=O
 3	ne	ne	PART	Q	Polarity=Neg	4	advmod	_	NER=O
@@ -8802,6 +8825,7 @@
 # newpar id = ssj588.3021
 # sent_id = ssj588.3021.10680
 # text = V dokumentu je tudi niz elementov, ki so po meri kandidatk.
+# genre = newspaper
 1	V	v	ADP	Sl	Case=Loc	2	case	_	NER=O
 2	dokumentu	dokument	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	NER=O
 3	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
@@ -9176,6 +9200,7 @@
 # newpar id = ssj589.3025
 # sent_id = ssj589.3025.10692
 # text = Obdobje, v katerem se je končala človekova biološka evolucija, je eno najdaljših in najbolj določujočih v človeški zgodovini.
+# genre = professional
 1	Obdobje	obdobje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	Z	_	7	punct	_	NER=O
 3	v	v	ADP	Sl	Case=Loc	4	case	_	NER=O
@@ -9718,6 +9743,7 @@
 # newpar id = ssj590.3028
 # sent_id = ssj590.3028.10717
 # text = Pred leti smo 17-palčnike obravnavali ločeno od 19-palčnih LCDjev.
+# genre = magazine
 1	Pred	pred	ADP	Si	Case=Ins	2	case	_	NER=O
 2	leti	leto	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	7	obl	_	NER=O
 3	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	NER=O
@@ -10375,6 +10401,7 @@
 # newpar id = ssj591.3034
 # sent_id = ssj591.3034.10743
 # text = Ko želimo zapustiti okolje Windows, lahko shranimo trenutno stanje z več odprtimi programi in pripadajočimi okni na namizju.
+# genre = magazine
 1	Ko	ko	SCONJ	Cs	_	2	mark	_	NER=O
 2	želimo	želeti	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	NER=O
 3	zapustiti	zapustiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	xcomp	_	NER=O
@@ -10418,6 +10445,7 @@
 # newpar id = ssj592.3035
 # sent_id = ssj592.3035.10745
 # text = Potem je ves dan premišljevala, kako bi ubogo živalco ujela.
+# genre = magazine
 1	Potem	potem	ADV	Rgp	Degree=Pos	5	advmod	_	NER=O
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	NER=O
 3	ves	ves	DET	Pg-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	4	det	_	NER=O
@@ -10505,6 +10533,7 @@
 # newpar id = ssj593.3037
 # sent_id = ssj593.3037.10749
 # text = Seveda pa zdaj sestavljamo precej drugačen Kompas.
+# genre = magazine
 1	Seveda	seveda	PART	Q	_	4	advmod	_	NER=O
 2	pa	pa	CCONJ	Cc	_	4	advmod	_	NER=O
 3	zdaj	zdaj	ADV	Rgp	Degree=Pos	4	advmod	_	NER=O
@@ -11224,6 +11253,7 @@
 # newpar id = ssj594.3042
 # sent_id = ssj594.3042.10782
 # text = Chartrukian je bil presenečen, da NSA dotlej še ni imela težav z virusi.
+# genre = fiction
 1	Chartrukian	Chartrukian	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	NER=O
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	NER=O
 3	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	4	cop	_	NER=O
@@ -11894,6 +11924,7 @@
 # newpar id = ssj595.3058
 # sent_id = ssj595.3058.10828
 # text = Veliki so res veliki in postajajo še večji, toda tudi med njimi so velike razlike.
+# genre = magazine
 1	Veliki	velik	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	nsubj	_	NER=O
 2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	NER=O
 3	res	res	ADV	Rgp	Degree=Pos	4	advmod	_	NER=O
@@ -12061,6 +12092,7 @@
 # newpar id = ssj596.3059
 # sent_id = ssj596.3059.10835
 # text = V krščanski dobi v času slabotnega sonca zla poganska bitja niso prenehala obiskovati ljudi.
+# genre = magazine
 1	V	v	ADP	Sl	Case=Loc	3	case	_	NER=O
 2	krščanski	krščanski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	NER=O
 3	dobi	doba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	NER=O
@@ -12688,6 +12720,7 @@
 # newpar id = ssj597.3067
 # sent_id = ssj597.3067.10863
 # text = Po prvem dokončanem dnevu imam napade glavobola, vetrov, driske in želodčnih krčev.
+# genre = fiction
 1	Po	po	ADP	Sl	Case=Loc	4	case	_	NER=O
 2	prvem	prvi	ADJ	Mlomsl	Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	NER=O
 3	dokončanem	dokončan	ADJ	Appmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	4	amod	_	NER=O
@@ -13055,6 +13088,7 @@
 # newpar id = ssj598.3076
 # sent_id = ssj598.3076.10885
 # text = V Ljudski operi je Lynnova skupaj s scenografom in kostumografom Timom Goodehildom pripravila pisano in zabavno predstavo, dovolj slikovito in bogato, ki pa ji je manjkalo pravega vzdušja (osnova je francoska, priredba ameriška, govorili in peli so v nemščini), dramaturške napetosti in večje režijske domiselnosti.
+# genre = newspaper
 1	V	v	ADP	Sl	Case=Loc	3	case	_	NER=O
 2	Ljudski	ljudski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	NER=O
 3	operi	opera	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	NER=O
@@ -14008,6 +14042,7 @@
 # newpar id = ssj599.3083
 # sent_id = ssj599.3083.10918
 # text = O tem nam s svojo doživeto risbo pripoveduje Jure Frank, učenec 2. razreda devetletne osnovne šole Ludvika Pliberška v Mariboru.
+# genre = magazine
 1	O	o	ADP	Sl	Case=Loc	2	case	_	NER=O
 2	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	NER=O
 3	nam	jaz	PRON	Pp1-pd	Case=Dat|Number=Plur|Person=1|PronType=Prs	8	iobj	_	NER=O
@@ -14035,6 +14070,7 @@
 # newpar id = ssj600.3084
 # sent_id = ssj600.3084.10919
 # text = V Rusiji so zadovoljni, ker se odnosi le niso bistveno poslabšali, kajti gospodarski razvoj države je bistveno odvisen od odnosov z zahodom.
+# genre = newspaper
 1	V	v	ADP	Sl	Case=Loc	2	case	_	NER=O
 2	Rusiji	Rusija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	NER=O
 3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	NER=O
@@ -14625,6 +14661,7 @@
 # newpar id = ssj601.3090
 # sent_id = ssj601.3090.10942
 # text = Velikani, kakršen je Siemens, si lahko za utrjevanje svojega položaja na svetovni konici tehnološko najnaprednejših koncernov privošči tudi nekoliko nenavadne oblike reklame.
+# genre = magazine
 1	Velikani	velikan	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	Z	_	5	punct	_	NER=O
 3	kakršen	kakršen	DET	Pr-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	NER=O
@@ -14707,6 +14744,7 @@
 # newpar id = ssj602.3091
 # sent_id = ssj602.3091.10945
 # text = Ta nepričakovani »glas ljudstva« je Séguina v hipu priklical iz globoke sence, v katero se je umaknil pred slabim letom po še danes nepojasnjenem odstopu s položaja predsednika RPR (Gibanja za republiko).
+# genre = newspaper
 1	Ta	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	NER=O
 2	nepričakovani	nepričakovan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	NER=O
 3	»	»	PUNCT	Z	_	4	punct	_	NER=O|SpaceAfter=No
@@ -14791,6 +14829,7 @@
 # newpar id = ssj603.3092
 # sent_id = ssj603.3092.10947
 # text = Motnje srčnega ritma nastanejo zaradi nepravilnosti v delovanju prevodnega sistema srca.
+# genre = magazine
 1	Motnje	motnja	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	NER=O
 2	srčnega	srčen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	NER=O
 3	ritma	ritem	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	NER=O
@@ -15498,6 +15537,7 @@
 # newpar id = ssj604.3098
 # sent_id = ssj604.3098.10980
 # text = Spojine v šentjanževki lahko razdelimo v sedem skupin.
+# genre = magazine
 1	Spojine	spojina	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	NER=O
 2	v	v	ADP	Sl	Case=Loc	3	case	_	NER=O
 3	šentjanževki	šentjanževka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	NER=O
@@ -16684,6 +16724,7 @@
 # newpar id = ssj605.3111
 # sent_id = ssj605.3111.11031
 # text = Mitchell, Aldridge in Broomhead (2003) so predstavili razvoj računalniškega sistema, ki bi se na osnovi določenega števila izdelkov učencev naučil točkovanja in bi po opravljeni moderaciji navodil za točkovanje pri zunanjem ocenjevanju nadomestil človeka predmetnega strokovnjaka pri ocenjevanju (Computerised Marking).
+# genre = magazine
 1	Mitchell	Mitchell	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	Z	_	3	punct	_	NER=O
 3	Aldridge	Aldridge	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	NER=O
@@ -16795,6 +16836,7 @@
 # newpar id = ssj606.3112
 # sent_id = ssj606.3112.11035
 # text = Srce z dvema desnima polovicama je dvakratno slaba vest.
+# genre = magazine
 1	Srce	srce	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	NER=O
 2	z	z	ADP	Si	Case=Ins	5	case	_	NER=O
 3	dvema	dva	NUM	Mlcfdi	Case=Ins|Gender=Fem|Number=Dual|NumForm=Word|NumType=Card	5	nummod	_	NER=O
@@ -18153,6 +18195,7 @@
 # newpar id = ssj607.3123
 # sent_id = ssj607.3123.11094
 # text = To seveda ni tako preprosto.
+# genre = magazine
 1	To	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	NER=O
 2	seveda	seveda	PART	Q	_	3	advmod	_	NER=O
 3	ni	biti	VERB	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
@@ -20585,6 +20628,7 @@
 # newpar id = ssj608.3148
 # sent_id = ssj608.3148.11196
 # text = Zaradi neživljenjskih in negospodarnih zahtev Darsa na počivališču Lukovica ne bi mogli delovati samostojno, ampak bi bili lahko le najemniki brez lastniških pravic, zato smo ugotovili, da razvoja ob avtocesti ne moremo nadaljevati, pravi direktor Gostinskega podjetja Trojane Bojan Gasior.
+# genre = newspaper
 1	Zaradi	zaradi	ADP	Sg	Case=Gen	5	case	_	NER=O
 2	neživljenjskih	neživljenjski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	NER=O
 3	in	in	CCONJ	Cc	_	4	cc	_	NER=O
@@ -20805,6 +20849,7 @@
 # newpar id = ssj609.3150
 # sent_id = ssj609.3150.11202
 # text = KAMNIK Pri reševanju problemov delavcev, ki so ostali brez zaposlitve zaradi stečaja v podjetju Stol Ambienti, smo tesno sodelovali s kadrovsko službo podjetja.
+# genre = newspaper
 1	KAMNIK	Kamnik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	21	parataxis	_	NER=O
 2	Pri	pri	ADP	Sl	Case=Loc	3	case	_	NER=O
 3	reševanju	reševanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	21	obl	_	NER=O
@@ -21151,6 +21196,7 @@
 # newpar id = ssj610.3156
 # sent_id = ssj610.3156.11215
 # text = Tako je na svoji spletni strani zapisal predsednik države Janez Drnovšek, potem ko se je včeraj sestal s skupino uglednih pravnih in ustavnih strokovnjakov.
+# genre = newspaper
 1	Tako	tako	ADV	Rgp	Degree=Pos	7	advmod	_	NER=O
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	NER=O
 3	na	na	ADP	Sl	Case=Loc	6	case	_	NER=O
@@ -22160,6 +22206,7 @@
 # newpar id = ssj611.3166
 # sent_id = ssj611.3166.11253
 # text = Sicer pa so policisti mnenja, da z represivno preventivnimi akcijami dosegajo le začasne rezultate.
+# genre = newspaper
 1	Sicer	sicer	CCONJ	Cc	_	5	cc	_	NER=O
 2	pa	pa	CCONJ	Cc	_	5	advmod	_	NER=O
 3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	NER=O
@@ -22264,6 +22311,7 @@
 # newpar id = ssj612.3167
 # sent_id = ssj612.3167.11257
 # text = Seveda je tudi nekaj žalostnega, da na ta način postanejo smešne prav tiste reči, ki bi bile v svoji goloti sicer pretresljive, strašne ali nagravžne.
+# genre = other
 1	Seveda	seveda	PART	Q	_	4	advmod	_	NER=O
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	NER=O
 3	tudi	tudi	PART	Q	_	4	advmod	_	NER=O
@@ -22373,6 +22421,7 @@
 # newpar id = ssj613.3170
 # sent_id = ssj613.3170.11261
 # text = Za pešce in obiskovalce kostanjeviških lokalov ni poskrbel nihče, niti meščani ne
+# genre = newspaper
 1	Za	za	ADP	Sa	Case=Acc	2	case	_	NER=O
 2	pešce	pešec	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	NER=O
 3	in	in	CCONJ	Cc	_	4	cc	_	NER=O
@@ -22966,6 +23015,7 @@
 # newpar id = ssj614.3177
 # sent_id = ssj614.3177.11286
 # text = Ste članica prestižnih mednarodnih institucij, konec leta 1990 ste ustanovili svojo fundacijo Jelisaveta Karađorđević.
+# genre = magazine
 1	Ste	biti	AUX	Va-r2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	NER=O
 2	članica	članica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=O
 3	prestižnih	prestižen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	NER=O
@@ -23282,6 +23332,7 @@
 # newpar id = ssj615.3181
 # sent_id = ssj615.3181.11304
 # text = Sisteme je mogoče legitimizirati s sklicevanjem na avtoriteto ali mistične resnice, kar delno še vedno počnemo.
+# genre = professional
 1	Sisteme	sistem	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	NER=O
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	NER=O
 3	mogoče	mogoč	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	NER=O
@@ -23463,6 +23514,7 @@
 # newpar id = ssj616.3182
 # sent_id = ssj616.3182.11311
 # text = Seveda v ponapoleonski dobi državne oblasti vsaj sprva nobenega od treh pojmov niso sprejele za legitimnega.
+# genre = professional
 1	Seveda	seveda	PART	Q	_	14	advmod	_	NER=O
 2	v	v	ADP	Sl	Case=Loc	4	case	_	NER=O
 3	ponapoleonski	ponapoleonski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	NER=O
@@ -24450,6 +24502,7 @@
 # newpar id = ssj617.3188
 # sent_id = ssj617.3188.11351
 # text = In še opomba pod črto: po naključju so vsi avtorji nabranih zgledov stari od dvajset do trideset let.
+# genre = newspaper
 1	In	in	CCONJ	Cc	_	3	cc	_	NER=O
 2	še	še	PART	Q	_	3	advmod	_	NER=O
 3	opomba	opomba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	parataxis	_	NER=O
@@ -24490,6 +24543,7 @@
 # newpar id = ssj618.3189
 # sent_id = ssj618.3189.11353
 # text = JAZ: Zdi se mi, da označitev take pozicije z donkihotovstvom ni posrečena.
+# genre = newspaper
 1	JAZ	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	NER=O|SpaceAfter=No
 2	:	:	PUNCT	Z	_	3	punct	_	NER=O
 3	Zdi	zdeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	NER=O
@@ -24696,6 +24750,7 @@
 # newpar id = ssj619.3190
 # sent_id = ssj619.3190.11359
 # text = Hvaležna sem Lisl Cade, vdani prijateljici in izvedenki za odnose z javnostmi, za nenehno spodbudo.
+# genre = fiction
 1	Hvaležna	hvaležen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	NER=O
 2	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	NER=O
 3	Lisl	Lisl	PROPN	Npfsd	Case=Dat|Gender=Fem|Number=Sing	1	obj	_	NER=O

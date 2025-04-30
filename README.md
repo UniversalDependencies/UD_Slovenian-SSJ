@@ -8,6 +8,8 @@ The original Slovenian SSJ UD Treebank, first released as part of UD v1.2 in 201
 
 In 2022, the original SSJ UD treebank was partially manually revised to correct the previously identified annotation inconsistencies, and implement the newly introduced changes in the annotation guidelines. In addition, the treebank was substantially extended to almost double the original size, with new manually annotated sentences coming from the previously unreleased subset of the ssj500k corpus, and the Slovenian subset of the ELEXIS parallel sense-annotated corpus of Wikipedia texts (Martelli et al. 2021). Despite the extension, the data split remained unchanged with the original SSJ sentences being preserved as part of the same train-dev-test subset. More details on the latest SSJ UD version are given in Dobrovoljc and Ljubešić (2022).
 
+The metadata for most documents in the treebank includes also the document genre. The documents fall into six different genre categories: newspaper, magazine, internet, professional, fiction, other.
+
 The *issues* section of this repository serves as a platform for general discussion regarding suggestions for the Slovenian UD guidelines and other open issues.
 
 # Acknowledgments
@@ -32,6 +34,9 @@ We wish to thank all of the contributors to the original ssj500k training corpus
 # Changelog
 
 <pre>
+2025--04-30 v 2.16
+-- Added genre information for most documents in the treebank
+
 2024-04-29 v2.14
 -- Reran the automatic conversion of sole object dependency relations from semantic role labels to address some errors
 -- Manually checked the remaining sole object relations in the portion of the treebank that does not have SRL tags available
