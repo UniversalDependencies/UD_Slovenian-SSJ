@@ -106,6 +106,7 @@ We wish to thank all of the contributors to the original ssj500k training corpus
 Data available since: UD v1.2
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news nonfiction fiction
 Lemmas: manual native
 UPOS: converted with corrections
