@@ -34,6 +34,10 @@ We wish to thank all of the contributors to the original ssj500k training corpus
 # Changelog
 
 <pre>
+2025--10-22 v 2.17
+-- Added genre information for remaining documents
+-- Added missing NER annotations for the elexis-wsd portion of the treebank
+
 2025--04-30 v 2.16
 -- Added genre information for most documents in the treebank
 
