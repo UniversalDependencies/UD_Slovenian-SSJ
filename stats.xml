@@ -124,13 +124,13 @@
     <dep name="flat:foreign">784</dep>
     <dep name="flat:name">1732</dep>
     <dep name="goeswith">1</dep>
-    <dep name="iobj">1692</dep>
+    <dep name="iobj">1693</dep>
     <dep name="list">681</dep>
     <dep name="mark">8048</dep>
     <dep name="nmod">19956</dep>
     <dep name="nsubj">13174</dep>
     <dep name="nummod">4300</dep>
-    <dep name="obj">11410</dep>
+    <dep name="obj">11409</dep>
     <dep name="obl">17506</dep>
     <dep name="orphan">981</dep>
     <dep name="parataxis">3826</dep>
