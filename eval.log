@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Slovenian-SSJ:
-commit 8872c34c93d6a7fde2ce8e51352e9a6de6ae4d29
-Merge: eb0de79 fc96cf7
+commit ad66c9d8a9a12ca1672b6ce9866ff45b9e1172b0
+Merge: 4904dcd 369da14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'sl_ssj'
@@ -25,83 +25,86 @@ Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SSJ/sl_ssj-ud-dev.conllu
-[Line 1038 Sent ssj488.2618.9327]: [L3 Warning fixed-without-extpos] Fixed expression 'D. O. O.' does not have the 'ExtPos' feature
-[Line 1290 Sent ssj489.2623.9339]: [L3 Warning fixed-without-extpos] Fixed expression 'in sicer' does not have the 'ExtPos' feature
-[Line 1369 Sent ssj489.2624.9340]: [L3 Warning fixed-without-extpos] Fixed expression 'in to' does not have the 'ExtPos' feature
-[Line 1376 Sent ssj489.2624.9340]: [L3 Warning fixed-without-extpos] Fixed expression 'se pravi' does not have the 'ExtPos' feature
-[Line 1376 Sent ssj489.2624.9340]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 1393 Sent ssj489.2624.9341]: [L3 Warning fixed-without-extpos] Fixed expression 'Kakor da' does not have the 'ExtPos' feature
-[Line 1405 Sent ssj489.2624.9341]: [L3 Syntax leaf-det] 'det' not expected to have children (9:vseh:det --> 13:nacionalnih:appos)
-[Line 1403 Sent ssj489.2624.9341]: [L3 Warning fixed-without-extpos] Fixed expression 'ne le' does not have the 'ExtPos' feature
-[Line 1447 Sent ssj489.2624.9343]: [L3 Warning fixed-without-extpos] Fixed expression 'še posebno' does not have the 'ExtPos' feature
-[Line 1486 Sent ssj489.2624.9345]: [L3 Warning fixed-without-extpos] Fixed expression 'se pravi' does not have the 'ExtPos' feature
-[Line 1486 Sent ssj489.2624.9345]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 1517 Sent ssj489.2624.9347]: [L3 Warning fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
-[Line 1856 Sent ssj489.2625.9358]: [L3 Warning fixed-without-extpos] Fixed expression 'ampak tudi' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 7111 Sent ssj504.2674.9553]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 8128 Sent ssj506.2693.9590]: [L3 Syntax leaf-det] 'det' not expected to have children (23:več:det --> 29:porabite:advcl)
-[Line 10803 Sent ssj513.2715.9697]: [L3 Syntax leaf-det] 'det' not expected to have children (15:več:det --> 19:tistim:advcl)
-[Line 16641 Sent ssj529.2790.9937]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 21739 Sent ssj539.2842.10107]: [L3 Syntax leaf-det] 'det' not expected to have children (6:tolikšnega:det --> 11:zatrjuje:advcl)
-[Line 22022 Sent ssj540.2847.10117]: [L3 Syntax leaf-det] 'det' not expected to have children (22:tolko:det --> 21:kaplc:advcl)
-[Line 27666 Sent ssj559.2915.10323]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-...suppressing further errors regarding Syntax
-Syntax errors: 15
-Warnings: 116
-*** FAILED *** with 15 errors
+[Line 1038 Sent ssj488.2618.9327]: [L3 WARNING fixed-without-extpos] Fixed expression 'D. O. O.' does not have the 'ExtPos' feature
+[Line 1290 Sent ssj489.2623.9339]: [L3 WARNING fixed-without-extpos] Fixed expression 'in sicer' does not have the 'ExtPos' feature
+[Line 1369 Sent ssj489.2624.9340]: [L3 WARNING fixed-without-extpos] Fixed expression 'in to' does not have the 'ExtPos' feature
+[Line 1376 Sent ssj489.2624.9340]: [L3 WARNING fixed-without-extpos] Fixed expression 'se pravi' does not have the 'ExtPos' feature
+[Line 1376 Sent ssj489.2624.9340]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 1393 Sent ssj489.2624.9341]: [L3 WARNING fixed-without-extpos] Fixed expression 'Kakor da' does not have the 'ExtPos' feature
+[Line 1405 Sent ssj489.2624.9341]: [L3 SYNTAX leaf-det] 'det' not expected to have children (9:vseh:det --> 13:nacionalnih:appos)
+[Line 1403 Sent ssj489.2624.9341]: [L3 WARNING fixed-without-extpos] Fixed expression 'ne le' does not have the 'ExtPos' feature
+[Line 1447 Sent ssj489.2624.9343]: [L3 WARNING fixed-without-extpos] Fixed expression 'še posebno' does not have the 'ExtPos' feature
+[Line 1486 Sent ssj489.2624.9345]: [L3 WARNING fixed-without-extpos] Fixed expression 'se pravi' does not have the 'ExtPos' feature
+[Line 1486 Sent ssj489.2624.9345]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 1517 Sent ssj489.2624.9347]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
+[Line 1856 Sent ssj489.2625.9358]: [L3 WARNING fixed-without-extpos] Fixed expression 'ampak tudi' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 7111 Sent ssj504.2674.9553]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 8128 Sent ssj506.2693.9590]: [L3 SYNTAX leaf-det] 'det' not expected to have children (23:več:det --> 29:porabite:advcl)
+[Line 10803 Sent ssj513.2715.9697]: [L3 SYNTAX leaf-det] 'det' not expected to have children (15:več:det --> 19:tistim:advcl)
+[Line 15838 Sent ssj529.2784.9903]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'TAM-u') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 16641 Sent ssj529.2790.9937]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 18710 Sent ssj533.2808.9998]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'Slovenija') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 21739 Sent ssj539.2842.10107]: [L3 SYNTAX leaf-det] 'det' not expected to have children (6:tolikšnega:det --> 11:zatrjuje:advcl)
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 25010 Sent ssj550.2883.10233]: [L3 WARNING pron-det-without-prontype] The word 'obilo' is tagged 'DET' but it lacks the 'PronType' feature
+Warnings: 113
+SYNTAX errors: 18
+*** FAILED *** with 18 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SSJ/sl_ssj-ud-test.conllu
-[Line 621 Sent ssj562.2923.10356]: [L3 Warning pron-det-without-prontype] The word 'obilo' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 971 Sent ssj563.2926.10368]: [L3 Warning fixed-without-extpos] Fixed expression 'ne glede na' does not have the 'ExtPos' feature
-[Line 1298 Sent ssj563.2928.10379]: [L3 Warning fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
-[Line 1506 Sent ssj563.2929.10383]: [L3 Warning fixed-without-extpos] Fixed expression 'le da' does not have the 'ExtPos' feature
-[Line 1896 Sent ssj563.2931.10395]: [L3 Warning fixed-without-extpos] Fixed expression 'Glede na' does not have the 'ExtPos' feature
-[Line 2834 Sent ssj570.2939.10429]: [L3 Warning fixed-without-extpos] Fixed expression 'na primer' does not have the 'ExtPos' feature
-[Line 2834 Sent ssj570.2939.10429]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 3124 Sent ssj570.2942.10441]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'nesprejemanje') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 3447 Sent ssj570.2944.10455]: [L3 Warning fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
-[Line 3813 Sent ssj572.2948.10474]: [L3 Warning fixed-without-extpos] Fixed expression 'ne pa' does not have the 'ExtPos' feature
-[Line 4208 Sent ssj576.2956.10496]: [L3 Warning fixed-without-extpos] Fixed expression 'd. d.' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 5576 Sent ssj579.2971.10541]: [L3 Syntax leaf-det] 'det' not expected to have children (41:enakem:det --> 46:opravlja:advcl)
-[Line 10826 Sent ssj591.3034.10744]: [L3 Syntax leaf-det] 'det' not expected to have children (8:takem:det --> 14:zapustili:advcl)
-[Line 11123 Sent ssj593.3037.10758]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 14474 Sent ssj598.3081.10914]: [L3 Syntax leaf-det] 'det' not expected to have children (18:manj:det --> 24:bi:advcl)
-[Line 17305 Sent ssj604.3109.11027]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 18712 Sent ssj606.3121.11087]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 19821 Sent ssj607.3133.11128]: [L3 Syntax leaf-det] 'det' not expected to have children (7:tolikšni:det --> 12:je:advcl)
-[Line 25933 Sent ssj619.3194.11369]: [L3 Syntax too-many-objects] Multiple direct objects [6, 20] ('kar', 'žensko') under the predicate 'videl'.
-Syntax errors: 9
-Warnings: 93
-*** FAILED *** with 9 errors
+[Line 621 Sent ssj562.2923.10356]: [L3 WARNING pron-det-without-prontype] The word 'obilo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 971 Sent ssj563.2926.10368]: [L3 WARNING fixed-without-extpos] Fixed expression 'ne glede na' does not have the 'ExtPos' feature
+[Line 1298 Sent ssj563.2928.10379]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
+[Line 1506 Sent ssj563.2929.10383]: [L3 WARNING fixed-without-extpos] Fixed expression 'le da' does not have the 'ExtPos' feature
+[Line 1896 Sent ssj563.2931.10395]: [L3 WARNING fixed-without-extpos] Fixed expression 'Glede na' does not have the 'ExtPos' feature
+[Line 2834 Sent ssj570.2939.10429]: [L3 WARNING fixed-without-extpos] Fixed expression 'na primer' does not have the 'ExtPos' feature
+[Line 2834 Sent ssj570.2939.10429]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 3124 Sent ssj570.2942.10441]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'nesprejemanje') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3447 Sent ssj570.2944.10455]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
+[Line 3813 Sent ssj572.2948.10474]: [L3 WARNING fixed-without-extpos] Fixed expression 'ne pa' does not have the 'ExtPos' feature
+[Line 4208 Sent ssj576.2956.10496]: [L3 WARNING fixed-without-extpos] Fixed expression 'd. d.' does not have the 'ExtPos' feature
+[Line 4820 Sent ssj578.2964.10513]: [L3 WARNING fixed-without-extpos] Fixed expression 'takrat ko' does not have the 'ExtPos' feature
+[Line 4932 Sent ssj578.2965.10516]: [L3 WARNING fixed-without-extpos] Fixed expression 'manj kot' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 5576 Sent ssj579.2971.10541]: [L3 SYNTAX leaf-det] 'det' not expected to have children (41:enakem:det --> 46:opravlja:advcl)
+[Line 10826 Sent ssj591.3034.10744]: [L3 SYNTAX leaf-det] 'det' not expected to have children (8:takem:det --> 14:zapustili:advcl)
+[Line 11123 Sent ssj593.3037.10758]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 14474 Sent ssj598.3081.10914]: [L3 SYNTAX leaf-det] 'det' not expected to have children (18:manj:det --> 24:bi:advcl)
+[Line 17305 Sent ssj604.3109.11027]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 18712 Sent ssj606.3121.11087]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 19821 Sent ssj607.3133.11128]: [L3 SYNTAX leaf-det] 'det' not expected to have children (7:tolikšni:det --> 12:je:advcl)
+[Line 25933 Sent ssj619.3194.11369]: [L3 SYNTAX too-many-objects] Multiple direct objects [6, 20] ('kar', 'žensko') under the predicate 'videl'.
+Warnings: 92
+SYNTAX errors: 10
+*** FAILED *** with 10 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SSJ/sl_ssj-ud-train.conllu
-[Line 654 Sent ssj3.8.28]: [L3 Warning fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
-[Line 2080 Sent ssj5.27.85]: [L3 Warning fixed-without-extpos] Fixed expression 'zato ker' does not have the 'ExtPos' feature
-[Line 2802 Sent ssj6.33.120]: [L3 Warning fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
-[Line 2901 Sent ssj6.33.126]: [L3 Warning fixed-without-extpos] Fixed expression 'takrat ko' does not have the 'ExtPos' feature
-[Line 3262 Sent ssj6.35.154]: [L3 Warning fixed-without-extpos] Fixed expression 'Ne da' does not have the 'ExtPos' feature
-[Line 3400 Sent ssj6.35.162]: [L3 Warning fixed-without-extpos] Fixed expression 'kot da' does not have the 'ExtPos' feature
-[Line 3457 Sent ssj6.35.167]: [L3 Warning fixed-without-extpos] Fixed expression 'kot da' does not have the 'ExtPos' feature
-[Line 4052 Sent ssj9.40.191]: [L3 Warning fixed-without-extpos] Fixed expression 'medtem ko' does not have the 'ExtPos' feature
-[Line 4070 Sent ssj10.41.192]: [L3 Warning fixed-without-extpos] Fixed expression 'P. P. S.' does not have the 'ExtPos' feature
-[Line 4103 Sent ssj10.41.193]: [L3 Warning fixed-without-extpos] Fixed expression 'O. K.' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 12097 Sent ssj24.120.505]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 14842 Sent ssj27.156.639]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 15216 Sent ssj27.161.656]: [L3 Syntax rel-upos-cc] 'cc' should not be 'DET' ('to')
-[Line 25053 Sent ssj43.260.1037]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 26259 Sent ssj45.271.1082]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('NA')
-[Line 33102 Sent ssj53.336.1373]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 38689 Sent ssj65.410.1582]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('v')
-[Line 46908 Sent ssj77.506.1908]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 48822 Sent ssj80.525.1981]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('kdo')
-[Line 49814 Sent ssj81.532.2021]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-...suppressing further errors regarding Syntax
-Syntax errors: 67
-Warnings: 934
-*** FAILED *** with 67 errors
+[Line 654 Sent ssj3.8.28]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
+[Line 2080 Sent ssj5.27.85]: [L3 WARNING fixed-without-extpos] Fixed expression 'zato ker' does not have the 'ExtPos' feature
+[Line 2802 Sent ssj6.33.120]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
+[Line 2901 Sent ssj6.33.126]: [L3 WARNING fixed-without-extpos] Fixed expression 'takrat ko' does not have the 'ExtPos' feature
+[Line 3262 Sent ssj6.35.154]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ne da' does not have the 'ExtPos' feature
+[Line 3400 Sent ssj6.35.162]: [L3 WARNING fixed-without-extpos] Fixed expression 'kot da' does not have the 'ExtPos' feature
+[Line 3457 Sent ssj6.35.167]: [L3 WARNING fixed-without-extpos] Fixed expression 'kot da' does not have the 'ExtPos' feature
+[Line 4052 Sent ssj9.40.191]: [L3 WARNING fixed-without-extpos] Fixed expression 'medtem ko' does not have the 'ExtPos' feature
+[Line 4070 Sent ssj10.41.192]: [L3 WARNING fixed-without-extpos] Fixed expression 'P. P. S.' does not have the 'ExtPos' feature
+[Line 4103 Sent ssj10.41.193]: [L3 WARNING fixed-without-extpos] Fixed expression 'O. K.' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 6185 Sent ssj14.63.259]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'študij') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 12097 Sent ssj24.120.505]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 14842 Sent ssj27.156.639]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 15216 Sent ssj27.161.656]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'DET' ('to')
+[Line 24647 Sent ssj42.257.1023]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'kaj') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 25053 Sent ssj43.260.1037]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 26259 Sent ssj45.271.1082]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('NA')
+[Line 28314 Sent ssj46.290.1168]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'kaj') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 33102 Sent ssj53.336.1373]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 38689 Sent ssj65.410.1582]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('v')
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 916
+SYNTAX errors: 85
+*** FAILED *** with 85 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.9) = 0.1
